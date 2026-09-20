@@ -8,19 +8,20 @@ __pycache__/
 # OS
 .DS_Store
 
-# Large/generated artifacts (model checkpoints, the full embedding set) - not in git.
-# The full embeddings ship on Zenodo instead; see README.md for how to fetch and unpack them
-# into data/tasks/. data/demo/ (the small quickstart sample) IS tracked, so it's not listed here.
+# Generated/runtime artifacts (model checkpoints, fetched data, run outputs) - not in git.
+# The full embeddings ship on Zenodo separately; see README.md for how to fetch and unpack them.
 checkpoints/
 *.pt
 *.ckpt
-data/tasks/
+data/
+results/
 *.zip
 dist/
 
-# The paper (LaTeX source + compiled PDF) is kept out of this code repository entirely -
-# it's not needed to run or reproduce the code, and is managed/submitted separately.
+# The paper (LaTeX source + compiled PDF) and paper-figure-generation scripts are kept out of
+# this code repository entirely - not needed to run or reproduce the code, managed separately.
 paper/
+scripts/make_pipeline_figure.py
 
 # Editor/tooling
 .claude/
