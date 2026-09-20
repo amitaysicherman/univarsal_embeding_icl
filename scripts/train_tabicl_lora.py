@@ -411,7 +411,7 @@ def main():
     parser.add_argument("--eval-interval", type=int, default=500, help="Meta-steps between held-out early-stopping evaluations")
     parser.add_argument("--patience", type=int, default=3, help="Consecutive non-improving evals before stopping early")
     parser.add_argument(
-        "--early-stop-regime", type=str, default="unseen_tasks",
+        "--early-stop-regime", type=str, default="seen",
         help="Regime used for the early-stopping signal (ignored for LODO runs, which always use unseen_domain)",
     )
     parser.add_argument(

@@ -48,17 +48,23 @@ def get_kfold_task_split(task_ids: List[str], fold: int = 0, num_folds: int = 5,
     return train_tasks, test_tasks
 
 
-def get_encoder_split(domain_encoders: List[str]) -> Tuple[List[str], List[str]]:
-    """Partition domain encoders into train encoders (base 3-4) and held-out test encoders (1-2 SOTA)."""
-    if len(domain_encoders) >= 5:
-        train_encoders = domain_encoders[:-1]
-        test_encoders = domain_encoders[-1:]
-    elif len(domain_encoders) == 4:
-        train_encoders = domain_encoders[:3]
-        test_encoders = domain_encoders[3:]
+def get_encoder_split(domain_encoders: List[str], seed: int = 42) -> Tuple[List[str], List[str]]:
+    """Partition domain encoders into train encoders (base 3-4) and held-out test encoders (1-2),
+    via the same deterministic-hash-of-(seed, id) shuffle used by deterministic_task_split, so the
+    held-out encoders differ independently per seed rather than always being a fixed list position."""
+    sorted_encoders = sorted(domain_encoders)
+    hashed = sorted(
+        sorted_encoders,
+        key=lambda e: hashlib.sha256(f"{seed}:{e}".encode()).hexdigest(),
+    )
+    if len(hashed) >= 5:
+        n_test = 1
+    elif len(hashed) == 4:
+        n_test = 1
     else:
-        train_encoders = domain_encoders[:2]
-        test_encoders = domain_encoders[2:]
+        n_test = max(0, len(hashed) - 2)
+    test_encoders = sorted(hashed[:n_test])
+    train_encoders = sorted(hashed[n_test:])
     return train_encoders, test_encoders
 
 
@@ -110,7 +116,7 @@ class UniversalBenchmarkSplits:
                 tr_tasks, te_tasks = deterministic_task_split(
                     domain_to_tasks[d], test_ratio=test_task_ratio, seed=seed
                 )
-                tr_encs, te_encs = get_encoder_split(domain_to_encoders[d])
+                tr_encs, te_encs = get_encoder_split(domain_to_encoders[d], seed=seed)
 
             self.partitions[d] = GeneralizationPartitions(
                 train_tasks=tr_tasks,
