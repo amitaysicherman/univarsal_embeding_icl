@@ -12,6 +12,38 @@ updates. See the paper for the method, benchmark design, and results.
 This repository is anonymized for double-blind review: no author names, institutions, or private
 infrastructure identifiers appear anywhere in the code or configs.
 
+## Results
+
+Our single amortized model (zero task-level gradient updates) beats all 5 per-pair-trained
+baselines in every one of the 4 generalization regimes, and the margin does not erode on the
+hardest split (Joint Generalization = neither the task nor the encoder was seen during
+meta-training):
+
+**Mean ROC-AUC by generalization regime** (all 4 seeds pooled; best per row in bold)
+
+| Regime | Ours | $k$-NN | Linear | MLP | Zero-shot TabICL | XGBoost | $n$ |
+|---|---|---|---|---|---|---|---|
+| In-Distribution | **0.8620** | 0.8071 | 0.8316 | 0.8460 | 0.8423 | 0.8365 | 1024 |
+| Novel Task | **0.8787** | 0.8214 | 0.8499 | 0.8637 | 0.8636 | 0.8572 | 224 |
+| Novel Encoder | **0.8639** | 0.8095 | 0.8340 | 0.8436 | 0.8322 | 0.8409 | 241 |
+| Joint Generalization | **0.8669** | 0.8060 | 0.8306 | 0.8472 | 0.8280 | 0.8461 | 51 |
+
+**Mean ROC-AUC by domain** (pooled across all seeds/regimes; we win outright in 6 of 7)
+
+| Domain | Ours | $k$-NN | Linear | MLP | Zero-shot TabICL | XGBoost | $n$ |
+|---|---|---|---|---|---|---|---|
+| Molecules | **0.7893** | 0.7383 | 0.7558 | 0.7774 | 0.7842 | 0.7738 | 460 |
+| Proteins | **0.8939** | 0.8376 | 0.8595 | 0.8821 | 0.8864 | 0.8745 | 240 |
+| Vision | **0.9038** | 0.8392 | 0.8905 | 0.8945 | 0.8892 | 0.8718 | 200 |
+| Text | **0.8944** | 0.8384 | 0.8597 | 0.8900 | 0.8870 | 0.8740 | 176 |
+| Audio | **0.9204** | 0.8512 | 0.9118 | 0.9163 | 0.9047 | 0.8718 | 112 |
+| Graphs | **0.7991** | 0.7325 | 0.7259 | 0.7165 | 0.6544 | 0.7616 | 160 |
+| Time Series | 0.9646 | 0.9273 | 0.9567 | 0.9591 | **0.9649** | 0.9420 | 192 |
+
+Graphs (all 4 encoders untrained/randomly-initialized GNNs) shows the largest gap over baselines;
+Time Series is the one domain a baseline (zero-shot) edges out, by 0.0003 AUC. Full per-pair
+results, leave-domain(s)-out, and ablations are in the paper.
+
 ## Repository layout
 
 ```
