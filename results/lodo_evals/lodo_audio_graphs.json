@@ -1,0 +1,632 @@
+{
+  "best_step": 5000,
+  "final_step": 8000,
+  "stopped_early": true,
+  "early_stop_regime": "unseen_domain(audio+graphs)",
+  "early_stop_best_score": 0.6738259965423237,
+  "regimes": {
+    "unseen_domain": {
+      "n_evaluated": 68,
+      "mean_accuracy": 0.7012771760570373,
+      "mean_balanced_accuracy": 0.6769732766677974,
+      "mean_roc_auc": 0.8362174045913158,
+      "mean_auprc": 0.732481363002979,
+      "mean_macro_f1": 0.6700993388421668,
+      "mean_mcc": 0.5104066390519566,
+      "results": {
+        "audio::audio_crema_d::wavlm_base_plus": {
+          "accuracy": 0.495,
+          "balanced_accuracy": 0.49128108063004516,
+          "macro_f1": 0.4747913835486504,
+          "mcc": 0.3982973905261515,
+          "roc_auc": 0.8264749709864154,
+          "auprc": 0.5436076320028708,
+          "log_loss": 1.2744317987781852
+        },
+        "audio::audio_crema_d::whisper_large_v3_turbo": {
+          "accuracy": 0.59,
+          "balanced_accuracy": 0.5887194617011549,
+          "macro_f1": 0.5784554364361433,
+          "mcc": 0.5098464262890615,
+          "roc_auc": 0.8821774656706597,
+          "auprc": 0.6426130376752744,
+          "log_loss": 1.0753819143330217
+        },
+        "audio::audio_crema_d::clap_general": {
+          "accuracy": 0.495,
+          "balanced_accuracy": 0.49109714193825854,
+          "macro_f1": 0.4798357545692657,
+          "mcc": 0.39602839492554903,
+          "roc_auc": 0.802270454097478,
+          "auprc": 0.5127742630042039,
+          "log_loss": 1.3401712151309866
+        },
+        "audio::audio_crema_d::ast_audioset": {
+          "accuracy": 0.5025,
+          "balanced_accuracy": 0.5001109114669183,
+          "macro_f1": 0.48159907749449465,
+          "mcc": 0.40839064401870706,
+          "roc_auc": 0.8136202969300182,
+          "auprc": 0.5435542915187834,
+          "log_loss": 1.2931868548850127
+        },
+        "audio::audio_emodb::wavlm_base_plus": {
+          "accuracy": 0.6355140186915887,
+          "balanced_accuracy": 0.6203405721262865,
+          "macro_f1": 0.6033016880212136,
+          "mcc": 0.571057509490618,
+          "roc_auc": 0.9160564827042809,
+          "auprc": 0.7132624179566223,
+          "log_loss": 0.9896027817943686
+        },
+        "audio::audio_emodb::whisper_large_v3_turbo": {
+          "accuracy": 0.8037383177570093,
+          "balanced_accuracy": 0.7938099598813884,
+          "macro_f1": 0.7898978152584768,
+          "mcc": 0.768758077092198,
+          "roc_auc": 0.9705055730504545,
+          "auprc": 0.8750374295068946,
+          "log_loss": 0.5456569179036507
+        },
+        "audio::audio_emodb::clap_general": {
+          "accuracy": 0.6822429906542056,
+          "balanced_accuracy": 0.6573783359497645,
+          "macro_f1": 0.6493402749560386,
+          "mcc": 0.6262086488443538,
+          "roc_auc": 0.93542436237238,
+          "auprc": 0.7624106139446967,
+          "log_loss": 0.8672746943317486
+        },
+        "audio::audio_emodb::ast_audioset": {
+          "accuracy": 0.7102803738317757,
+          "balanced_accuracy": 0.6803048142333857,
+          "macro_f1": 0.6911339710709459,
+          "mcc": 0.6597230903417753,
+          "roc_auc": 0.9432696703942088,
+          "auprc": 0.8177616066114405,
+          "log_loss": 0.728802677257878
+        },
+        "audio::audio_esc10::wavlm_base_plus": {
+          "accuracy": 0.9,
+          "balanced_accuracy": 0.9,
+          "macro_f1": 0.8986979686979687,
+          "mcc": 0.8908155739864388,
+          "roc_auc": 0.9969135802469136,
+          "auprc": 0.977579365079365,
+          "log_loss": 0.23995888332326837
+        },
+        "audio::audio_esc10::whisper_large_v3_turbo": {
+          "accuracy": 0.9166666666666666,
+          "balanced_accuracy": 0.9166666666666667,
+          "macro_f1": 0.9172993672993673,
+          "mcc": 0.9088109773219402,
+          "roc_auc": 0.9969135802469136,
+          "auprc": 0.9808333333333333,
+          "log_loss": 0.23795100463878596
+        },
+        "audio::audio_esc10::clap_general": {
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_f1": 1.0,
+          "mcc": 1.0,
+          "roc_auc": 1.0,
+          "auprc": 1.0,
+          "log_loss": 0.007950841396653833
+        },
+        "audio::audio_esc10::ast_audioset": {
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_f1": 1.0,
+          "mcc": 1.0,
+          "roc_auc": 1.0,
+          "auprc": 1.0,
+          "log_loss": 0.009025674577441996
+        },
+        "audio::audio_gtzan::wavlm_base_plus": {
+          "accuracy": 0.615,
+          "balanced_accuracy": 0.615,
+          "macro_f1": 0.6004655436426649,
+          "mcc": 0.5743641269083919,
+          "roc_auc": 0.9271111111111111,
+          "auprc": 0.6858156165126703,
+          "log_loss": 1.1456448791423448
+        },
+        "audio::audio_gtzan::whisper_large_v3_turbo": {
+          "accuracy": 0.65,
+          "balanced_accuracy": 0.6499999999999999,
+          "macro_f1": 0.6403470294252218,
+          "mcc": 0.6152090641149862,
+          "roc_auc": 0.922111111111111,
+          "auprc": 0.7094802202115801,
+          "log_loss": 1.069362724100516
+        },
+        "audio::audio_gtzan::clap_general": {
+          "accuracy": 0.88,
+          "balanced_accuracy": 0.8800000000000001,
+          "macro_f1": 0.8792405574048706,
+          "mcc": 0.8670521088323383,
+          "roc_auc": 0.9868055555555555,
+          "auprc": 0.9456005808691403,
+          "log_loss": 0.3818550301455484
+        },
+        "audio::audio_gtzan::ast_audioset": {
+          "accuracy": 0.815,
+          "balanced_accuracy": 0.8149999999999998,
+          "macro_f1": 0.8171274401120356,
+          "mcc": 0.7950188322049053,
+          "roc_auc": 0.9785555555555556,
+          "auprc": 0.8782579758180319,
+          "log_loss": 0.5491020319208084
+        },
+        "audio::audio_ravdess::wavlm_base_plus": {
+          "accuracy": 0.6215277777777778,
+          "balanced_accuracy": 0.6055161943319838,
+          "macro_f1": 0.5938921829655321,
+          "mcc": 0.5696239521785982,
+          "roc_auc": 0.9036917677482652,
+          "auprc": 0.6449966699030475,
+          "log_loss": 1.166735994680346
+        },
+        "audio::audio_ravdess::whisper_large_v3_turbo": {
+          "accuracy": 0.6979166666666666,
+          "balanced_accuracy": 0.703272604588394,
+          "macro_f1": 0.6939642359019783,
+          "mcc": 0.6546769262717078,
+          "roc_auc": 0.9478658420889634,
+          "auprc": 0.765946803356855,
+          "log_loss": 0.8561262262722853
+        },
+        "audio::audio_ravdess::clap_general": {
+          "accuracy": 0.5868055555555556,
+          "balanced_accuracy": 0.5796221322537112,
+          "macro_f1": 0.5674621625641232,
+          "mcc": 0.527798450055543,
+          "roc_auc": 0.9018468236938946,
+          "auprc": 0.6307631311001459,
+          "log_loss": 1.1412942091237173
+        },
+        "audio::audio_ravdess::ast_audioset": {
+          "accuracy": 0.5902777777777778,
+          "balanced_accuracy": 0.5794534412955465,
+          "macro_f1": 0.5645825987737753,
+          "mcc": 0.5339078471843836,
+          "roc_auc": 0.8996383272959092,
+          "auprc": 0.6383442068333389,
+          "log_loss": 1.1812693533482599
+        },
+        "audio::audio_urbansound8k::wavlm_base_plus": {
+          "accuracy": 0.6425,
+          "balanced_accuracy": 0.664510814477235,
+          "macro_f1": 0.6533269696712474,
+          "mcc": 0.6009936455391148,
+          "roc_auc": 0.9445047972276601,
+          "auprc": 0.7642176048657578,
+          "log_loss": 1.0274032928262442
+        },
+        "audio::audio_urbansound8k::whisper_large_v3_turbo": {
+          "accuracy": 0.6975,
+          "balanced_accuracy": 0.7301294869990187,
+          "macro_f1": 0.7005641107276264,
+          "mcc": 0.6655279243259229,
+          "roc_auc": 0.9573536344141615,
+          "auprc": 0.8024143790844904,
+          "log_loss": 0.9084473570112782
+        },
+        "audio::audio_urbansound8k::clap_general": {
+          "accuracy": 0.89,
+          "balanced_accuracy": 0.9017413735642764,
+          "macro_f1": 0.9006384566559766,
+          "mcc": 0.8768399741310312,
+          "roc_auc": 0.9924600379855132,
+          "auprc": 0.9608871937841428,
+          "log_loss": 0.3533809073981326
+        },
+        "audio::audio_urbansound8k::ast_audioset": {
+          "accuracy": 0.905,
+          "balanced_accuracy": 0.9168883015758087,
+          "macro_f1": 0.9155037091545504,
+          "mcc": 0.8937498870619784,
+          "roc_auc": 0.9932316585184069,
+          "auprc": 0.9661526544182246,
+          "log_loss": 0.3224960900570653
+        },
+        "audio::audio_voxforge_lang::wavlm_base_plus": {
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.4577380952380952,
+          "macro_f1": 0.44518444518444517,
+          "mcc": 0.342426273625867,
+          "roc_auc": 0.779206448677956,
+          "auprc": 0.5469039557255383,
+          "log_loss": 1.5820625033352083
+        },
+        "audio::audio_voxforge_lang::whisper_large_v3_turbo": {
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_f1": 1.0,
+          "mcc": 1.0,
+          "roc_auc": 1.0,
+          "auprc": 1.0,
+          "log_loss": 0.009081546057240155
+        },
+        "audio::audio_voxforge_lang::clap_general": {
+          "accuracy": 0.375,
+          "balanced_accuracy": 0.3626984126984127,
+          "macro_f1": 0.3606449106449106,
+          "mcc": 0.25190538958347997,
+          "roc_auc": 0.724719185022494,
+          "auprc": 0.4199358517770591,
+          "log_loss": 1.983439351149699
+        },
+        "audio::audio_voxforge_lang::ast_audioset": {
+          "accuracy": 0.25,
+          "balanced_accuracy": 0.24365079365079365,
+          "macro_f1": 0.21928528987352516,
+          "mcc": 0.09531413385498848,
+          "roc_auc": 0.5727131278647822,
+          "auprc": 0.3097859529335884,
+          "log_loss": 2.123755492534648
+        },
+        "graphs::graph_aids::pyg_gin": {
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_f1": 1.0,
+          "mcc": 1.0,
+          "roc_auc": 1.0,
+          "auprc": 1.0,
+          "log_loss": 0.0007372670701695067
+        },
+        "graphs::graph_aids::pyg_gcn": {
+          "accuracy": 0.9475,
+          "balanced_accuracy": 0.8734375,
+          "macro_f1": 0.9095986827236626,
+          "mcc": 0.8310040467483146,
+          "roc_auc": 0.98412109375,
+          "auprc": 0.9957378146674634,
+          "log_loss": 0.12995318123029745
+        },
+        "graphs::graph_aids::pyg_gat": {
+          "accuracy": 0.9075,
+          "balanced_accuracy": 0.8203125,
+          "macro_f1": 0.844169518294288,
+          "mcc": 0.6946160012609895,
+          "roc_auc": 0.9433203125,
+          "auprc": 0.9834236926404022,
+          "log_loss": 0.2312507488766638
+        },
+        "graphs::graph_aids::pyg_sage": {
+          "accuracy": 0.95,
+          "balanced_accuracy": 0.884375,
+          "macro_f1": 0.9153116531165312,
+          "mcc": 0.8387750155945958,
+          "roc_auc": 0.9732031250000001,
+          "auprc": 0.9917856015173132,
+          "log_loss": 0.14285957798971963
+        },
+        "graphs::graph_bzr::pyg_gin": {
+          "accuracy": 0.8983050847457628,
+          "balanced_accuracy": 0.8120567375886525,
+          "macro_f1": 0.8323863636363636,
+          "mcc": 0.6695840061947865,
+          "roc_auc": 0.9308510638297872,
+          "auprc": 0.7123605360018402,
+          "log_loss": 0.3044108689507668
+        },
+        "graphs::graph_bzr::pyg_gcn": {
+          "accuracy": 0.8983050847457628,
+          "balanced_accuracy": 0.8430851063829787,
+          "macro_f1": 0.8430851063829787,
+          "mcc": 0.6861702127659575,
+          "roc_auc": 0.9397163120567376,
+          "auprc": 0.8448896011396013,
+          "log_loss": 0.24272486126152962
+        },
+        "graphs::graph_bzr::pyg_gat": {
+          "accuracy": 0.847457627118644,
+          "balanced_accuracy": 0.6560283687943262,
+          "macro_f1": 0.6907396622015143,
+          "mcc": 0.45101525725856606,
+          "roc_auc": 0.8120567375886525,
+          "auprc": 0.6067192192192192,
+          "log_loss": 0.3946338896016156
+        },
+        "graphs::graph_bzr::pyg_sage": {
+          "accuracy": 0.8135593220338984,
+          "balanced_accuracy": 0.7588652482269503,
+          "macro_f1": 0.7358567358567358,
+          "mcc": 0.4785984984029348,
+          "roc_auc": 0.9122340425531915,
+          "auprc": 0.7896990740740742,
+          "log_loss": 0.3249946664384378
+        },
+        "graphs::graph_cox2::pyg_gin": {
+          "accuracy": 0.782608695652174,
+          "balanced_accuracy": 0.5962962962962963,
+          "macro_f1": 0.6086956521739131,
+          "mcc": 0.24812594486934286,
+          "roc_auc": 0.7635802469135803,
+          "auprc": 0.5570129864777887,
+          "log_loss": 0.45795322293400065
+        },
+        "graphs::graph_cox2::pyg_gcn": {
+          "accuracy": 0.8260869565217391,
+          "balanced_accuracy": 0.6481481481481481,
+          "macro_f1": 0.6755485893416928,
+          "mcc": 0.40478449381261083,
+          "roc_auc": 0.7209876543209877,
+          "auprc": 0.5531286775111571,
+          "log_loss": 0.44281150235564337
+        },
+        "graphs::graph_cox2::pyg_gat": {
+          "accuracy": 0.7971014492753623,
+          "balanced_accuracy": 0.5574074074074075,
+          "macro_f1": 0.5527777777777778,
+          "mcc": 0.23222439707067227,
+          "roc_auc": 0.7154320987654321,
+          "auprc": 0.43201569018507124,
+          "log_loss": 0.4757307388618163
+        },
+        "graphs::graph_cox2::pyg_sage": {
+          "accuracy": 0.8260869565217391,
+          "balanced_accuracy": 0.6481481481481481,
+          "macro_f1": 0.6755485893416928,
+          "mcc": 0.40478449381261083,
+          "roc_auc": 0.8271604938271604,
+          "auprc": 0.6034464566441311,
+          "log_loss": 0.4120044352202346
+        },
+        "graphs::graph_dd::pyg_gin": {
+          "accuracy": 0.7627118644067796,
+          "balanced_accuracy": 0.751835644886153,
+          "macro_f1": 0.7533407988055245,
+          "mcc": 0.507143624530791,
+          "roc_auc": 0.8193280427204629,
+          "auprc": 0.7462452114857416,
+          "log_loss": 0.5217999518250731
+        },
+        "graphs::graph_dd::pyg_gcn": {
+          "accuracy": 0.7627118644067796,
+          "balanced_accuracy": 0.7440480605206556,
+          "macro_f1": 0.7485540334855403,
+          "mcc": 0.5029373185001241,
+          "roc_auc": 0.816732181265297,
+          "auprc": 0.7421172832641297,
+          "log_loss": 0.5125229677692261
+        },
+        "graphs::graph_dd::pyg_gat": {
+          "accuracy": 0.7372881355932204,
+          "balanced_accuracy": 0.7209078098346066,
+          "macro_f1": 0.7238828502415459,
+          "mcc": 0.45059002404975884,
+          "roc_auc": 0.811651709560187,
+          "auprc": 0.7649590110663406,
+          "log_loss": 0.5190483242955811
+        },
+        "graphs::graph_dd::pyg_sage": {
+          "accuracy": 0.7542372881355932,
+          "balanced_accuracy": 0.7352962990432397,
+          "macro_f1": 0.7395738203957383,
+          "mcc": 0.4849015781618732,
+          "roc_auc": 0.8222576577912927,
+          "auprc": 0.7682767381581622,
+          "log_loss": 0.5059550717140406
+        },
+        "graphs::graph_dhfr::pyg_gin": {
+          "accuracy": 0.7171052631578947,
+          "balanced_accuracy": 0.7099507927829415,
+          "macro_f1": 0.70641872164578,
+          "mcc": 0.41446100102164163,
+          "roc_auc": 0.8103699653726991,
+          "auprc": 0.8837064427246668,
+          "log_loss": 0.5255812130308303
+        },
+        "graphs::graph_dhfr::pyg_gcn": {
+          "accuracy": 0.7368421052631579,
+          "balanced_accuracy": 0.7446692181519956,
+          "macro_f1": 0.7322057787174067,
+          "mcc": 0.47731142983760433,
+          "roc_auc": 0.7919628212137779,
+          "auprc": 0.8304850595303412,
+          "log_loss": 0.6225203913107159
+        },
+        "graphs::graph_dhfr::pyg_gat": {
+          "accuracy": 0.6118421052631579,
+          "balanced_accuracy": 0.6177328230362675,
+          "macro_f1": 0.6069252684637301,
+          "mcc": 0.2294993401903454,
+          "roc_auc": 0.6582832148715144,
+          "auprc": 0.7430818606363483,
+          "log_loss": 0.654065907739881
+        },
+        "graphs::graph_dhfr::pyg_sage": {
+          "accuracy": 0.6973684210526315,
+          "balanced_accuracy": 0.6814288317842172,
+          "macro_f1": 0.6814288317842172,
+          "mcc": 0.36285766356843446,
+          "roc_auc": 0.7769272826681246,
+          "auprc": 0.8630456687408345,
+          "log_loss": 0.5571153475363976
+        },
+        "graphs::graph_enzymes::pyg_gin": {
+          "accuracy": 0.2916666666666667,
+          "balanced_accuracy": 0.2916666666666667,
+          "macro_f1": 0.23811887037693488,
+          "mcc": 0.1635012943903709,
+          "roc_auc": 0.6574166666666666,
+          "auprc": 0.3553635253489069,
+          "log_loss": 1.7796224409427988
+        },
+        "graphs::graph_enzymes::pyg_gcn": {
+          "accuracy": 0.225,
+          "balanced_accuracy": 0.225,
+          "macro_f1": 0.11963383838383838,
+          "mcc": 0.08941839087457217,
+          "roc_auc": 0.55025,
+          "auprc": 0.26181413250343505,
+          "log_loss": 1.8406443636085328
+        },
+        "graphs::graph_enzymes::pyg_gat": {
+          "accuracy": 0.18333333333333332,
+          "balanced_accuracy": 0.18333333333333335,
+          "macro_f1": 0.10940470966798303,
+          "mcc": 0.023352314803468627,
+          "roc_auc": 0.5953333333333334,
+          "auprc": 0.23726205331449865,
+          "log_loss": 1.7932734654922902
+        },
+        "graphs::graph_enzymes::pyg_sage": {
+          "accuracy": 0.20833333333333334,
+          "balanced_accuracy": 0.20833333333333334,
+          "macro_f1": 0.13274929466715554,
+          "mcc": 0.05870852728923276,
+          "roc_auc": 0.5476666666666666,
+          "auprc": 0.2587192545049282,
+          "log_loss": 1.895244973993187
+        },
+        "graphs::graph_mutag::pyg_gin": {
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.7222222222222222,
+          "macro_f1": 0.7335526315789473,
+          "mcc": 0.4780914437337575,
+          "roc_auc": 0.8765432098765431,
+          "auprc": 0.947299885070783,
+          "log_loss": 0.4918205681871011
+        },
+        "graphs::graph_mutag::pyg_gcn": {
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.7777777777777778,
+          "macro_f1": 0.7617647058823529,
+          "mcc": 0.5330017908890261,
+          "roc_auc": 0.8271604938271605,
+          "auprc": 0.8951384581286542,
+          "log_loss": 0.4863088030984738
+        },
+        "graphs::graph_mutag::pyg_gat": {
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.75,
+          "macro_f1": 0.75,
+          "mcc": 0.5,
+          "roc_auc": 0.8888888888888888,
+          "auprc": 0.9458948086657065,
+          "log_loss": 0.4175847323283551
+        },
+        "graphs::graph_mutag::pyg_sage": {
+          "accuracy": 0.7407407407407407,
+          "balanced_accuracy": 0.75,
+          "macro_f1": 0.7272727272727273,
+          "mcc": 0.4743416490252569,
+          "roc_auc": 0.8148148148148148,
+          "auprc": 0.885588048384746,
+          "log_loss": 0.5089458076515633
+        },
+        "graphs::graph_nci1::pyg_gin": {
+          "accuracy": 0.7749391727493917,
+          "balanced_accuracy": 0.7749391727493917,
+          "macro_f1": 0.7749228503555914,
+          "mcc": 0.5499581162265783,
+          "roc_auc": 0.8622758567614448,
+          "auprc": 0.8655013138997865,
+          "log_loss": 0.4707534041137987
+        },
+        "graphs::graph_nci1::pyg_gcn": {
+          "accuracy": 0.7493917274939172,
+          "balanced_accuracy": 0.7493917274939172,
+          "macro_f1": 0.7493190108484533,
+          "mcc": 0.4990730776945774,
+          "roc_auc": 0.8327176609184175,
+          "auprc": 0.8342804454607685,
+          "log_loss": 0.5130987331897827
+        },
+        "graphs::graph_nci1::pyg_gat": {
+          "accuracy": 0.670316301703163,
+          "balanced_accuracy": 0.670316301703163,
+          "macro_f1": 0.6700110656994426,
+          "mcc": 0.3412645200477743,
+          "roc_auc": 0.7200880885147496,
+          "auprc": 0.7033753007756894,
+          "log_loss": 0.6233140034162689
+        },
+        "graphs::graph_nci1::pyg_sage": {
+          "accuracy": 0.7579075425790754,
+          "balanced_accuracy": 0.7579075425790753,
+          "macro_f1": 0.7578641814308954,
+          "mcc": 0.5159999265219095,
+          "roc_auc": 0.83415916315911,
+          "auprc": 0.8328037156529727,
+          "log_loss": 0.5126445323682457
+        },
+        "graphs::graph_proteins::pyg_gin": {
+          "accuracy": 0.7469879518072289,
+          "balanced_accuracy": 0.7251620684456506,
+          "macro_f1": 0.7296836228287842,
+          "mcc": 0.46529624437087647,
+          "roc_auc": 0.8371777476255089,
+          "auprc": 0.7972111838303826,
+          "log_loss": 0.4838289910470455
+        },
+        "graphs::graph_proteins::pyg_gcn": {
+          "accuracy": 0.7409638554216867,
+          "balanced_accuracy": 0.7176993818784863,
+          "macro_f1": 0.7223324386353911,
+          "mcc": 0.4518058336496193,
+          "roc_auc": 0.8007688828584351,
+          "auprc": 0.7432917128041548,
+          "log_loss": 0.5207253886386044
+        },
+        "graphs::graph_proteins::pyg_gat": {
+          "accuracy": 0.7108433734939759,
+          "balanced_accuracy": 0.690034675109302,
+          "macro_f1": 0.6930189551548775,
+          "mcc": 0.38958295944597726,
+          "roc_auc": 0.8010704055480176,
+          "auprc": 0.719897824971419,
+          "log_loss": 0.5277871776094272
+        },
+        "graphs::graph_proteins::pyg_sage": {
+          "accuracy": 0.7650602409638554,
+          "balanced_accuracy": 0.7475501281471431,
+          "macro_f1": 0.7513347416938736,
+          "mcc": 0.5056145836315307,
+          "roc_auc": 0.8348409467812452,
+          "auprc": 0.7519971861163048,
+          "log_loss": 0.4874627035445873
+        },
+        "graphs::graph_ptc_mr::pyg_gin": {
+          "accuracy": 0.6086956521739131,
+          "balanced_accuracy": 0.5882852292020373,
+          "macro_f1": 0.5801217038539555,
+          "mcc": 0.19358765179261592,
+          "roc_auc": 0.5674872665534805,
+          "auprc": 0.565085707850004,
+          "log_loss": 0.6786003189349757
+        },
+        "graphs::graph_ptc_mr::pyg_gcn": {
+          "accuracy": 0.4782608695652174,
+          "balanced_accuracy": 0.49957555178268254,
+          "macro_f1": 0.4646551724137931,
+          "mcc": -0.0009307098643875765,
+          "roc_auc": 0.5929541595925298,
+          "auprc": 0.6327785481932127,
+          "log_loss": 0.6902032795120935
+        },
+        "graphs::graph_ptc_mr::pyg_gat": {
+          "accuracy": 0.5797101449275363,
+          "balanced_accuracy": 0.58276740237691,
+          "macro_f1": 0.5793567374395627,
+          "mcc": 0.1648366371348157,
+          "roc_auc": 0.562818336162988,
+          "auprc": 0.5745994572508294,
+          "log_loss": 0.6822792885335495
+        },
+        "graphs::graph_ptc_mr::pyg_sage": {
+          "accuracy": 0.4492753623188406,
+          "balanced_accuracy": 0.4732597623089983,
+          "macro_f1": 0.429006968641115,
+          "mcc": -0.060582412486517134,
+          "roc_auc": 0.5127334465195247,
+          "auprc": 0.5497567079636652,
+          "log_loss": 0.7596862528507741
+        }
+      }
+    }
+  }
+}

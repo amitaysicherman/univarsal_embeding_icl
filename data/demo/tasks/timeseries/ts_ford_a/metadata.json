@@ -1,0 +1,20 @@
+{
+  "task_id": "ts_ford_a",
+  "domain": "timeseries",
+  "dataset_name": "FordA",
+  "num_classes": 2,
+  "class_names": [
+    "nominal",
+    "anomaly"
+  ],
+  "num_samples": 50,
+  "input_type": "timeseries",
+  "split_type": "official_ucr_split",
+  "split_sizes": {
+    "train": 35,
+    "val": 7,
+    "test": 8
+  },
+  "source": "UCR Time Series Archive (Smoke demo)",
+  "description": "UCR FordA automotive engine diagnostics sensor stream"
+}

@@ -1,0 +1,90 @@
+domain,task_id,num_samples,num_classes,min_class_frac,task_type,source,description,num_embedding_files
+audio,audio_crema_d,2000,6,0.1465,multiclass,HuggingFace (confit/crema-d),Crowd-sourced emotional speech classification (6 emotions),4
+audio,audio_emodb,535,7,0.086,multiclass,HuggingFace (renumics/emodb),German emotional speech classification (7 emotions),4
+audio,audio_esc10,400,10,0.1,,HuggingFace (ashraq/esc50),ESC-10 environmental sound classification (10 classes),5
+audio,audio_gtzan,999,10,0.0991,multiclass,HuggingFace (marsyas/gtzan),Music genre classification across 10 genres (GTZAN),5
+audio,audio_ravdess,1440,8,0.0667,multiclass,HuggingFace (xbgoose/ravdess),RAVDESS emotional speech classification,4
+audio,audio_urbansound8k,2000,10,0.042,multiclass,HuggingFace (danavery/urbansound8K),Urban environmental sound classification (10 classes),4
+audio,audio_voxforge_lang,200,6,0.135,multiclass,HuggingFace (DynamicSuperb/LanguageIdentification_VoxForge),Spoken language identification (6 European languages) from VoxForge recordings,4
+graphs,graph_aids,2000,2,0.2,binary,PyG TUDataset (AIDS),Anti-HIV activity screening,4
+graphs,graph_bzr,405,2,0.2123,,TUDataset (BZR),BZR receptor ligand molecular graphs,4
+graphs,graph_cox2,467,2,0.2184,,TUDataset (COX2),COX2 inhibitor molecular graphs,4
+graphs,graph_dd,1178,2,0.4134,binary,PyG TUDataset (DD),Enzymes vs non-enzymes protein structures,4
+graphs,graph_dhfr,756,2,0.3902,binary,PyG TUDataset (DHFR),Dihydrofolate reductase inhibitors,4
+graphs,graph_enzymes,600,6,0.1667,multiclass,PyG TUDataset (ENZYMES),Protein enzymes classified into 6 EC levels,4
+graphs,graph_mutag,188,2,0.3351,,TUDataset (MUTAG),Mutagenic molecular compounds (MUTAG),4
+graphs,graph_nci1,4110,2,0.4995,binary,PyG TUDataset (NCI1),Chemical compounds screened against lung cancer,4
+graphs,graph_proteins,1113,2,0.4043,,TUDataset (PROTEINS),Protein 3D structure macromolecule graphs,4
+graphs,graph_ptc_mr,344,2,0.4419,binary,PyG TUDataset (PTC_MR),Carcinogenicity in male rats,4
+molecules,tdc_ames,5727,2,0.4741,,Therapeutics Data Commons (TOX),Ames bacterial reverse mutagenicity,5
+molecules,tdc_b3db_classification,5616,2,0.3504,,Therapeutics Data Commons (ADME),B3DB Blood-Brain Barrier distribution,5
+molecules,tdc_bbb_martins,2030,2,0.236,,Therapeutics Data Commons (ADME),Blood-brain barrier penetration (Martins),5
+molecules,tdc_bioavailability_ma,640,2,0.2313,,Therapeutics Data Commons (ADME),Oral drug bioavailability (Ma),5
+molecules,tdc_carcinogens_lagunin,280,2,0.2143,,Therapeutics Data Commons (TOX),Rodent carcinogenicity hazard,5
+molecules,tdc_cav3_t-type_calcium_channels_butkiewicz,6000,2,0.0077,,Therapeutics Data Commons (HTS),Cav3 T-type calcium channel inhibition,5
+molecules,tdc_clintox,1478,2,0.0758,,Therapeutics Data Commons (TOX),FDA approval vs clinical trial toxicity failure,5
+molecules,tdc_cyp1a2_veith,6000,2,0.464,,Therapeutics Data Commons (ADME),CYP1A2 enzyme inhibition (Veith),5
+molecules,tdc_cyp2c19_veith,6000,2,0.4512,,Therapeutics Data Commons (ADME),CYP2C19 enzyme inhibition (Veith),5
+molecules,tdc_cyp2c9_substrate_carbonmangels,669,2,0.2108,,Therapeutics Data Commons (ADME),CYP2C9 substrate specificity,5
+molecules,tdc_cyp2c9_veith,6000,2,0.345,,Therapeutics Data Commons (ADME),CYP2C9 enzyme inhibition (Veith),5
+molecules,tdc_cyp2d6_substrate_carbonmangels,667,2,0.2864,,Therapeutics Data Commons (ADME),CYP2D6 substrate specificity,5
+molecules,tdc_cyp2d6_veith,6000,2,0.1928,,Therapeutics Data Commons (ADME),CYP2D6 enzyme inhibition (Veith),5
+molecules,tdc_cyp3a4_substrate_carbonmangels,670,2,0.4701,,Therapeutics Data Commons (ADME),CYP3A4 substrate specificity,5
+molecules,tdc_cyp3a4_veith,6000,2,0.4078,,Therapeutics Data Commons (ADME),CYP3A4 enzyme inhibition (Veith),5
+molecules,tdc_dili,475,2,0.4968,,Therapeutics Data Commons (TOX),Drug-induced liver injury toxicity,5
+molecules,tdc_herg,655,2,0.3115,,Therapeutics Data Commons (TOX),hERG potassium cardiac channel block,5
+molecules,tdc_hia_hou,578,2,0.1349,,Therapeutics Data Commons (ADME),Human intestinal absorption (Hou),5
+molecules,tdc_hiv,6000,2,0.0208,,Therapeutics Data Commons (HTS),HIV-1 replication inhibition in human T-cells,5
+molecules,tdc_kcnq2_potassium_channel_butkiewicz,6000,2,0.0003,,Therapeutics Data Commons (HTS),KCNQ2 potassium channel activation,5
+molecules,tdc_pampa_ncats,2034,2,0.145,,Therapeutics Data Commons (ADME),PAMPA artificial membrane permeability,5
+molecules,tdc_pgp_broccatelli,1218,2,0.4663,,Therapeutics Data Commons (ADME),P-glycoprotein transporter inhibition,5
+molecules,tdc_sarscov2_3clpro_diamond,880,2,0.0886,,Therapeutics Data Commons (HTS),SARS-CoV-2 3CLpro enzymatic inhibition,5
+molecules,tdc_skin_reaction,404,2,0.3218,,Therapeutics Data Commons (TOX),Skin sensitization contact hazard,5
+proteins,prot_allergenic,5680,2,0.5,binary,HuggingFace (LrZhang/Protein_allergenic),Allergenic protein sequence classification,4
+proteins,prot_anticancer_peptide,949,4,0.019,multiclass,HuggingFace (gelabgaboo/Anticancer-peptide),Anticancer peptide activity classification (4 classes: active/inactive levels),4
+proteins,prot_cloning_stage,8000,2,0.3944,binary,HuggingFace (proteinglm/cloning_clf),Protein cloning-stage success classification (PredPPCrys structural genomics pipeline),4
+proteins,prot_deeploc_binary,1500,2,0.3747,,HuggingFace (SaProtHub/Dataset-Binary_Localization-DeepLoc),DeepLoc protein membrane vs soluble localization,4
+proteins,prot_deeploc_multi,1500,10,0.01,,HuggingFace (SaProtHub/Dataset-Subcellular_Localization-DeepLoc),DeepLoc 10-class subcellular localization,4
+proteins,prot_hemolytic_peptide,4611,2,0.2065,binary,HuggingFace (jablonkagroup/peptides_hemolytic),Hemolytic vs non-hemolytic peptide classification,4
+proteins,prot_material_production,8000,2,0.2999,binary,HuggingFace (proteinglm/material_production),Protein material-production stage success classification (PredPPCrys structural genomics pipeline),4
+proteins,prot_metal_ion,1500,2,0.4707,,HuggingFace (SaProtHub/Dataset-Metal_Ion_Binding),Protein metal ion binding prediction,4
+proteins,prot_nonfouling_peptide,8000,2,0.2097,binary,HuggingFace (jablonkagroup/peptides_nonfouling),Non-fouling vs fouling peptide classification (resistance to non-specific binding),4
+proteins,prot_remote_homology,3000,7,0.015,multiclass,HuggingFace (proteinea/remote_homology),Protein fold structural classification (7 classes),4
+proteins,prot_sabdab_chen,2409,2,0.2001,,Therapeutics Data Commons (Develop),SAbDab antibody sequence developability viability,4
+proteins,prot_solubility,2500,2,0.4132,binary,SaProtHub (Dataset-Solubility),Protein solubility classification (binary),4
+proteins,prot_sorting_signal,1592,9,0.022,multiclass,HuggingFace (AI4Protein/SortingSignal),"Protein sorting-signal type classification (SP/MT/NLS/PTS/GPI/CH/NES/TH/TM), single-type sequences only",4
+proteins,prot_temperature_stability,8000,2,0.4954,binary,HuggingFace (proteinglm/temperature_stability),Protein structural stability at 65C classification (binary),4
+proteins,prot_toxin_peptide,8386,2,0.4987,binary,HuggingFace (tanthinhdt/toxinpred3),Toxic vs non-toxic peptide classification (ToxinPred3 dataset),4
+text,text_agnews,1500,4,0.1507,,HuggingFace (ag_news),AG News topic classification,4
+text,text_financial_phrasebank,2264,3,0.1338,multiclass,HuggingFace (financial_phrasebank/sentences_allagree),Financial sentiment classification,4
+text,text_imdb,3000,2,0.1667,binary,HuggingFace (imdb/),IMDb large movie reviews sentiment,4
+text,text_rotten_tomatoes,3000,2,0.4997,binary,HuggingFace (rotten_tomatoes/),Rotten Tomatoes movie reviews sentiment,4
+text,text_sst2,1500,2,0.45,,HuggingFace (glue),Stanford Sentiment Treebank v2,4
+text,text_tweet_emotion,1500,4,0.0967,,HuggingFace (tweet_eval),Twitter emotion recognition,4
+text,text_tweet_hate,3000,2,0.42,binary,HuggingFace (tweet_eval/hate),Hate speech detection in tweets,4
+text,text_tweet_irony,1500,2,0.4967,,HuggingFace (tweet_eval),Twitter irony detection,4
+text,text_tweet_offensive,3000,2,0.344,binary,HuggingFace (tweet_eval/offensive),Offensive language detection in tweets,4
+text,text_tweet_sentiment,1500,3,0.1573,,HuggingFace (tweet_eval),Twitter sentiment recognition,4
+text,text_yelp_polarity,1500,2,0.4727,,HuggingFace (yelp_polarity),Yelp restaurant reviews sentiment,4
+timeseries,ts_chinatown,363,2,0.2865,binary,UCR Archive (Chinatown) via AEON,Pedestrian traffic flow in Melbourne Chinatown,4
+timeseries,ts_ecg200,100,2,0.31,,UCR Archive (ECG200),Electrocardiogram heartbeat series (ECG200),4
+timeseries,ts_electric_devices,8926,7,0.057,,UCR Archive (ElectricDevices),Household electricity device telemetry,4
+timeseries,ts_ford_a,3601,2,0.4874,,UCR Archive (FordA),Automotive subsystem acoustic noise telemetry,4
+timeseries,ts_ford_b,4446,2,0.4915,binary,UCR Archive (FordB) via AEON,Engine noise symptom classification under noisy condition,4
+timeseries,ts_gunpoint,50,2,0.48,,UCR Archive (GunPoint),Surveillance video motion tracker sensor,4
+timeseries,ts_italy_power,67,2,0.4925,,UCR Archive (ItalyPowerDemand),Italy national electrical power demand profile,4
+timeseries,ts_plane,210,7,0.1429,multiclass,UCR Archive (Plane) via AEON,Airplane shape contour time series classification,4
+timeseries,ts_sony_aibo,621,2,0.438,binary,UCR Archive (SonyAIBORobotSurface1) via AEON,Robot accelerometer surface classification,4
+timeseries,ts_strawberry,983,2,0.3571,binary,UCR Archive (Strawberry) via AEON,Strawberry puree food spectrography authentication,4
+timeseries,ts_two_lead_ecg,1162,2,0.5,binary,UCR Archive (TwoLeadECG) via AEON,Two-lead ECG heartbeat classification,4
+timeseries,ts_wafer,1000,2,0.097,,UCR Archive (Wafer),Semiconductor wafer fabrication sensor,4
+vision,vision_beans,1034,3,0.3298,multiclass,HuggingFace (beans),Bean leaf disease classification,5
+vision,vision_bloodmnist,2000,8,0.0745,multiclass,MedMNIST (bloodmnist),Peripheral blood cell classification,5
+vision,vision_breastmnist,546,2,0.2692,binary,MedMNIST (breastmnist),Breast ultrasound tumor classification,5
+vision,vision_cifar10,600,10,0.0767,,HuggingFace (cifar10),CIFAR-10 real photos,5
+vision,vision_dermamnist,2000,7,0.012,multiclass,MedMNIST (dermamnist),Dermatoscopy skin lesion classification,5
+vision,vision_fashion_mnist,600,10,0.0917,,HuggingFace (fashion_mnist),Fashion-MNIST clothing items,5
+vision,vision_mnist,1000,10,0.078,multiclass,HuggingFace (mnist),Handwritten digit classification (10 classes),5
+vision,vision_pneumoniamnist,2000,2,0.267,binary,MedMNIST (pneumoniamnist),Pediatric chest X-ray pneumonia classification,5
+vision,vision_retinamnist,1080,5,0.0611,multiclass,MedMNIST (retinamnist),Retinal fundus diabetic retinopathy classification,5
+vision,vision_svhn,600,10,0.0567,,HuggingFace (svhn),Street View House Numbers digits,5

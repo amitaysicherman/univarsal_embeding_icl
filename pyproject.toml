@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "univarsal_embeding"
+version = "0.1.0"
+description = "Universal Multimodal Foundation Embeddings Benchmark Suite"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.38.0",
+    "datasets>=2.14.0",
+    "numpy>=1.22.0",
+    "pandas>=1.4.0",
+    "scikit-learn>=1.0.0",
+    "tqdm>=4.64.0",
+]
+
+[project.optional-dependencies]
+all = [
+    "rdkit",
+    "PyTDC",
+    "torchvision",
+    "Pillow",
+    "torchaudio",
+    "soundfile",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,3511 @@
+{
+  "seen": {
+    "n_evaluated": 259,
+    "mean_accuracy": 0.805778340681629,
+    "mean_balanced_accuracy": 0.7168440688450626,
+    "mean_roc_auc": 0.8571782733132187,
+    "mean_auprc": 0.7647014342427144,
+    "mean_macro_f1": 0.718164356017558,
+    "mean_mcc": 0.5439856722047741,
+    "results": {
+      "audio::audio_crema_d::wavlm_base_plus": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.4994879252760758,
+        "macro_f1": 0.48323762947232457,
+        "mcc": 0.402959885670961,
+        "roc_auc": 0.8176906422667125,
+        "auprc": 0.5187705909715444,
+        "log_loss": 1.2921804431019868
+      },
+      "audio::audio_crema_d::whisper_large_v3_turbo": {
+        "accuracy": 0.5325,
+        "balanced_accuracy": 0.5320597865283351,
+        "macro_f1": 0.5227337520368275,
+        "mcc": 0.4392827584062084,
+        "roc_auc": 0.8533296966816374,
+        "auprc": 0.589841353401931,
+        "log_loss": 1.1707291405816147
+      },
+      "audio::audio_crema_d::clap_general": {
+        "accuracy": 0.4875,
+        "balanced_accuracy": 0.48509403288847963,
+        "macro_f1": 0.4796163330980708,
+        "mcc": 0.38486808771175113,
+        "roc_auc": 0.8041844684318339,
+        "auprc": 0.494930341269405,
+        "log_loss": 1.3291828017060334
+      },
+      "audio::audio_emodb::wavlm_base_plus": {
+        "accuracy": 0.616822429906542,
+        "balanced_accuracy": 0.597773853130996,
+        "macro_f1": 0.5992326971274339,
+        "mcc": 0.5452804509512669,
+        "roc_auc": 0.9091729877464186,
+        "auprc": 0.7039561347886238,
+        "log_loss": 0.9886328482533991
+      },
+      "audio::audio_emodb::whisper_large_v3_turbo": {
+        "accuracy": 0.7663551401869159,
+        "balanced_accuracy": 0.7573914181057039,
+        "macro_f1": 0.7521127520679827,
+        "mcc": 0.7247883001935801,
+        "roc_auc": 0.9674858380961134,
+        "auprc": 0.8634660121926085,
+        "log_loss": 0.6081458615366391
+      },
+      "audio::audio_emodb::clap_general": {
+        "accuracy": 0.6728971962616822,
+        "balanced_accuracy": 0.670689429618001,
+        "macro_f1": 0.6686477852785131,
+        "mcc": 0.6143268053726408,
+        "roc_auc": 0.9366905553335488,
+        "auprc": 0.7454486122773929,
+        "log_loss": 0.8085682772840604
+      },
+      "audio::audio_esc10::wavlm_base_plus": {
+        "accuracy": 0.9,
+        "balanced_accuracy": 0.9,
+        "macro_f1": 0.8977156177156178,
+        "mcc": 0.8902638145194516,
+        "roc_auc": 0.9953703703703702,
+        "auprc": 0.9682539682539681,
+        "log_loss": 0.2872371166273584
+      },
+      "audio::audio_esc10::whisper_large_v3_turbo": {
+        "accuracy": 0.8666666666666667,
+        "balanced_accuracy": 0.8666666666666666,
+        "macro_f1": 0.8652480852480853,
+        "mcc": 0.853433750803703,
+        "roc_auc": 0.9929012345679012,
+        "auprc": 0.952361111111111,
+        "log_loss": 0.3388444647301434
+      },
+      "audio::audio_esc10::clap_general": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.0055492023649640196
+      },
+      "audio::audio_gtzan::wavlm_base_plus": {
+        "accuracy": 0.62,
+        "balanced_accuracy": 0.6199999999999999,
+        "macro_f1": 0.620004532805272,
+        "mcc": 0.5790983408009288,
+        "roc_auc": 0.922,
+        "auprc": 0.6682503946708884,
+        "log_loss": 1.120076896623974
+      },
+      "audio::audio_gtzan::whisper_large_v3_turbo": {
+        "accuracy": 0.59,
+        "balanced_accuracy": 0.5900000000000001,
+        "macro_f1": 0.5933867365205318,
+        "mcc": 0.5455822606164296,
+        "roc_auc": 0.9076666666666668,
+        "auprc": 0.662874872200768,
+        "log_loss": 1.117946693534011
+      },
+      "audio::audio_gtzan::clap_general": {
+        "accuracy": 0.865,
+        "balanced_accuracy": 0.865,
+        "macro_f1": 0.8630772249064933,
+        "mcc": 0.8503543881746637,
+        "roc_auc": 0.9844166666666668,
+        "auprc": 0.9272196567500292,
+        "log_loss": 0.45647254071998344
+      },
+      "audio::audio_ravdess::wavlm_base_plus": {
+        "accuracy": 0.5902777777777778,
+        "balanced_accuracy": 0.5824898785425101,
+        "macro_f1": 0.573193560939878,
+        "mcc": 0.5322994654648764,
+        "roc_auc": 0.9024418976066308,
+        "auprc": 0.6516073413482419,
+        "log_loss": 1.1322142282002583
+      },
+      "audio::audio_ravdess::whisper_large_v3_turbo": {
+        "accuracy": 0.6840277777777778,
+        "balanced_accuracy": 0.6869939271255061,
+        "macro_f1": 0.6866409670071301,
+        "mcc": 0.6379269174166399,
+        "roc_auc": 0.9453273805253171,
+        "auprc": 0.7477227655309191,
+        "log_loss": 0.8677663775679497
+      },
+      "audio::audio_ravdess::clap_general": {
+        "accuracy": 0.6041666666666666,
+        "balanced_accuracy": 0.5921052631578947,
+        "macro_f1": 0.5894113655269959,
+        "mcc": 0.5459886168160888,
+        "roc_auc": 0.89845869029147,
+        "auprc": 0.61325978344163,
+        "log_loss": 1.1429969311180959
+      },
+      "audio::audio_urbansound8k::wavlm_base_plus": {
+        "accuracy": 0.6675,
+        "balanced_accuracy": 0.6733320201176237,
+        "macro_f1": 0.6729092334211235,
+        "mcc": 0.6285137527656603,
+        "roc_auc": 0.9423073644013774,
+        "auprc": 0.750475515505306,
+        "log_loss": 1.0090406800689735
+      },
+      "audio::audio_urbansound8k::whisper_large_v3_turbo": {
+        "accuracy": 0.6875,
+        "balanced_accuracy": 0.7067274542610378,
+        "macro_f1": 0.6960734597437152,
+        "mcc": 0.6515419519769432,
+        "roc_auc": 0.9501285388402598,
+        "auprc": 0.782165762584721,
+        "log_loss": 0.9294705961179622
+      },
+      "audio::audio_urbansound8k::clap_general": {
+        "accuracy": 0.885,
+        "balanced_accuracy": 0.896668370628167,
+        "macro_f1": 0.8945336032034221,
+        "mcc": 0.8711826656685624,
+        "roc_auc": 0.9929331210457445,
+        "auprc": 0.9616633794533378,
+        "log_loss": 0.31894231897802927
+      },
+      "graphs::graph_bzr::pyg_gin": {
+        "accuracy": 0.8983050847457628,
+        "balanced_accuracy": 0.7810283687943262,
+        "macro_f1": 0.8193877551020408,
+        "mcc": 0.6608298144497518,
+        "roc_auc": 0.9609929078014184,
+        "auprc": 0.8531441450849345,
+        "log_loss": 0.25044502303546573
+      },
+      "graphs::graph_bzr::pyg_gcn": {
+        "accuracy": 0.9152542372881356,
+        "balanced_accuracy": 0.8226950354609929,
+        "macro_f1": 0.8551791850760923,
+        "mcc": 0.7225294854661686,
+        "roc_auc": 0.9397163120567376,
+        "auprc": 0.8289863547758285,
+        "log_loss": 0.2507643686802529
+      },
+      "graphs::graph_bzr::pyg_gat": {
+        "accuracy": 0.8135593220338984,
+        "balanced_accuracy": 0.6347517730496454,
+        "macro_f1": 0.6549707602339181,
+        "mcc": 0.3354697338467009,
+        "roc_auc": 0.8829787234042553,
+        "auprc": 0.6646024114774115,
+        "log_loss": 0.3457281968643836
+      },
+      "graphs::graph_cox2::pyg_gin": {
+        "accuracy": 0.8115942028985508,
+        "balanced_accuracy": 0.6388888888888888,
+        "macro_f1": 0.6608695652173913,
+        "mcc": 0.3578739589461676,
+        "roc_auc": 0.8660493827160494,
+        "auprc": 0.6745900649822218,
+        "log_loss": 0.37239602123697657
+      },
+      "graphs::graph_cox2::pyg_gcn": {
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.6481481481481481,
+        "macro_f1": 0.6755485893416928,
+        "mcc": 0.40478449381261083,
+        "roc_auc": 0.8629629629629629,
+        "auprc": 0.677065046065046,
+        "log_loss": 0.38975676801346115
+      },
+      "graphs::graph_cox2::pyg_gat": {
+        "accuracy": 0.782608695652174,
+        "balanced_accuracy": 0.5481481481481482,
+        "macro_f1": 0.5422379478107032,
+        "mcc": 0.16996731711975951,
+        "roc_auc": 0.7993827160493827,
+        "auprc": 0.557020498020498,
+        "log_loss": 0.4396440528364474
+      },
+      "graphs::graph_dd::pyg_gin": {
+        "accuracy": 0.7457627118644068,
+        "balanced_accuracy": 0.7296595713120225,
+        "macro_f1": 0.7327898550724637,
+        "mcc": 0.46844116483803194,
+        "roc_auc": 0.8352369650671215,
+        "auprc": 0.75532844182678,
+        "log_loss": 0.4926254067346745
+      },
+      "graphs::graph_dd::pyg_gcn": {
+        "accuracy": 0.7415254237288136,
+        "balanced_accuracy": 0.7182748646443671,
+        "macro_f1": 0.7230206830206831,
+        "mcc": 0.45661602146395347,
+        "roc_auc": 0.8165838463250018,
+        "auprc": 0.7303063258562303,
+        "log_loss": 0.5167941710062333
+      },
+      "graphs::graph_dd::pyg_gat": {
+        "accuracy": 0.7330508474576272,
+        "balanced_accuracy": 0.7079655862938515,
+        "macro_f1": 0.7125679045759468,
+        "mcc": 0.43797361731403933,
+        "roc_auc": 0.8165467625899281,
+        "auprc": 0.7431501126598898,
+        "log_loss": 0.5287215453194183
+      },
+      "graphs::graph_enzymes::pyg_gin": {
+        "accuracy": 0.4166666666666667,
+        "balanced_accuracy": 0.4166666666666667,
+        "macro_f1": 0.40828354848706944,
+        "mcc": 0.30281410648632534,
+        "roc_auc": 0.74425,
+        "auprc": 0.4623699087005451,
+        "log_loss": 1.4947868580516832
+      },
+      "graphs::graph_enzymes::pyg_gcn": {
+        "accuracy": 0.475,
+        "balanced_accuracy": 0.4750000000000001,
+        "macro_f1": 0.4688365602007654,
+        "mcc": 0.37436176706426805,
+        "roc_auc": 0.7606666666666667,
+        "auprc": 0.5093129635088077,
+        "log_loss": 1.4661891839524874
+      },
+      "graphs::graph_enzymes::pyg_gat": {
+        "accuracy": 0.3333333333333333,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.3186215331253179,
+        "mcc": 0.20382358550292998,
+        "roc_auc": 0.7006666666666667,
+        "auprc": 0.355667133167838,
+        "log_loss": 1.6185082149683963
+      },
+      "graphs::graph_mutag::pyg_gin": {
+        "accuracy": 0.7407407407407407,
+        "balanced_accuracy": 0.6944444444444444,
+        "macro_f1": 0.699523052464229,
+        "mcc": 0.40147753427348304,
+        "roc_auc": 0.8703703703703703,
+        "auprc": 0.9392626980862276,
+        "log_loss": 0.5342492544925638
+      },
+      "graphs::graph_mutag::pyg_gcn": {
+        "accuracy": 0.7777777777777778,
+        "balanced_accuracy": 0.6944444444444444,
+        "macro_f1": 0.7107142857142856,
+        "mcc": 0.4719399037242695,
+        "roc_auc": 0.8209876543209876,
+        "auprc": 0.8818278489847118,
+        "log_loss": 0.4979302724550138
+      },
+      "graphs::graph_mutag::pyg_gat": {
+        "accuracy": 0.7037037037037037,
+        "balanced_accuracy": 0.6388888888888888,
+        "macro_f1": 0.6447368421052632,
+        "mcc": 0.29880715233359845,
+        "roc_auc": 0.7746913580246914,
+        "auprc": 0.8606623381985701,
+        "log_loss": 0.5353123624387659
+      },
+      "graphs::graph_nci1::pyg_gin": {
+        "accuracy": 0.7834549878345499,
+        "balanced_accuracy": 0.7834549878345498,
+        "macro_f1": 0.7832702323183847,
+        "mcc": 0.5678790014936301,
+        "roc_auc": 0.8578181516803713,
+        "auprc": 0.8660806399651376,
+        "log_loss": 0.47055779385946467
+      },
+      "graphs::graph_nci1::pyg_gcn": {
+        "accuracy": 0.7506082725060828,
+        "balanced_accuracy": 0.7506082725060828,
+        "macro_f1": 0.7505990447844253,
+        "mcc": 0.5012536386969519,
+        "roc_auc": 0.8333451731874664,
+        "auprc": 0.8371543940513867,
+        "log_loss": 0.5051146369394496
+      },
+      "graphs::graph_nci1::pyg_gat": {
+        "accuracy": 0.670316301703163,
+        "balanced_accuracy": 0.670316301703163,
+        "macro_f1": 0.6692349381936968,
+        "mcc": 0.3428819352169964,
+        "roc_auc": 0.7275264768738049,
+        "auprc": 0.7107856865290784,
+        "log_loss": 0.6234109907808294
+      },
+      "graphs::graph_proteins::pyg_gin": {
+        "accuracy": 0.7530120481927711,
+        "balanced_accuracy": 0.7278003919794964,
+        "macro_f1": 0.7334221142924289,
+        "mcc": 0.4771265349407738,
+        "roc_auc": 0.836574702246344,
+        "auprc": 0.759747577923605,
+        "log_loss": 0.4987346857969316
+      },
+      "graphs::graph_proteins::pyg_gcn": {
+        "accuracy": 0.7409638554216867,
+        "balanced_accuracy": 0.7152872003618272,
+        "macro_f1": 0.7204183149896204,
+        "mcc": 0.45091773123456313,
+        "roc_auc": 0.8132820744761043,
+        "auprc": 0.7332379475639419,
+        "log_loss": 0.5146116196393343
+      },
+      "graphs::graph_proteins::pyg_gat": {
+        "accuracy": 0.7168674698795181,
+        "balanced_accuracy": 0.6926729986431479,
+        "macro_f1": 0.6965028980433345,
+        "mcc": 0.3998669358754941,
+        "roc_auc": 0.8067239559776874,
+        "auprc": 0.7108048714643732,
+        "log_loss": 0.5232734074048432
+      },
+      "graphs::graph_ptc_mr::pyg_gin": {
+        "accuracy": 0.6956521739130435,
+        "balanced_accuracy": 0.6761460101867572,
+        "macro_f1": 0.6734279918864097,
+        "mcc": 0.3862445937208443,
+        "roc_auc": 0.6460101867572156,
+        "auprc": 0.585065530082273,
+        "log_loss": 0.6622967513406612
+      },
+      "graphs::graph_ptc_mr::pyg_gcn": {
+        "accuracy": 0.5652173913043478,
+        "balanced_accuracy": 0.548811544991511,
+        "macro_f1": 0.5436507936507937,
+        "mcc": 0.10301070542879114,
+        "roc_auc": 0.5475382003395586,
+        "auprc": 0.5809048926361182,
+        "log_loss": 0.6904383029458873
+      },
+      "graphs::graph_ptc_mr::pyg_gat": {
+        "accuracy": 0.6376811594202898,
+        "balanced_accuracy": 0.6086587436332768,
+        "macro_f1": 0.5878136200716846,
+        "mcc": 0.2687954775541349,
+        "roc_auc": 0.5802207130730052,
+        "auprc": 0.6110678088578383,
+        "log_loss": 0.6521872408005112
+      },
+      "molecules::tdc_ames::chemberta_77m_mtr": {
+        "accuracy": 0.757,
+        "balanced_accuracy": 0.7607883070782417,
+        "macro_f1": 0.755146705413273,
+        "mcc": 0.5160071190280755,
+        "roc_auc": 0.8340674126057156,
+        "auprc": 0.8745318557697336,
+        "log_loss": 0.4998885821565392
+      },
+      "molecules::tdc_ames::smiles_bert": {
+        "accuracy": 0.684,
+        "balanced_accuracy": 0.6835811617673522,
+        "macro_f1": 0.6805447722567288,
+        "mcc": 0.3637742814549097,
+        "roc_auc": 0.7479470317842012,
+        "auprc": 0.8014782394037321,
+        "log_loss": 0.5994970454379619
+      },
+      "molecules::tdc_ames::chemberta_zinc_base": {
+        "accuracy": 0.698,
+        "balanced_accuracy": 0.6942631398144967,
+        "macro_f1": 0.6929696141583708,
+        "mcc": 0.38650830799798636,
+        "roc_auc": 0.7628003795128495,
+        "auprc": 0.8059134814976643,
+        "log_loss": 0.5819605590265416
+      },
+      "molecules::tdc_ames::pubchem10m_bpe": {
+        "accuracy": 0.764,
+        "balanced_accuracy": 0.7687016407387415,
+        "macro_f1": 0.7624023936952066,
+        "mcc": 0.5315530962333544,
+        "roc_auc": 0.8357809458376274,
+        "auprc": 0.8662278554423002,
+        "log_loss": 0.50435547205735
+      },
+      "molecules::tdc_bbb_martins::chemberta_77m_mtr": {
+        "accuracy": 0.8866995073891626,
+        "balanced_accuracy": 0.7833020637898687,
+        "macro_f1": 0.8036998108051292,
+        "mcc": 0.6125773251030763,
+        "roc_auc": 0.8999374609130707,
+        "auprc": 0.9700189488546278,
+        "log_loss": 0.2865814732021452
+      },
+      "molecules::tdc_bbb_martins::smiles_bert": {
+        "accuracy": 0.8817733990147784,
+        "balanced_accuracy": 0.8046826141338337,
+        "macro_f1": 0.8076816800221056,
+        "mcc": 0.6154575815089772,
+        "roc_auc": 0.8907520325203252,
+        "auprc": 0.9532569291553369,
+        "log_loss": 0.3020594114090846
+      },
+      "molecules::tdc_bbb_martins::chemberta_zinc_base": {
+        "accuracy": 0.8793103448275862,
+        "balanced_accuracy": 0.7836147592245153,
+        "macro_f1": 0.7964912280701755,
+        "mcc": 0.5949816211978043,
+        "roc_auc": 0.879749061913696,
+        "auprc": 0.9559550908195217,
+        "log_loss": 0.3144364683844747
+      },
+      "molecules::tdc_bbb_martins::pubchem10m_bpe": {
+        "accuracy": 0.8866995073891626,
+        "balanced_accuracy": 0.7686444652908067,
+        "macro_f1": 0.7968586843021233,
+        "mcc": 0.6049068431837927,
+        "roc_auc": 0.8943284865540962,
+        "auprc": 0.9681739490956671,
+        "log_loss": 0.2951683097199106
+      },
+      "molecules::tdc_bioavailability_ma::chemberta_77m_mtr": {
+        "accuracy": 0.640625,
+        "balanced_accuracy": 0.4556035916195544,
+        "macro_f1": 0.44494720965309204,
+        "mcc": -0.10271716187059216,
+        "roc_auc": 0.6225473894246758,
+        "auprc": 0.8482370210686188,
+        "log_loss": 0.5754438139009768
+      },
+      "molecules::tdc_bioavailability_ma::smiles_bert": {
+        "accuracy": 0.7421875,
+        "balanced_accuracy": 0.5335882939807117,
+        "macro_f1": 0.5208167895632445,
+        "mcc": 0.10723675204894248,
+        "roc_auc": 0.6218822746923844,
+        "auprc": 0.8302345914760613,
+        "log_loss": 0.5638474194280579
+      },
+      "molecules::tdc_bioavailability_ma::chemberta_zinc_base": {
+        "accuracy": 0.7109375,
+        "balanced_accuracy": 0.4800465580312604,
+        "macro_f1": 0.4403875694198275,
+        "mcc": -0.0706283264150079,
+        "roc_auc": 0.6689391420019954,
+        "auprc": 0.8841701928887689,
+        "log_loss": 0.5576464377199025
+      },
+      "molecules::tdc_bioavailability_ma::pubchem10m_bpe": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.5826405054871966,
+        "macro_f1": 0.5897435897435898,
+        "mcc": 0.20864295481438996,
+        "roc_auc": 0.7090123046225473,
+        "auprc": 0.8842643211783543,
+        "log_loss": 0.5024925529024764
+      },
+      "molecules::tdc_carcinogens_lagunin::chemberta_77m_mtr": {
+        "accuracy": 0.8571428571428571,
+        "balanced_accuracy": 0.705050505050505,
+        "macro_f1": 0.7352245862884161,
+        "mcc": 0.49265895172303803,
+        "roc_auc": 0.7848484848484849,
+        "auprc": 0.6271902780219996,
+        "log_loss": 0.3912063266880193
+      },
+      "molecules::tdc_carcinogens_lagunin::smiles_bert": {
+        "accuracy": 0.8392857142857143,
+        "balanced_accuracy": 0.6595959595959596,
+        "macro_f1": 0.6879256965944273,
+        "mcc": 0.4100094439250688,
+        "roc_auc": 0.8353535353535354,
+        "auprc": 0.6315815007738783,
+        "log_loss": 0.4065307679661844
+      },
+      "molecules::tdc_carcinogens_lagunin::chemberta_zinc_base": {
+        "accuracy": 0.8392857142857143,
+        "balanced_accuracy": 0.6252525252525252,
+        "macro_f1": 0.6536082474226804,
+        "mcc": 0.3864447558701623,
+        "roc_auc": 0.8282828282828283,
+        "auprc": 0.5877102572224524,
+        "log_loss": 0.4116282169681077
+      },
+      "molecules::tdc_carcinogens_lagunin::pubchem10m_bpe": {
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.7161616161616161,
+        "macro_f1": 0.7572755417956656,
+        "mcc": 0.5553292468352197,
+        "roc_auc": 0.7929292929292929,
+        "auprc": 0.6232071915325504,
+        "log_loss": 0.42903848427232744
+      },
+      "molecules::tdc_cav3_t-type_calcium_channels_butkiewicz::chemberta_77m_mtr": {
+        "accuracy": 0.995,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49874686716791977,
+        "mcc": 0.0,
+        "roc_auc": 0.8014070351758794,
+        "auprc": 0.022739267300022906,
+        "log_loss": 0.02973971555780835
+      },
+      "molecules::tdc_cav3_t-type_calcium_channels_butkiewicz::smiles_bert": {
+        "accuracy": 0.995,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49874686716791977,
+        "mcc": 0.0,
+        "roc_auc": 0.532964824120603,
+        "auprc": 0.01817070644928603,
+        "log_loss": 0.03125077934554491
+      },
+      "molecules::tdc_cav3_t-type_calcium_channels_butkiewicz::chemberta_zinc_base": {
+        "accuracy": 0.995,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49874686716791977,
+        "mcc": 0.0,
+        "roc_auc": 0.6546733668341709,
+        "auprc": 0.011308106275596332,
+        "log_loss": 0.03079542001677922
+      },
+      "molecules::tdc_cav3_t-type_calcium_channels_butkiewicz::pubchem10m_bpe": {
+        "accuracy": 0.995,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49874686716791977,
+        "mcc": 0.0,
+        "roc_auc": 0.8760804020100502,
+        "auprc": 0.023030004470765628,
+        "log_loss": 0.029649628294136678
+      },
+      "molecules::tdc_clintox::chemberta_77m_mtr": {
+        "accuracy": 0.9191919191919192,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4789473684210526,
+        "mcc": 0.0,
+        "roc_auc": 0.6672008547008547,
+        "auprc": 0.1986672495203368,
+        "log_loss": 0.2672897871684559
+      },
+      "molecules::tdc_clintox::smiles_bert": {
+        "accuracy": 0.9191919191919192,
+        "balanced_accuracy": 0.5190018315018315,
+        "macro_f1": 0.5173347778981582,
+        "mcc": 0.126644518425823,
+        "roc_auc": 0.8504273504273504,
+        "auprc": 0.31087040556371004,
+        "log_loss": 0.21566066681801382
+      },
+      "molecules::tdc_clintox::chemberta_zinc_base": {
+        "accuracy": 0.9191919191919192,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4789473684210526,
+        "mcc": 0.0,
+        "roc_auc": 0.6712454212454212,
+        "auprc": 0.2570207054820773,
+        "log_loss": 0.2646212899501825
+      },
+      "molecules::tdc_clintox::pubchem10m_bpe": {
+        "accuracy": 0.9191919191919192,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4789473684210526,
+        "mcc": 0.0,
+        "roc_auc": 0.6931471306471305,
+        "auprc": 0.25828485390122974,
+        "log_loss": 0.2569967730289607
+      },
+      "molecules::tdc_cyp1a2_veith::chemberta_77m_mtr": {
+        "accuracy": 0.801,
+        "balanced_accuracy": 0.8011548415742966,
+        "macro_f1": 0.8009122022812061,
+        "mcc": 0.602993891018577,
+        "roc_auc": 0.8966202783300199,
+        "auprc": 0.8961002920547789,
+        "log_loss": 0.4055154379239948
+      },
+      "molecules::tdc_cyp1a2_veith::smiles_bert": {
+        "accuracy": 0.775,
+        "balanced_accuracy": 0.7752019072686617,
+        "macro_f1": 0.7748106157278271,
+        "mcc": 0.5515245885425853,
+        "roc_auc": 0.8709153529527063,
+        "auprc": 0.8702596521175119,
+        "log_loss": 0.44888372092390333
+      },
+      "molecules::tdc_cyp1a2_veith::chemberta_zinc_base": {
+        "accuracy": 0.8,
+        "balanced_accuracy": 0.8000528019008684,
+        "macro_f1": 0.7999967999487991,
+        "mcc": 0.6001536197406043,
+        "roc_auc": 0.8946882087755159,
+        "auprc": 0.8907129054143308,
+        "log_loss": 0.40790270535730644
+      },
+      "molecules::tdc_cyp1a2_veith::pubchem10m_bpe": {
+        "accuracy": 0.827,
+        "balanced_accuracy": 0.8272157797680717,
+        "macro_f1": 0.8268335870771811,
+        "mcc": 0.6559380656420538,
+        "roc_auc": 0.9064686328707834,
+        "auprc": 0.9046895874084936,
+        "log_loss": 0.3897389275263706
+      },
+      "molecules::tdc_cyp2c19_veith::chemberta_77m_mtr": {
+        "accuracy": 0.777,
+        "balanced_accuracy": 0.7772914490195373,
+        "macro_f1": 0.7769819355367784,
+        "mcc": 0.5544131588348923,
+        "roc_auc": 0.8511833999783854,
+        "auprc": 0.8450037173104085,
+        "log_loss": 0.48044640791864013
+      },
+      "molecules::tdc_cyp2c19_veith::smiles_bert": {
+        "accuracy": 0.735,
+        "balanced_accuracy": 0.7348467564073313,
+        "macro_f1": 0.7348342714196372,
+        "mcc": 0.46967001401622943,
+        "roc_auc": 0.8093391132405506,
+        "auprc": 0.7929194496797518,
+        "log_loss": 0.5318432982302314
+      },
+      "molecules::tdc_cyp2c19_veith::chemberta_zinc_base": {
+        "accuracy": 0.736,
+        "balanced_accuracy": 0.7360815911556211,
+        "macro_f1": 0.7359323986940657,
+        "mcc": 0.4720120604691517,
+        "roc_auc": 0.8191477438748594,
+        "auprc": 0.8081936591518867,
+        "log_loss": 0.5192160420164174
+      },
+      "molecules::tdc_cyp2c19_veith::pubchem10m_bpe": {
+        "accuracy": 0.803,
+        "balanced_accuracy": 0.8030488610300563,
+        "macro_f1": 0.8029288573174916,
+        "mcc": 0.6059364553923239,
+        "roc_auc": 0.8735925485628284,
+        "auprc": 0.8749484714434478,
+        "log_loss": 0.4500759322935678
+      },
+      "molecules::tdc_cyp2c9_substrate_carbonmangels::chemberta_77m_mtr": {
+        "accuracy": 0.7333333333333333,
+        "balanced_accuracy": 0.5343190450352686,
+        "macro_f1": 0.49248120300751874,
+        "mcc": 0.18204435322659876,
+        "roc_auc": 0.6482637004883344,
+        "auprc": 0.42715589297034173,
+        "log_loss": 0.5996747876726046
+      },
+      "molecules::tdc_cyp2c9_substrate_carbonmangels::smiles_bert": {
+        "accuracy": 0.7185185185185186,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.41810344827586204,
+        "mcc": 0.0,
+        "roc_auc": 0.6176071622354858,
+        "auprc": 0.37107928425623143,
+        "log_loss": 0.6199935820787992
+      },
+      "molecules::tdc_cyp2c9_substrate_carbonmangels::chemberta_zinc_base": {
+        "accuracy": 0.7111111111111111,
+        "balanced_accuracy": 0.4948453608247423,
+        "macro_f1": 0.4155844155844156,
+        "mcc": -0.054069646719900374,
+        "roc_auc": 0.5986163863266413,
+        "auprc": 0.3398579662097472,
+        "log_loss": 0.6343450378590978
+      },
+      "molecules::tdc_cyp2c9_substrate_carbonmangels::pubchem10m_bpe": {
+        "accuracy": 0.7333333333333333,
+        "balanced_accuracy": 0.5263157894736842,
+        "macro_f1": 0.4717391304347826,
+        "mcc": 0.1959220183578253,
+        "roc_auc": 0.6667118827997829,
+        "auprc": 0.4620220534899576,
+        "log_loss": 0.5965762040610506
+      },
+      "molecules::tdc_cyp2c9_veith::chemberta_77m_mtr": {
+        "accuracy": 0.774,
+        "balanced_accuracy": 0.7333747067548713,
+        "macro_f1": 0.7412008281573499,
+        "mcc": 0.4878445102334131,
+        "roc_auc": 0.8461502911544505,
+        "auprc": 0.7326439116380147,
+        "log_loss": 0.46287388686863806
+      },
+      "molecules::tdc_cyp2c9_veith::smiles_bert": {
+        "accuracy": 0.748,
+        "balanced_accuracy": 0.6961254230872496,
+        "macro_f1": 0.7049442906720245,
+        "mcc": 0.42163074172468556,
+        "roc_auc": 0.8150432000140846,
+        "auprc": 0.6690272021862107,
+        "log_loss": 0.4967557778521073
+      },
+      "molecules::tdc_cyp2c9_veith::chemberta_zinc_base": {
+        "accuracy": 0.754,
+        "balanced_accuracy": 0.71003833643634,
+        "macro_f1": 0.7173713235294117,
+        "mcc": 0.4408208840956303,
+        "roc_auc": 0.8309851715896637,
+        "auprc": 0.7089756913248724,
+        "log_loss": 0.4773333895064979
+      },
+      "molecules::tdc_cyp2c9_veith::pubchem10m_bpe": {
+        "accuracy": 0.787,
+        "balanced_accuracy": 0.7433593457717684,
+        "macro_f1": 0.7534262750350471,
+        "mcc": 0.5155780936010499,
+        "roc_auc": 0.8562361630112809,
+        "auprc": 0.7527942638107199,
+        "log_loss": 0.450519085555076
+      },
+      "molecules::tdc_cyp2d6_veith::chemberta_77m_mtr": {
+        "accuracy": 0.872,
+        "balanced_accuracy": 0.6357361332346189,
+        "macro_f1": 0.6731358529111338,
+        "mcc": 0.4147862155631939,
+        "roc_auc": 0.8184925104136286,
+        "auprc": 0.5440918920174898,
+        "log_loss": 0.33342442980962944
+      },
+      "molecules::tdc_cyp2d6_veith::smiles_bert": {
+        "accuracy": 0.849,
+        "balanced_accuracy": 0.5710594605104735,
+        "macro_f1": 0.5860643491752813,
+        "mcc": 0.25339216216032945,
+        "roc_auc": 0.7555545584397131,
+        "auprc": 0.42030754578545854,
+        "log_loss": 0.37741966467830873
+      },
+      "molecules::tdc_cyp2d6_veith::chemberta_zinc_base": {
+        "accuracy": 0.851,
+        "balanced_accuracy": 0.5569477785505426,
+        "macro_f1": 0.5646826127223697,
+        "mcc": 0.24415006755321206,
+        "roc_auc": 0.795148782147638,
+        "auprc": 0.4579819950268749,
+        "log_loss": 0.35910200037594836
+      },
+      "molecules::tdc_cyp2d6_veith::pubchem10m_bpe": {
+        "accuracy": 0.876,
+        "balanced_accuracy": 0.6483147495868201,
+        "macro_f1": 0.6883043758043759,
+        "mcc": 0.4399956823527443,
+        "roc_auc": 0.8316058301363307,
+        "auprc": 0.5987589177479496,
+        "log_loss": 0.31988378739487244
+      },
+      "molecules::tdc_cyp3a4_substrate_carbonmangels::chemberta_77m_mtr": {
+        "accuracy": 0.5925925925925926,
+        "balanced_accuracy": 0.5869122965641953,
+        "macro_f1": 0.5852187028657616,
+        "mcc": 0.17208301370446752,
+        "roc_auc": 0.6046564195298373,
+        "auprc": 0.6670317674554517,
+        "log_loss": 0.6733624229639843
+      },
+      "molecules::tdc_cyp3a4_substrate_carbonmangels::smiles_bert": {
+        "accuracy": 0.5925925925925926,
+        "balanced_accuracy": 0.5817133815551537,
+        "macro_f1": 0.5814779324728031,
+        "mcc": 0.1630219219537855,
+        "roc_auc": 0.633250452079566,
+        "auprc": 0.6764067288703096,
+        "log_loss": 0.6504378263207308
+      },
+      "molecules::tdc_cyp3a4_substrate_carbonmangels::chemberta_zinc_base": {
+        "accuracy": 0.6,
+        "balanced_accuracy": 0.5880424954792043,
+        "macro_f1": 0.5880424954792043,
+        "mcc": 0.17608499095840868,
+        "roc_auc": 0.6234177215189873,
+        "auprc": 0.6611848506656961,
+        "log_loss": 0.6712056318397656
+      },
+      "molecules::tdc_cyp3a4_substrate_carbonmangels::pubchem10m_bpe": {
+        "accuracy": 0.5703703703703704,
+        "balanced_accuracy": 0.5887206148282098,
+        "macro_f1": 0.5703467954345918,
+        "mcc": 0.17792450217098554,
+        "roc_auc": 0.6630877034358047,
+        "auprc": 0.6988564687690819,
+        "log_loss": 0.6737620597759699
+      },
+      "molecules::tdc_cyp3a4_veith::chemberta_77m_mtr": {
+        "accuracy": 0.775,
+        "balanced_accuracy": 0.7702495974235104,
+        "macro_f1": 0.7716568276130831,
+        "mcc": 0.5459787871230178,
+        "roc_auc": 0.8417351046698873,
+        "auprc": 0.8375187907510944,
+        "log_loss": 0.4860193535633573
+      },
+      "molecules::tdc_cyp3a4_veith::smiles_bert": {
+        "accuracy": 0.73,
+        "balanced_accuracy": 0.722463768115942,
+        "macro_f1": 0.7236143867924528,
+        "mcc": 0.4550650757866507,
+        "roc_auc": 0.7971316425120774,
+        "auprc": 0.7762628605204924,
+        "log_loss": 0.5414162802727271
+      },
+      "molecules::tdc_cyp3a4_veith::chemberta_zinc_base": {
+        "accuracy": 0.722,
+        "balanced_accuracy": 0.7173107890499195,
+        "macro_f1": 0.7182082096693103,
+        "mcc": 0.4383216377415845,
+        "roc_auc": 0.8054911433172303,
+        "auprc": 0.7828285494396612,
+        "log_loss": 0.5359659419889213
+      },
+      "molecules::tdc_cyp3a4_veith::pubchem10m_bpe": {
+        "accuracy": 0.773,
+        "balanced_accuracy": 0.7659822866344606,
+        "macro_f1": 0.7678459478890856,
+        "mcc": 0.5433272431794236,
+        "roc_auc": 0.8620028180354268,
+        "auprc": 0.8553996709796357,
+        "log_loss": 0.46273732852167854
+      },
+      "molecules::tdc_dili::chemberta_77m_mtr": {
+        "accuracy": 0.7291666666666666,
+        "balanced_accuracy": 0.7295652173913043,
+        "macro_f1": 0.7290490664350847,
+        "mcc": 0.4587317109255645,
+        "roc_auc": 0.8278260869565218,
+        "auprc": 0.829033730437059,
+        "log_loss": 0.5128955841242924
+      },
+      "molecules::tdc_dili::smiles_bert": {
+        "accuracy": 0.78125,
+        "balanced_accuracy": 0.778695652173913,
+        "macro_f1": 0.7793103448275862,
+        "mcc": 0.5629253857107235,
+        "roc_auc": 0.8463043478260869,
+        "auprc": 0.8244368542290932,
+        "log_loss": 0.49663864746537173
+      },
+      "molecules::tdc_dili::chemberta_zinc_base": {
+        "accuracy": 0.7604166666666666,
+        "balanced_accuracy": 0.7578260869565216,
+        "macro_f1": 0.7582922824302134,
+        "mcc": 0.5207718466871436,
+        "roc_auc": 0.8347826086956522,
+        "auprc": 0.8266011885042044,
+        "log_loss": 0.49660546438735437
+      },
+      "molecules::tdc_dili::pubchem10m_bpe": {
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.8756521739130434,
+        "macro_f1": 0.874945722970039,
+        "mcc": 0.7506518906054691,
+        "roc_auc": 0.932391304347826,
+        "auprc": 0.9218284989643073,
+        "log_loss": 0.36310672827930585
+      },
+      "molecules::tdc_herg::chemberta_77m_mtr": {
+        "accuracy": 0.8106060606060606,
+        "balanced_accuracy": 0.7250368188512518,
+        "macro_f1": 0.7393982468609335,
+        "mcc": 0.48596811952025204,
+        "roc_auc": 0.8409425625920471,
+        "auprc": 0.9314408705297405,
+        "log_loss": 0.4241641338926565
+      },
+      "molecules::tdc_herg::smiles_bert": {
+        "accuracy": 0.7803030303030303,
+        "balanced_accuracy": 0.6313696612665685,
+        "macro_f1": 0.6476111571389119,
+        "mcc": 0.35534972127059494,
+        "roc_auc": 0.755817378497791,
+        "auprc": 0.8986684551004608,
+        "log_loss": 0.4966184098289886
+      },
+      "molecules::tdc_herg::chemberta_zinc_base": {
+        "accuracy": 0.7878787878787878,
+        "balanced_accuracy": 0.6547864506627393,
+        "macro_f1": 0.674074074074074,
+        "mcc": 0.38928422444591604,
+        "roc_auc": 0.8257731958762887,
+        "auprc": 0.9242341560676296,
+        "log_loss": 0.46041263930556386
+      },
+      "molecules::tdc_herg::pubchem10m_bpe": {
+        "accuracy": 0.7727272727272727,
+        "balanced_accuracy": 0.6444771723122238,
+        "macro_f1": 0.6600274725274725,
+        "mcc": 0.34872090357063884,
+        "roc_auc": 0.7927835051546392,
+        "auprc": 0.9122113116380652,
+        "log_loss": 0.47389372048134054
+      },
+      "molecules::tdc_hia_hou::chemberta_77m_mtr": {
+        "accuracy": 0.9230769230769231,
+        "balanced_accuracy": 0.8462962962962963,
+        "macro_f1": 0.8801911480259414,
+        "mcc": 0.7751399385908492,
+        "roc_auc": 0.9728395061728394,
+        "auprc": 0.9917070697104967,
+        "log_loss": 0.18137818543410442
+      },
+      "molecules::tdc_hia_hou::smiles_bert": {
+        "accuracy": 0.9572649572649573,
+        "balanced_accuracy": 0.9074074074074074,
+        "macro_f1": 0.9354660783232212,
+        "mcc": 0.878595370213959,
+        "roc_auc": 0.9734567901234568,
+        "auprc": 0.9908639496542966,
+        "log_loss": 0.15465253990935057
+      },
+      "molecules::tdc_hia_hou::chemberta_zinc_base": {
+        "accuracy": 0.8632478632478633,
+        "balanced_accuracy": 0.7555555555555555,
+        "macro_f1": 0.7835337650323775,
+        "mcc": 0.5838867509339625,
+        "roc_auc": 0.9061728395061729,
+        "auprc": 0.9682514362096662,
+        "log_loss": 0.3188755657980895
+      },
+      "molecules::tdc_hia_hou::pubchem10m_bpe": {
+        "accuracy": 0.9230769230769231,
+        "balanced_accuracy": 0.8722222222222222,
+        "macro_f1": 0.8871745419479267,
+        "mcc": 0.7767626503982817,
+        "roc_auc": 0.9786008230452675,
+        "auprc": 0.9936850022635899,
+        "log_loss": 0.16542550324641542
+      },
+      "molecules::tdc_hiv::chemberta_77m_mtr": {
+        "accuracy": 0.983,
+        "balanced_accuracy": 0.5526315789473684,
+        "macro_f1": 0.5909429967034818,
+        "mcc": 0.321667682695851,
+        "roc_auc": 0.5326197757390418,
+        "auprc": 0.12400761655411299,
+        "log_loss": 0.09163665243742673
+      },
+      "molecules::tdc_hiv::smiles_bert": {
+        "accuracy": 0.982,
+        "balanced_accuracy": 0.5521218949514459,
+        "macro_f1": 0.5863590403529736,
+        "mcc": 0.2602275601782702,
+        "roc_auc": 0.5403991630452277,
+        "auprc": 0.12691761472163235,
+        "log_loss": 0.09070583637321326
+      },
+      "molecules::tdc_hiv::chemberta_zinc_base": {
+        "accuracy": 0.981,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49520444220090865,
+        "mcc": 0.0,
+        "roc_auc": 0.6233435270132518,
+        "auprc": 0.13753354731608436,
+        "log_loss": 0.08841942585423129
+      },
+      "molecules::tdc_hiv::pubchem10m_bpe": {
+        "accuracy": 0.981,
+        "balanced_accuracy": 0.5258061054777616,
+        "macro_f1": 0.5428186433744797,
+        "mcc": 0.15771881282028982,
+        "roc_auc": 0.6307205322173937,
+        "auprc": 0.11454959702082089,
+        "log_loss": 0.09098838552773296
+      },
+      "molecules::tdc_pampa_ncats::chemberta_77m_mtr": {
+        "accuracy": 0.8700980392156863,
+        "balanced_accuracy": 0.5488797321658512,
+        "macro_f1": 0.5570214073542968,
+        "mcc": 0.21591657104923892,
+        "roc_auc": 0.6998969868658254,
+        "auprc": 0.9186575492144953,
+        "log_loss": 0.3671036802212064
+      },
+      "molecules::tdc_pampa_ncats::smiles_bert": {
+        "accuracy": 0.8553921568627451,
+        "balanced_accuracy": 0.5250321916044296,
+        "macro_f1": 0.5203156447402507,
+        "mcc": 0.10119506914861966,
+        "roc_auc": 0.7352047386041721,
+        "auprc": 0.936412504634997,
+        "log_loss": 0.3611830348353483
+      },
+      "molecules::tdc_pampa_ncats::chemberta_zinc_base": {
+        "accuracy": 0.8676470588235294,
+        "balanced_accuracy": 0.5474633015709502,
+        "macro_f1": 0.5549090909090909,
+        "mcc": 0.20015435398790768,
+        "roc_auc": 0.6763842389904713,
+        "auprc": 0.9069809739803263,
+        "log_loss": 0.3747191816589731
+      },
+      "molecules::tdc_pampa_ncats::pubchem10m_bpe": {
+        "accuracy": 0.8504901960784313,
+        "balanced_accuracy": 0.5452227659026526,
+        "macro_f1": 0.5521727395411606,
+        "mcc": 0.1430622178513996,
+        "roc_auc": 0.7467679629152717,
+        "auprc": 0.9407078991652332,
+        "log_loss": 0.3595656806301378
+      },
+      "molecules::tdc_sarscov2_3clpro_diamond::chemberta_77m_mtr": {
+        "accuracy": 0.8806818181818182,
+        "balanced_accuracy": 0.5411674347158217,
+        "macro_f1": 0.5478899082568808,
+        "mcc": 0.17908741940804573,
+        "roc_auc": 0.6202764976958525,
+        "auprc": 0.33738487592082156,
+        "log_loss": 0.35508725929604307
+      },
+      "molecules::tdc_sarscov2_3clpro_diamond::smiles_bert": {
+        "accuracy": 0.8806818181818182,
+        "balanced_accuracy": 0.5617511520737327,
+        "macro_f1": 0.5788034188034188,
+        "mcc": 0.22062283997116494,
+        "roc_auc": 0.7271889400921658,
+        "auprc": 0.3550837607915339,
+        "log_loss": 0.3288301224774076
+      },
+      "molecules::tdc_sarscov2_3clpro_diamond::chemberta_zinc_base": {
+        "accuracy": 0.8806818181818182,
+        "balanced_accuracy": 0.5205837173579109,
+        "macro_f1": 0.5115633672525439,
+        "mcc": 0.1259040440578272,
+        "roc_auc": 0.7038402457757296,
+        "auprc": 0.3756500223361534,
+        "log_loss": 0.34364367784734695
+      },
+      "molecules::tdc_sarscov2_3clpro_diamond::pubchem10m_bpe": {
+        "accuracy": 0.8920454545454546,
+        "balanced_accuracy": 0.5887864823348694,
+        "macro_f1": 0.618917378917379,
+        "mcc": 0.3172139340878939,
+        "roc_auc": 0.6966205837173578,
+        "auprc": 0.3610569153413025,
+        "log_loss": 0.3461362535313493
+      },
+      "molecules::tdc_skin_reaction::chemberta_77m_mtr": {
+        "accuracy": 0.6219512195121951,
+        "balanced_accuracy": 0.5680851063829787,
+        "macro_f1": 0.5253034547152194,
+        "mcc": 0.2058253293301226,
+        "roc_auc": 0.5699088145896656,
+        "auprc": 0.6588152157514652,
+        "log_loss": 0.7500050618921346
+      },
+      "molecules::tdc_skin_reaction::smiles_bert": {
+        "accuracy": 0.6585365853658537,
+        "balanced_accuracy": 0.6218844984802432,
+        "macro_f1": 0.6134680134680135,
+        "mcc": 0.2857684941198756,
+        "roc_auc": 0.656838905775076,
+        "auprc": 0.721892919555683,
+        "log_loss": 0.6555617082075179
+      },
+      "molecules::tdc_skin_reaction::chemberta_zinc_base": {
+        "accuracy": 0.6341463414634146,
+        "balanced_accuracy": 0.6042553191489362,
+        "macro_f1": 0.5998698763825634,
+        "mcc": 0.2295732302432943,
+        "roc_auc": 0.6547112462006079,
+        "auprc": 0.6744576521360727,
+        "log_loss": 0.6872310452242432
+      },
+      "molecules::tdc_skin_reaction::pubchem10m_bpe": {
+        "accuracy": 0.6463414634146342,
+        "balanced_accuracy": 0.603951367781155,
+        "macro_f1": 0.5873676904390075,
+        "mcc": 0.2594843655196922,
+        "roc_auc": 0.6358662613981763,
+        "auprc": 0.6701189369713177,
+        "log_loss": 0.7337989105688305
+      },
+      "proteins::prot_allergenic::esm2_650m": {
+        "accuracy": 0.9366197183098591,
+        "balanced_accuracy": 0.9366197183098591,
+        "macro_f1": 0.9366000669717602,
+        "mcc": 0.8737812762100967,
+        "roc_auc": 0.9794234154929577,
+        "auprc": 0.9832099705409632,
+        "log_loss": 0.17262380241773345
+      },
+      "proteins::prot_allergenic::prot_bert": {
+        "accuracy": 0.9225352112676056,
+        "balanced_accuracy": 0.9225352112676056,
+        "macro_f1": 0.9225111929654848,
+        "mcc": 0.8455947834291259,
+        "roc_auc": 0.976540802916088,
+        "auprc": 0.9797233886738665,
+        "log_loss": 0.1892965678019747
+      },
+      "proteins::prot_allergenic::ankh_base": {
+        "accuracy": 0.9242957746478874,
+        "balanced_accuracy": 0.9242957746478873,
+        "macro_f1": 0.9242356561445304,
+        "mcc": 0.8499414671096109,
+        "roc_auc": 0.9739139059710376,
+        "auprc": 0.9789002295851171,
+        "log_loss": 0.19813052583454052
+      },
+      "proteins::prot_allergenic::esm2_150m": {
+        "accuracy": 0.9242957746478874,
+        "balanced_accuracy": 0.9242957746478873,
+        "macro_f1": 0.9242429412001898,
+        "mcc": 0.8497776576034973,
+        "roc_auc": 0.9754094549692521,
+        "auprc": 0.9794162493691233,
+        "log_loss": 0.19320209822177173
+      },
+      "proteins::prot_anticancer_peptide::esm2_650m": {
+        "accuracy": 0.8578947368421053,
+        "balanced_accuracy": 0.45803921568627454,
+        "macro_f1": 0.41,
+        "mcc": 0.6101058408144272,
+        "roc_auc": 0.9555280078925948,
+        "auprc": 0.7115167847452528,
+        "log_loss": 0.33565513948069187
+      },
+      "proteins::prot_anticancer_peptide::prot_bert": {
+        "accuracy": 0.9,
+        "balanced_accuracy": 0.5648529411764706,
+        "macro_f1": 0.5505551564009981,
+        "mcc": 0.72360768603928,
+        "roc_auc": 0.9486141953365685,
+        "auprc": 0.5859914989358426,
+        "log_loss": 0.30877786370216376
+      },
+      "proteins::prot_anticancer_peptide::ankh_base": {
+        "accuracy": 0.8578947368421053,
+        "balanced_accuracy": 0.47549019607843135,
+        "macro_f1": 0.4557407407407408,
+        "mcc": 0.6039165534243023,
+        "roc_auc": 0.9599810193914666,
+        "auprc": 0.668715800343221,
+        "log_loss": 0.3117785517597283
+      },
+      "proteins::prot_anticancer_peptide::esm2_150m": {
+        "accuracy": 0.868421052631579,
+        "balanced_accuracy": 0.47441176470588237,
+        "macro_f1": 0.4359090909090909,
+        "mcc": 0.638913955235568,
+        "roc_auc": 0.9655842078555017,
+        "auprc": 0.6964983205367067,
+        "log_loss": 0.30608476329507617
+      },
+      "proteins::prot_cloning_stage::esm2_650m": {
+        "accuracy": 0.69375,
+        "balanced_accuracy": 0.6526341957251663,
+        "macro_f1": 0.6556836787036842,
+        "mcc": 0.3348326735279415,
+        "roc_auc": 0.7176832030668635,
+        "auprc": 0.6491589394554469,
+        "log_loss": 0.5925076978721954
+      },
+      "proteins::prot_cloning_stage::prot_bert": {
+        "accuracy": 0.673125,
+        "balanced_accuracy": 0.6273144173008265,
+        "macro_f1": 0.6276783422075631,
+        "mcc": 0.2850484878338035,
+        "roc_auc": 0.7138275445301984,
+        "auprc": 0.6246414355023804,
+        "log_loss": 0.6013601334435104
+      },
+      "proteins::prot_cloning_stage::ankh_base": {
+        "accuracy": 0.705625,
+        "balanced_accuracy": 0.6654784859977856,
+        "macro_f1": 0.6694967324647096,
+        "mcc": 0.36223696773457825,
+        "roc_auc": 0.7468316545068274,
+        "auprc": 0.6737002303364326,
+        "log_loss": 0.5723595768428845
+      },
+      "proteins::prot_cloning_stage::esm2_150m": {
+        "accuracy": 0.701875,
+        "balanced_accuracy": 0.6618297164557707,
+        "macro_f1": 0.665596241638263,
+        "mcc": 0.35375242253384787,
+        "roc_auc": 0.7356980827196171,
+        "auprc": 0.6724656581935607,
+        "log_loss": 0.5762694641955557
+      },
+      "proteins::prot_deeploc_binary::esm2_650m": {
+        "accuracy": 0.9508928571428571,
+        "balanced_accuracy": 0.9511904761904761,
+        "macro_f1": 0.9479806616420714,
+        "mcc": 0.8963418428678125,
+        "roc_auc": 0.9886054421768709,
+        "auprc": 0.9806803605842992,
+        "log_loss": 0.13654504779978627
+      },
+      "proteins::prot_deeploc_binary::prot_bert": {
+        "accuracy": 0.9285714285714286,
+        "balanced_accuracy": 0.9333333333333333,
+        "macro_f1": 0.9251336898395721,
+        "mcc": 0.8528543616252254,
+        "roc_auc": 0.989328231292517,
+        "auprc": 0.9827380944114745,
+        "log_loss": 0.13953552496941207
+      },
+      "proteins::prot_deeploc_binary::ankh_base": {
+        "accuracy": 0.9330357142857143,
+        "balanced_accuracy": 0.9321428571428572,
+        "macro_f1": 0.9290645386028247,
+        "mcc": 0.8585015539868494,
+        "roc_auc": 0.9852465986394557,
+        "auprc": 0.9741710609104728,
+        "log_loss": 0.14915621675467744
+      },
+      "proteins::prot_deeploc_binary::esm2_150m": {
+        "accuracy": 0.96875,
+        "balanced_accuracy": 0.9654761904761904,
+        "macro_f1": 0.9665864001534298,
+        "mcc": 0.9332167503267265,
+        "roc_auc": 0.992517006802721,
+        "auprc": 0.9873698925364277,
+        "log_loss": 0.12143173328820293
+      },
+      "proteins::prot_deeploc_multi::esm2_650m": {
+        "accuracy": 0.8333333333333334,
+        "balanced_accuracy": 0.7778648893664171,
+        "macro_f1": 0.7948153882203945,
+        "mcc": 0.7875543698755418,
+        "roc_auc": 0.9665707593480949,
+        "auprc": 0.8315787736826546,
+        "log_loss": 0.518860696866667
+      },
+      "proteins::prot_deeploc_multi::prot_bert": {
+        "accuracy": 0.7927927927927928,
+        "balanced_accuracy": 0.7189608245675465,
+        "macro_f1": 0.7576293401469971,
+        "mcc": 0.735345038467307,
+        "roc_auc": 0.9497384949238473,
+        "auprc": 0.7986400200961478,
+        "log_loss": 0.6114701540626241
+      },
+      "proteins::prot_deeploc_multi::ankh_base": {
+        "accuracy": 0.8108108108108109,
+        "balanced_accuracy": 0.6820466453377846,
+        "macro_f1": 0.7134466098872878,
+        "mcc": 0.7602495419330484,
+        "roc_auc": 0.9676455226515218,
+        "auprc": 0.8325756090777652,
+        "log_loss": 0.5424820844246557
+      },
+      "proteins::prot_deeploc_multi::esm2_150m": {
+        "accuracy": 0.8288288288288288,
+        "balanced_accuracy": 0.7809639727361246,
+        "macro_f1": 0.817740085566987,
+        "mcc": 0.7824688638986315,
+        "roc_auc": 0.9629580129846422,
+        "auprc": 0.8288986391310793,
+        "log_loss": 0.5345639516985754
+      },
+      "proteins::prot_hemolytic_peptide::esm2_650m": {
+        "accuracy": 0.7930660888407367,
+        "balanced_accuracy": 0.5309558550052929,
+        "macro_f1": 0.5129072276606738,
+        "mcc": 0.13709801992847712,
+        "roc_auc": 0.686346665522273,
+        "auprc": 0.35289527497401413,
+        "log_loss": 0.4789452846797856
+      },
+      "proteins::prot_hemolytic_peptide::prot_bert": {
+        "accuracy": 0.7952329360780065,
+        "balanced_accuracy": 0.5284524933482104,
+        "macro_f1": 0.5065050793085011,
+        "mcc": 0.13932840158564638,
+        "roc_auc": 0.6958379824335537,
+        "auprc": 0.3751104914236269,
+        "log_loss": 0.47376996023123286
+      },
+      "proteins::prot_hemolytic_peptide::ankh_base": {
+        "accuracy": 0.7919826652221018,
+        "balanced_accuracy": 0.5264033130203416,
+        "macro_f1": 0.5045957732304596,
+        "mcc": 0.12262891505836515,
+        "roc_auc": 0.7262895888764913,
+        "auprc": 0.3816419147578715,
+        "log_loss": 0.4633348658654206
+      },
+      "proteins::prot_hemolytic_peptide::esm2_150m": {
+        "accuracy": 0.7876489707475623,
+        "balanced_accuracy": 0.5217363316453523,
+        "macro_f1": 0.49821373097235166,
+        "mcc": 0.09775189774247864,
+        "roc_auc": 0.7079149143135067,
+        "auprc": 0.37147916672520176,
+        "log_loss": 0.4732648795168532
+      },
+      "proteins::prot_metal_ion::esm2_650m": {
+        "accuracy": 0.8080357142857143,
+        "balanced_accuracy": 0.8103641456582633,
+        "macro_f1": 0.8080012757390316,
+        "mcc": 0.6199102221652243,
+        "roc_auc": 0.89015606242497,
+        "auprc": 0.9013242162651055,
+        "log_loss": 0.4097385741105755
+      },
+      "proteins::prot_metal_ion::prot_bert": {
+        "accuracy": 0.7901785714285714,
+        "balanced_accuracy": 0.7935574229691877,
+        "macro_f1": 0.790174389636273,
+        "mcc": 0.5874675734234462,
+        "roc_auc": 0.8675070028011205,
+        "auprc": 0.8995994646331495,
+        "log_loss": 0.4295140798099876
+      },
+      "proteins::prot_metal_ion::ankh_base": {
+        "accuracy": 0.8348214285714286,
+        "balanced_accuracy": 0.838375350140056,
+        "macro_f1": 0.8348181365221724,
+        "mcc": 0.6771572792896212,
+        "roc_auc": 0.8999599839935973,
+        "auprc": 0.9040344828992785,
+        "log_loss": 0.42521460260256105
+      },
+      "proteins::prot_metal_ion::esm2_150m": {
+        "accuracy": 0.7857142857142857,
+        "balanced_accuracy": 0.7854341736694678,
+        "macro_f1": 0.7850975375759515,
+        "mcc": 0.5703208829623766,
+        "roc_auc": 0.8828331332533013,
+        "auprc": 0.8983896124237596,
+        "log_loss": 0.4303695712063299
+      },
+      "proteins::prot_nonfouling_peptide::esm2_650m": {
+        "accuracy": 0.855,
+        "balanced_accuracy": 0.7766267476845023,
+        "macro_f1": 0.7790681341494481,
+        "mcc": 0.5582178947601176,
+        "roc_auc": 0.9309197097516371,
+        "auprc": 0.7550836511408073,
+        "log_loss": 0.24869299836155334
+      },
+      "proteins::prot_nonfouling_peptide::prot_bert": {
+        "accuracy": 0.85625,
+        "balanced_accuracy": 0.7861955046899888,
+        "macro_f1": 0.7843190577556054,
+        "mcc": 0.5686832220007393,
+        "roc_auc": 0.9263146717007846,
+        "auprc": 0.7199618396696749,
+        "log_loss": 0.2582221609774785
+      },
+      "proteins::prot_nonfouling_peptide::ankh_base": {
+        "accuracy": 0.868125,
+        "balanced_accuracy": 0.8046781900772816,
+        "macro_f1": 0.8023501364990097,
+        "mcc": 0.604763616391752,
+        "roc_auc": 0.9347613710105599,
+        "auprc": 0.7468837148540864,
+        "log_loss": 0.24660502040989749
+      },
+      "proteins::prot_nonfouling_peptide::esm2_150m": {
+        "accuracy": 0.86375,
+        "balanced_accuracy": 0.7953277092796884,
+        "macro_f1": 0.7946805304400242,
+        "mcc": 0.5893662101260643,
+        "roc_auc": 0.9349277328771164,
+        "auprc": 0.7569622988515966,
+        "log_loss": 0.24620599358848758
+      },
+      "proteins::prot_remote_homology::esm2_650m": {
+        "accuracy": 0.8116666666666666,
+        "balanced_accuracy": 0.7216786836352054,
+        "macro_f1": 0.7204578541547288,
+        "mcc": 0.7602853564445985,
+        "roc_auc": 0.9391360570700502,
+        "auprc": 0.7965919572858017,
+        "log_loss": 0.5783557053159784
+      },
+      "proteins::prot_remote_homology::prot_bert": {
+        "accuracy": 0.7383333333333333,
+        "balanced_accuracy": 0.6649822158517811,
+        "macro_f1": 0.6719426362117654,
+        "mcc": 0.6670193601662591,
+        "roc_auc": 0.9300528282265628,
+        "auprc": 0.7594192426410814,
+        "log_loss": 0.663337452909486
+      },
+      "proteins::prot_remote_homology::ankh_base": {
+        "accuracy": 0.8533333333333334,
+        "balanced_accuracy": 0.7490490306794654,
+        "macro_f1": 0.7656388948704429,
+        "mcc": 0.8145261602656337,
+        "roc_auc": 0.956360686396101,
+        "auprc": 0.8247698386671344,
+        "log_loss": 0.41132940731185913
+      },
+      "proteins::prot_remote_homology::esm2_150m": {
+        "accuracy": 0.8033333333333333,
+        "balanced_accuracy": 0.7251198559894212,
+        "macro_f1": 0.7197619355972957,
+        "mcc": 0.7503043318801318,
+        "roc_auc": 0.9456521576382019,
+        "auprc": 0.804453317765231,
+        "log_loss": 0.514600373828398
+      },
+      "proteins::prot_sorting_signal::esm2_650m": {
+        "accuracy": 0.786833855799373,
+        "balanced_accuracy": 0.6217791519705096,
+        "macro_f1": 0.6579860583537054,
+        "mcc": 0.7006834465412953,
+        "roc_auc": 0.9605181955261491,
+        "auprc": 0.7611125521991516,
+        "log_loss": 0.5650149546760166
+      },
+      "proteins::prot_sorting_signal::prot_bert": {
+        "accuracy": 0.774294670846395,
+        "balanced_accuracy": 0.5641003005911993,
+        "macro_f1": 0.5825686498612322,
+        "mcc": 0.6808981997341415,
+        "roc_auc": 0.950516306959298,
+        "auprc": 0.6991218673900546,
+        "log_loss": 0.6500633851757416
+      },
+      "proteins::prot_sorting_signal::ankh_base": {
+        "accuracy": 0.7617554858934169,
+        "balanced_accuracy": 0.5753997161247453,
+        "macro_f1": 0.6284082852777243,
+        "mcc": 0.6620779926332111,
+        "roc_auc": 0.9582495637490884,
+        "auprc": 0.7166127485826445,
+        "log_loss": 0.6690926062056222
+      },
+      "proteins::prot_sorting_signal::esm2_150m": {
+        "accuracy": 0.8119122257053292,
+        "balanced_accuracy": 0.6926481692430356,
+        "macro_f1": 0.713704715438004,
+        "mcc": 0.7379862997421981,
+        "roc_auc": 0.9671656748379943,
+        "auprc": 0.7388585820825132,
+        "log_loss": 0.5718433166395107
+      },
+      "proteins::prot_temperature_stability::esm2_650m": {
+        "accuracy": 0.935,
+        "balanced_accuracy": 0.9351810181018102,
+        "macro_f1": 0.9349950230564528,
+        "mcc": 0.8706477929760332,
+        "roc_auc": 0.9844421942194219,
+        "auprc": 0.9856822759338268,
+        "log_loss": 0.16058194702809353
+      },
+      "proteins::prot_temperature_stability::prot_bert": {
+        "accuracy": 0.904375,
+        "balanced_accuracy": 0.904496699669967,
+        "macro_f1": 0.9043740661529898,
+        "mcc": 0.8090597768851393,
+        "roc_auc": 0.9691547279727972,
+        "auprc": 0.9721795180179587,
+        "log_loss": 0.22285663111602902
+      },
+      "proteins::prot_temperature_stability::ankh_base": {
+        "accuracy": 0.851875,
+        "balanced_accuracy": 0.8519289428942894,
+        "macro_f1": 0.8518735534526705,
+        "mcc": 0.7038276408199208,
+        "roc_auc": 0.9283615861586159,
+        "auprc": 0.9279483896454781,
+        "log_loss": 0.34213943654252993
+      },
+      "proteins::prot_temperature_stability::esm2_150m": {
+        "accuracy": 0.92,
+        "balanced_accuracy": 0.9201545154515451,
+        "macro_f1": 0.9199968748779249,
+        "mcc": 0.8404797877799279,
+        "roc_auc": 0.9800495674567455,
+        "auprc": 0.9819386546949564,
+        "log_loss": 0.1797370198227781
+      },
+      "proteins::prot_toxin_peptide::esm2_650m": {
+        "accuracy": 0.8575685339690108,
+        "balanced_accuracy": 0.8576572237920095,
+        "macro_f1": 0.8573922295083249,
+        "mcc": 0.7172105519513324,
+        "roc_auc": 0.9281946593135272,
+        "auprc": 0.9393719267972719,
+        "log_loss": 0.3316008448451123
+      },
+      "proteins::prot_toxin_peptide::prot_bert": {
+        "accuracy": 0.8277711561382598,
+        "balanced_accuracy": 0.8278653591261469,
+        "macro_f1": 0.82752803893709,
+        "mcc": 0.657705631339445,
+        "roc_auc": 0.9044468310894609,
+        "auprc": 0.908772462596573,
+        "log_loss": 0.39228249241690183
+      },
+      "proteins::prot_toxin_peptide::ankh_base": {
+        "accuracy": 0.8498212157330155,
+        "balanced_accuracy": 0.8499254883743397,
+        "macro_f1": 0.8495594111820759,
+        "mcc": 0.7024403158381375,
+        "roc_auc": 0.9270127017816021,
+        "auprc": 0.9373079435546737,
+        "log_loss": 0.33710271167989364
+      },
+      "proteins::prot_toxin_peptide::esm2_150m": {
+        "accuracy": 0.8641239570917759,
+        "balanced_accuracy": 0.8641970573235196,
+        "macro_f1": 0.8640126822540859,
+        "mcc": 0.7296889555370127,
+        "roc_auc": 0.9347394650221545,
+        "auprc": 0.944235047828872,
+        "log_loss": 0.317835609187849
+      },
+      "text::text_agnews::bge_large_en_v1_5": {
+        "accuracy": 0.8654708520179372,
+        "balanced_accuracy": 0.8559782608695652,
+        "macro_f1": 0.8632257713845847,
+        "mcc": 0.8099750470463302,
+        "roc_auc": 0.9657526295206286,
+        "auprc": 0.9260876266607061,
+        "log_loss": 0.3867343134872091
+      },
+      "text::text_agnews::arctic_embed_m_v2": {
+        "accuracy": 0.852017937219731,
+        "balanced_accuracy": 0.8382648953301127,
+        "macro_f1": 0.8468662964260103,
+        "mcc": 0.792488360506037,
+        "roc_auc": 0.9644118459895115,
+        "auprc": 0.9256879077504004,
+        "log_loss": 0.4246542886067913
+      },
+      "text::text_agnews::nomic_embed_v1_5": {
+        "accuracy": 0.874439461883408,
+        "balanced_accuracy": 0.869235836627141,
+        "macro_f1": 0.8751624352571217,
+        "mcc": 0.8231649684760238,
+        "roc_auc": 0.9748733019746324,
+        "auprc": 0.942934542267126,
+        "log_loss": 0.36622419061370065
+      },
+      "text::text_financial_phrasebank::bge_large_en_v1_5": {
+        "accuracy": 0.9028697571743929,
+        "balanced_accuracy": 0.865028610953908,
+        "macro_f1": 0.8828489897027852,
+        "mcc": 0.8180457770979652,
+        "roc_auc": 0.9653951064691575,
+        "auprc": 0.9453360239848841,
+        "log_loss": 0.2748685694409856
+      },
+      "text::text_financial_phrasebank::arctic_embed_m_v2": {
+        "accuracy": 0.8631346578366446,
+        "balanced_accuracy": 0.7939005219141042,
+        "macro_f1": 0.8096880131362889,
+        "mcc": 0.7407765348521184,
+        "roc_auc": 0.942411623764654,
+        "auprc": 0.8764448137548134,
+        "log_loss": 0.38031674157531353
+      },
+      "text::text_financial_phrasebank::nomic_embed_v1_5": {
+        "accuracy": 0.8830022075055187,
+        "balanced_accuracy": 0.8594636232157454,
+        "macro_f1": 0.8630938403302638,
+        "mcc": 0.7813310500401714,
+        "roc_auc": 0.9728268442151621,
+        "auprc": 0.9497861681900236,
+        "log_loss": 0.26539033474999074
+      },
+      "text::text_imdb::bge_large_en_v1_5": {
+        "accuracy": 0.9583333333333334,
+        "balanced_accuracy": 0.919,
+        "macro_f1": 0.9240856111867444,
+        "mcc": 0.8483189356008414,
+        "roc_auc": 0.9881199999999999,
+        "auprc": 0.9490292290892272,
+        "log_loss": 0.10126294674951715
+      },
+      "text::text_imdb::arctic_embed_m_v2": {
+        "accuracy": 0.9483333333333334,
+        "balanced_accuracy": 0.857,
+        "macro_f1": 0.8963066202090593,
+        "mcc": 0.8045868505015478,
+        "roc_auc": 0.985,
+        "auprc": 0.9241067731666194,
+        "log_loss": 0.12461936051192493
+      },
+      "text::text_imdb::nomic_embed_v1_5": {
+        "accuracy": 0.93,
+        "balanced_accuracy": 0.838,
+        "macro_f1": 0.8639867009218679,
+        "mcc": 0.733432063371331,
+        "roc_auc": 0.97321,
+        "auprc": 0.8912879292271514,
+        "log_loss": 0.15533105466561054
+      },
+      "text::text_sst2::bge_large_en_v1_5": {
+        "accuracy": 0.9241071428571429,
+        "balanced_accuracy": 0.9264670369475971,
+        "macro_f1": 0.9237652899841845,
+        "mcc": 0.8493522364150877,
+        "roc_auc": 0.9795540529662723,
+        "auprc": 0.9799634460518849,
+        "log_loss": 0.19440919338429197
+      },
+      "text::text_sst2::arctic_embed_m_v2": {
+        "accuracy": 0.8571428571428571,
+        "balanced_accuracy": 0.8539805200032198,
+        "macro_f1": 0.8551919191919192,
+        "mcc": 0.7109431491222925,
+        "roc_auc": 0.949770586814779,
+        "auprc": 0.9583107338569192,
+        "log_loss": 0.28516966577667313
+      },
+      "text::text_sst2::nomic_embed_v1_5": {
+        "accuracy": 0.8839285714285714,
+        "balanced_accuracy": 0.8863398534975448,
+        "macro_f1": 0.8834733893557423,
+        "mcc": 0.7692200219427651,
+        "roc_auc": 0.9534733961200998,
+        "auprc": 0.9664238375723557,
+        "log_loss": 0.2734652497208094
+      },
+      "text::text_tweet_emotion::bge_large_en_v1_5": {
+        "accuracy": 0.7309417040358744,
+        "balanced_accuracy": 0.641785094852943,
+        "macro_f1": 0.6586156743864655,
+        "mcc": 0.605828553056815,
+        "roc_auc": 0.8936420630238119,
+        "auprc": 0.7529092364494983,
+        "log_loss": 0.6886561968591507
+      },
+      "text::text_tweet_emotion::arctic_embed_m_v2": {
+        "accuracy": 0.6502242152466368,
+        "balanced_accuracy": 0.5537437658078017,
+        "macro_f1": 0.5729929792429793,
+        "mcc": 0.4824093932365711,
+        "roc_auc": 0.8460840691479161,
+        "auprc": 0.7046290376743691,
+        "log_loss": 0.8663217711545854
+      },
+      "text::text_tweet_emotion::nomic_embed_v1_5": {
+        "accuracy": 0.7174887892376681,
+        "balanced_accuracy": 0.6444081779845007,
+        "macro_f1": 0.6647980541937888,
+        "mcc": 0.5871708978381064,
+        "roc_auc": 0.8835292572257867,
+        "auprc": 0.7537924948161999,
+        "log_loss": 0.7279893254353409
+      },
+      "text::text_tweet_hate::bge_large_en_v1_5": {
+        "accuracy": 0.7283333333333334,
+        "balanced_accuracy": 0.7132594417077176,
+        "macro_f1": 0.7160072595281306,
+        "mcc": 0.4356172302294124,
+        "roc_auc": 0.7888216110198869,
+        "auprc": 0.7226852355129889,
+        "log_loss": 0.5511884692036877
+      },
+      "text::text_tweet_hate::arctic_embed_m_v2": {
+        "accuracy": 0.7233333333333334,
+        "balanced_accuracy": 0.7012862616310892,
+        "macro_f1": 0.7048888888888889,
+        "mcc": 0.42256001609234056,
+        "roc_auc": 0.7970488961868274,
+        "auprc": 0.7129144379430207,
+        "log_loss": 0.5438277784160078
+      },
+      "text::text_tweet_hate::nomic_embed_v1_5": {
+        "accuracy": 0.73,
+        "balanced_accuracy": 0.7125068418171867,
+        "macro_f1": 0.7158260340774871,
+        "mcc": 0.4379174650198816,
+        "roc_auc": 0.7975905400474366,
+        "auprc": 0.7104336332988351,
+        "log_loss": 0.5423380251450647
+      },
+      "text::text_tweet_irony::bge_large_en_v1_5": {
+        "accuracy": 0.6160714285714286,
+        "balanced_accuracy": 0.6176353344494938,
+        "macro_f1": 0.6046950668964951,
+        "mcc": 0.2509681415376307,
+        "roc_auc": 0.6769114246990353,
+        "auprc": 0.6859646810827988,
+        "log_loss": 0.6420033481093903
+      },
+      "text::text_tweet_irony::arctic_embed_m_v2": {
+        "accuracy": 0.6741071428571429,
+        "balanced_accuracy": 0.6746791038826436,
+        "macro_f1": 0.6730057791909132,
+        "mcc": 0.35210594003103907,
+        "roc_auc": 0.6913417842621383,
+        "auprc": 0.6568183023145548,
+        "log_loss": 0.6442197883982327
+      },
+      "text::text_tweet_irony::nomic_embed_v1_5": {
+        "accuracy": 0.6294642857142857,
+        "balanced_accuracy": 0.6314677509367775,
+        "macro_f1": 0.6108424908424908,
+        "mcc": 0.29383030650734576,
+        "roc_auc": 0.6960456031252491,
+        "auprc": 0.7158382851227053,
+        "log_loss": 0.6301456202705314
+      },
+      "text::text_tweet_offensive::bge_large_en_v1_5": {
+        "accuracy": 0.705,
+        "balanced_accuracy": 0.6479843280272042,
+        "macro_f1": 0.6536644066801679,
+        "mcc": 0.3159314937335318,
+        "roc_auc": 0.752839929032576,
+        "auprc": 0.5884859688957218,
+        "log_loss": 0.5576924153296244
+      },
+      "text::text_tweet_offensive::arctic_embed_m_v2": {
+        "accuracy": 0.7016666666666667,
+        "balanced_accuracy": 0.6211251293676999,
+        "macro_f1": 0.6252080723341441,
+        "mcc": 0.2849274067696657,
+        "roc_auc": 0.7120090187767977,
+        "auprc": 0.5633517511759093,
+        "log_loss": 0.5833306417614456
+      },
+      "text::text_tweet_offensive::nomic_embed_v1_5": {
+        "accuracy": 0.7316666666666667,
+        "balanced_accuracy": 0.6775540880193189,
+        "macro_f1": 0.6849715789576668,
+        "mcc": 0.3790599247518047,
+        "roc_auc": 0.7701567197279583,
+        "auprc": 0.6105094156113918,
+        "log_loss": 0.5445483834815722
+      },
+      "text::text_yelp_polarity::bge_large_en_v1_5": {
+        "accuracy": 0.9330357142857143,
+        "balanced_accuracy": 0.9316437480012791,
+        "macro_f1": 0.9326477839918215,
+        "mcc": 0.8662358316100734,
+        "roc_auc": 0.9854493124400384,
+        "auprc": 0.9846887129588362,
+        "log_loss": 0.17193351999856996
+      },
+      "text::text_yelp_polarity::arctic_embed_m_v2": {
+        "accuracy": 0.9107142857142857,
+        "balanced_accuracy": 0.9094979213303486,
+        "macro_f1": 0.9102564102564102,
+        "mcc": 0.8210992062341294,
+        "roc_auc": 0.9678205948193157,
+        "auprc": 0.9615000921795132,
+        "log_loss": 0.23619038794850564
+      },
+      "text::text_yelp_polarity::nomic_embed_v1_5": {
+        "accuracy": 0.96875,
+        "balanced_accuracy": 0.9669811320754718,
+        "macro_f1": 0.9685235370872227,
+        "mcc": 0.9389677190183326,
+        "roc_auc": 0.9976415094339623,
+        "auprc": 0.9977243158775815,
+        "log_loss": 0.07893001586628837
+      },
+      "timeseries::ts_chinatown::minirocket": {
+        "accuracy": 0.9452054794520548,
+        "balanced_accuracy": 0.9615384615384616,
+        "macro_f1": 0.9365217391304348,
+        "mcc": 0.8805592628464115,
+        "roc_auc": 0.9981684981684982,
+        "auprc": 0.9992673328123257,
+        "log_loss": 0.1362900162520678
+      },
+      "timeseries::ts_chinatown::rocket": {
+        "accuracy": 0.958904109589041,
+        "balanced_accuracy": 0.9711538461538461,
+        "macro_f1": 0.9518151815181518,
+        "mcc": 0.908030412909849,
+        "roc_auc": 0.9981684981684982,
+        "auprc": 0.9992877492877497,
+        "log_loss": 0.09818379862199372
+      },
+      "timeseries::ts_chinatown::chronos_t5_small": {
+        "accuracy": 0.9041095890410958,
+        "balanced_accuracy": 0.8617216117216118,
+        "macro_f1": 0.8775461298825784,
+        "mcc": 0.7597980503351383,
+        "roc_auc": 0.9308608058608059,
+        "auprc": 0.9682669929156261,
+        "log_loss": 0.2881251926804228
+      },
+      "timeseries::ts_ecg200::minirocket": {
+        "accuracy": 0.5714285714285714,
+        "balanced_accuracy": 0.55,
+        "macro_f1": 0.5333333333333333,
+        "mcc": 0.09128709291752768,
+        "roc_auc": 0.65,
+        "auprc": 0.8607614607614608,
+        "log_loss": 0.9806245203397109
+      },
+      "timeseries::ts_ecg200::rocket": {
+        "accuracy": 0.5714285714285714,
+        "balanced_accuracy": 0.55,
+        "macro_f1": 0.5333333333333333,
+        "mcc": 0.09128709291752768,
+        "roc_auc": 0.775,
+        "auprc": 0.9086435786435786,
+        "log_loss": 0.7893396443299868
+      },
+      "timeseries::ts_ecg200::chronos_t5_small": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.47593582887700536,
+        "mcc": 0.0,
+        "roc_auc": 0.7,
+        "auprc": 0.8847008547008547,
+        "log_loss": 1.098713890604311
+      },
+      "timeseries::ts_electric_devices::minirocket": {
+        "accuracy": 0.8779940119760479,
+        "balanced_accuracy": 0.8434362762285602,
+        "macro_f1": 0.8441906389530474,
+        "mcc": 0.8503445397013415,
+        "roc_auc": 0.9872603313146817,
+        "auprc": 0.9196935768084918,
+        "log_loss": 0.32992555018463915
+      },
+      "timeseries::ts_electric_devices::rocket": {
+        "accuracy": 0.8300898203592815,
+        "balanced_accuracy": 0.7784458732390256,
+        "macro_f1": 0.7732558351963984,
+        "mcc": 0.7920032867673057,
+        "roc_auc": 0.9758486976123767,
+        "auprc": 0.8530128949121231,
+        "log_loss": 0.44192264701396716
+      },
+      "timeseries::ts_electric_devices::chronos_t5_small": {
+        "accuracy": 0.8278443113772455,
+        "balanced_accuracy": 0.7639161183518105,
+        "macro_f1": 0.7656088047662755,
+        "mcc": 0.7890853002049029,
+        "roc_auc": 0.9736968340123386,
+        "auprc": 0.8499028361963139,
+        "log_loss": 0.4717219385992997
+      },
+      "timeseries::ts_ford_a::minirocket": {
+        "accuracy": 0.9016697588126159,
+        "balanced_accuracy": 0.9012991128010139,
+        "macro_f1": 0.9015341874597151,
+        "mcc": 0.803373329955952,
+        "roc_auc": 0.9644775996032403,
+        "auprc": 0.9628348980717183,
+        "log_loss": 0.24288065711351597
+      },
+      "timeseries::ts_ford_a::rocket": {
+        "accuracy": 0.9257884972170687,
+        "balanced_accuracy": 0.9260139416983524,
+        "macro_f1": 0.9257759784075574,
+        "mcc": 0.851781495223756,
+        "roc_auc": 0.9774962803769218,
+        "auprc": 0.9769120574438346,
+        "log_loss": 0.19403423817605756
+      },
+      "timeseries::ts_ford_a::chronos_t5_small": {
+        "accuracy": 0.8552875695732839,
+        "balanced_accuracy": 0.8552928858764535,
+        "macro_f1": 0.8552272727272727,
+        "mcc": 0.7104781139144238,
+        "roc_auc": 0.9426833636413733,
+        "auprc": 0.9410185381968579,
+        "log_loss": 0.302530121040699
+      },
+      "timeseries::ts_gunpoint::minirocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.04628520921554822
+      },
+      "timeseries::ts_gunpoint::rocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.0013895521128139802
+      },
+      "timeseries::ts_gunpoint::chronos_t5_small": {
+        "accuracy": 0.8333333333333334,
+        "balanced_accuracy": 0.8333333333333333,
+        "macro_f1": 0.8285714285714285,
+        "mcc": 0.7071067811865476,
+        "roc_auc": 0.9444444444444444,
+        "auprc": 0.9166666666666665,
+        "log_loss": 0.4982349863338413
+      },
+      "timeseries::ts_italy_power::minirocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.008683858058112202
+      },
+      "timeseries::ts_italy_power::rocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.014378804153212292
+      },
+      "timeseries::ts_italy_power::chronos_t5_small": {
+        "accuracy": 0.7777777777777778,
+        "balanced_accuracy": 0.775,
+        "macro_f1": 0.775,
+        "mcc": 0.55,
+        "roc_auc": 0.9500000000000001,
+        "auprc": 0.95,
+        "log_loss": 0.24678829004242145
+      },
+      "timeseries::ts_plane::minirocket": {
+        "accuracy": 0.9761904761904762,
+        "balanced_accuracy": 0.9761904761904763,
+        "macro_f1": 0.976023976023976,
+        "mcc": 0.972865864942325,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.033607509796154046
+      },
+      "timeseries::ts_plane::rocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.00017089288821889404
+      },
+      "timeseries::ts_plane::chronos_t5_small": {
+        "accuracy": 0.9761904761904762,
+        "balanced_accuracy": 0.9761904761904762,
+        "macro_f1": 0.9760239760239761,
+        "mcc": 0.972865864942325,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.11750121845222852
+      },
+      "timeseries::ts_sony_aibo::minirocket": {
+        "accuracy": 0.976,
+        "balanced_accuracy": 0.9746753246753247,
+        "macro_f1": 0.9756002342377513,
+        "mcc": 0.9513294959988298,
+        "roc_auc": 0.9981818181818181,
+        "auprc": 0.9977304569692339,
+        "log_loss": 0.06213277031128078
+      },
+      "timeseries::ts_sony_aibo::rocket": {
+        "accuracy": 0.992,
+        "balanced_accuracy": 0.990909090909091,
+        "macro_f1": 0.9918667447459171,
+        "mcc": 0.9838647044803218,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.022679973844651313
+      },
+      "timeseries::ts_sony_aibo::chronos_t5_small": {
+        "accuracy": 0.92,
+        "balanced_accuracy": 0.9188311688311688,
+        "macro_f1": 0.9188311688311688,
+        "mcc": 0.8376623376623377,
+        "roc_auc": 0.9781818181818182,
+        "auprc": 0.9755574505073863,
+        "log_loss": 0.20572655185034977
+      },
+      "timeseries::ts_strawberry::minirocket": {
+        "accuracy": 0.9187817258883249,
+        "balanced_accuracy": 0.9241844769403824,
+        "macro_f1": 0.9134256207426938,
+        "mcc": 0.8302614346047478,
+        "roc_auc": 0.9708661417322835,
+        "auprc": 0.9822065706192359,
+        "log_loss": 0.21593802638045756
+      },
+      "timeseries::ts_strawberry::rocket": {
+        "accuracy": 0.934010152284264,
+        "balanced_accuracy": 0.9424071991001125,
+        "macro_f1": 0.9298452266812766,
+        "mcc": 0.8640691749974373,
+        "roc_auc": 0.9861642294713161,
+        "auprc": 0.9928976120607067,
+        "log_loss": 0.1677684343309545
+      },
+      "timeseries::ts_strawberry::chronos_t5_small": {
+        "accuracy": 0.9035532994923858,
+        "balanced_accuracy": 0.9155793025871766,
+        "macro_f1": 0.8984894095950966,
+        "mcc": 0.8056442544483049,
+        "roc_auc": 0.9676040494938133,
+        "auprc": 0.9849530172099545,
+        "log_loss": 0.2482026969215072
+      },
+      "timeseries::ts_two_lead_ecg::minirocket": {
+        "accuracy": 0.9957081545064378,
+        "balanced_accuracy": 0.9957264957264957,
+        "macro_f1": 0.9957081545064378,
+        "mcc": 0.9914529914529915,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.00982558032529892
+      },
+      "timeseries::ts_two_lead_ecg::rocket": {
+        "accuracy": 0.9957081545064378,
+        "balanced_accuracy": 0.9957264957264957,
+        "macro_f1": 0.9957081545064378,
+        "mcc": 0.9914529914529915,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.0034544349550473725
+      },
+      "timeseries::ts_two_lead_ecg::chronos_t5_small": {
+        "accuracy": 0.9828326180257511,
+        "balanced_accuracy": 0.9828691423519009,
+        "macro_f1": 0.982832301797819,
+        "mcc": 0.9658094492361342,
+        "roc_auc": 0.9986000589448866,
+        "auprc": 0.9986561616981326,
+        "log_loss": 0.048835579927638574
+      },
+      "vision::vision_beans::dinov2_small": {
+        "accuracy": 0.8599033816425121,
+        "balanced_accuracy": 0.8608675354199651,
+        "macro_f1": 0.858492235875393,
+        "mcc": 0.7911268128056033,
+        "roc_auc": 0.9640117395508825,
+        "auprc": 0.9321202194591501,
+        "log_loss": 0.35301483161169744
+      },
+      "vision::vision_beans::siglip_base": {
+        "accuracy": 0.9178743961352657,
+        "balanced_accuracy": 0.9185624974627533,
+        "macro_f1": 0.9176733194610739,
+        "mcc": 0.8776978051355517,
+        "roc_auc": 0.980669148582578,
+        "auprc": 0.9672098828612707,
+        "log_loss": 0.23203247659688264
+      },
+      "vision::vision_beans::metaclip_b16": {
+        "accuracy": 0.927536231884058,
+        "balanced_accuracy": 0.9282223034141194,
+        "macro_f1": 0.9276123826459397,
+        "mcc": 0.8948128573353672,
+        "roc_auc": 0.992293388473391,
+        "auprc": 0.9865374184304784,
+        "log_loss": 0.17191707280071594
+      },
+      "vision::vision_beans::vit_base_patch16_224": {
+        "accuracy": 0.8599033816425121,
+        "balanced_accuracy": 0.8611415580725045,
+        "macro_f1": 0.8590191086395254,
+        "mcc": 0.7966225328878146,
+        "roc_auc": 0.9597415073295507,
+        "auprc": 0.9346924022571254,
+        "log_loss": 0.3674082709444033
+      },
+      "vision::vision_bloodmnist::dinov2_small": {
+        "accuracy": 0.7975,
+        "balanced_accuracy": 0.757673758060755,
+        "macro_f1": 0.7673927470240669,
+        "mcc": 0.7642473295868385,
+        "roc_auc": 0.9694063301462793,
+        "auprc": 0.8471853343296971,
+        "log_loss": 0.5890571094165596
+      },
+      "vision::vision_bloodmnist::siglip_base": {
+        "accuracy": 0.7575,
+        "balanced_accuracy": 0.7137875460243881,
+        "macro_f1": 0.7219933417399216,
+        "mcc": 0.7176785312968728,
+        "roc_auc": 0.9530177904660738,
+        "auprc": 0.7677653683769698,
+        "log_loss": 0.71601567961609
+      },
+      "vision::vision_bloodmnist::metaclip_b16": {
+        "accuracy": 0.6925,
+        "balanced_accuracy": 0.6216524201818319,
+        "macro_f1": 0.6314528088063136,
+        "mcc": 0.6409813501936439,
+        "roc_auc": 0.9336718455257836,
+        "auprc": 0.7079605521053638,
+        "log_loss": 0.84462563008149
+      },
+      "vision::vision_bloodmnist::vit_base_patch16_224": {
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.7812021994684533,
+        "macro_f1": 0.7803812851981606,
+        "mcc": 0.7912127068811079,
+        "roc_auc": 0.9762232652891534,
+        "auprc": 0.8724280233879992,
+        "log_loss": 0.5114940877290733
+      },
+      "vision::vision_breastmnist::dinov2_small": {
+        "accuracy": 0.8272727272727273,
+        "balanced_accuracy": 0.7666666666666666,
+        "macro_f1": 0.7750511247443763,
+        "mcc": 0.5519292627245034,
+        "roc_auc": 0.8308333333333333,
+        "auprc": 0.9116825659669394,
+        "log_loss": 0.42006994682152304
+      },
+      "vision::vision_breastmnist::siglip_base": {
+        "accuracy": 0.8090909090909091,
+        "balanced_accuracy": 0.7020833333333334,
+        "macro_f1": 0.7243107769423558,
+        "mcc": 0.47617722171644095,
+        "roc_auc": 0.7939583333333333,
+        "auprc": 0.9023143260328854,
+        "log_loss": 0.44312168701717974
+      },
+      "vision::vision_breastmnist::metaclip_b16": {
+        "accuracy": 0.7909090909090909,
+        "balanced_accuracy": 0.6583333333333333,
+        "macro_f1": 0.6787301587301587,
+        "mcc": 0.4109609335312651,
+        "roc_auc": 0.7324999999999999,
+        "auprc": 0.848175578629618,
+        "log_loss": 0.5111152568804629
+      },
+      "vision::vision_breastmnist::vit_base_patch16_224": {
+        "accuracy": 0.7545454545454545,
+        "balanced_accuracy": 0.6125,
+        "macro_f1": 0.6228571428571429,
+        "mcc": 0.29199855803537256,
+        "roc_auc": 0.755625,
+        "auprc": 0.8815184663167747,
+        "log_loss": 0.48776118381849776
+      },
+      "vision::vision_cifar10::dinov2_small": {
+        "accuracy": 0.9166666666666666,
+        "balanced_accuracy": 0.914920634920635,
+        "macro_f1": 0.9125052828148805,
+        "mcc": 0.9082150312516933,
+        "roc_auc": 0.9988205542491257,
+        "auprc": 0.9901587301587302,
+        "log_loss": 0.19143685296310078
+      },
+      "vision::vision_cifar10::siglip_base": {
+        "accuracy": 0.9404761904761905,
+        "balanced_accuracy": 0.9421031746031747,
+        "macro_f1": 0.9390736267516454,
+        "mcc": 0.9347655448460499,
+        "roc_auc": 0.998140653763774,
+        "auprc": 0.9865,
+        "log_loss": 0.1867167002135678
+      },
+      "vision::vision_cifar10::metaclip_b16": {
+        "accuracy": 0.8809523809523809,
+        "balanced_accuracy": 0.8857142857142858,
+        "macro_f1": 0.8771116138763198,
+        "mcc": 0.8706162875679392,
+        "roc_auc": 0.9977023947023949,
+        "auprc": 0.983666305916306,
+        "log_loss": 0.22719008993573608
+      },
+      "vision::vision_cifar10::vit_base_patch16_224": {
+        "accuracy": 0.9404761904761905,
+        "balanced_accuracy": 0.9414285714285715,
+        "macro_f1": 0.9369432631352137,
+        "mcc": 0.9353872325693645,
+        "roc_auc": 0.9994807943379372,
+        "auprc": 0.9957142857142858,
+        "log_loss": 0.1369196110053154
+      },
+      "vision::vision_dermamnist::dinov2_small": {
+        "accuracy": 0.7175,
+        "balanced_accuracy": 0.2725214759289308,
+        "macro_f1": 0.2762039787480971,
+        "mcc": 0.3745582694634777,
+        "roc_auc": 0.8606366731282316,
+        "auprc": 0.40326677359728463,
+        "log_loss": 0.8066023943610366
+      },
+      "vision::vision_dermamnist::siglip_base": {
+        "accuracy": 0.72,
+        "balanced_accuracy": 0.30851890248786745,
+        "macro_f1": 0.343434670687559,
+        "mcc": 0.38015479332296226,
+        "roc_auc": 0.8508645413939817,
+        "auprc": 0.45753903942662316,
+        "log_loss": 0.7997523608467401
+      },
+      "vision::vision_dermamnist::metaclip_b16": {
+        "accuracy": 0.695,
+        "balanced_accuracy": 0.2082732159679848,
+        "macro_f1": 0.21260444624499922,
+        "mcc": 0.2851017926172065,
+        "roc_auc": 0.7492470050775142,
+        "auprc": 0.2973569771394574,
+        "log_loss": 0.9236462219514212
+      },
+      "vision::vision_dermamnist::vit_base_patch16_224": {
+        "accuracy": 0.7075,
+        "balanced_accuracy": 0.2492088884826047,
+        "macro_f1": 0.25780654157566696,
+        "mcc": 0.3407197213457538,
+        "roc_auc": 0.826714755561318,
+        "auprc": 0.3569218744602841,
+        "log_loss": 0.8708298470076556
+      },
+      "vision::vision_mnist::dinov2_small": {
+        "accuracy": 0.855,
+        "balanced_accuracy": 0.8456982583269769,
+        "macro_f1": 0.8445546768042498,
+        "mcc": 0.8394358726832073,
+        "roc_auc": 0.9881380701543975,
+        "auprc": 0.9372931532325992,
+        "log_loss": 0.41562169813315547
+      },
+      "vision::vision_mnist::siglip_base": {
+        "accuracy": 0.955,
+        "balanced_accuracy": 0.9515017162471396,
+        "macro_f1": 0.9521559395016871,
+        "mcc": 0.9502966564649524,
+        "roc_auc": 0.9975697591355861,
+        "auprc": 0.984483887503598,
+        "log_loss": 0.1760502975210786
+      },
+      "vision::vision_mnist::metaclip_b16": {
+        "accuracy": 0.865,
+        "balanced_accuracy": 0.8578343503686753,
+        "macro_f1": 0.8583292444224917,
+        "mcc": 0.8499961385277666,
+        "roc_auc": 0.989576389820049,
+        "auprc": 0.9327926546774838,
+        "log_loss": 0.3928958134294978
+      },
+      "vision::vision_mnist::vit_base_patch16_224": {
+        "accuracy": 0.83,
+        "balanced_accuracy": 0.8137538138825324,
+        "macro_f1": 0.8136387855537471,
+        "mcc": 0.8131264969843144,
+        "roc_auc": 0.9777588348091937,
+        "auprc": 0.8880776324294688,
+        "log_loss": 0.5496549366943065
+      },
+      "vision::vision_pneumoniamnist::dinov2_small": {
+        "accuracy": 0.925,
+        "balanced_accuracy": 0.9188165832370685,
+        "macro_f1": 0.9064808753390068,
+        "mcc": 0.8146898363383476,
+        "roc_auc": 0.9748748556026184,
+        "auprc": 0.9906302725972135,
+        "log_loss": 0.18426024245728917
+      },
+      "vision::vision_pneumoniamnist::siglip_base": {
+        "accuracy": 0.895,
+        "balanced_accuracy": 0.853163907072263,
+        "macro_f1": 0.8618239242005528,
+        "mcc": 0.7247970165009718,
+        "roc_auc": 0.9488672827621615,
+        "auprc": 0.9826660543438803,
+        "log_loss": 0.2603258323790311
+      },
+      "vision::vision_pneumoniamnist::metaclip_b16": {
+        "accuracy": 0.8975,
+        "balanced_accuracy": 0.8789949942241048,
+        "macro_f1": 0.8711087009486085,
+        "mcc": 0.7430360709063383,
+        "roc_auc": 0.9426581953536131,
+        "auprc": 0.9772516540448716,
+        "log_loss": 0.2668750662202634
+      },
+      "vision::vision_pneumoniamnist::vit_base_patch16_224": {
+        "accuracy": 0.905,
+        "balanced_accuracy": 0.8840970350404314,
+        "macro_f1": 0.8795027904616946,
+        "mcc": 0.7592804306333837,
+        "roc_auc": 0.9573385958156847,
+        "auprc": 0.9845366618771488,
+        "log_loss": 0.23324984571493443
+      },
+      "vision::vision_retinamnist::dinov2_small": {
+        "accuracy": 0.49537037037037035,
+        "balanced_accuracy": 0.30773697846868575,
+        "macro_f1": 0.2781482904920158,
+        "mcc": 0.2553834286556324,
+        "roc_auc": 0.746176958678953,
+        "auprc": 0.37897701774889,
+        "log_loss": 1.176186475677865
+      },
+      "vision::vision_retinamnist::siglip_base": {
+        "accuracy": 0.4722222222222222,
+        "balanced_accuracy": 0.2935140074791643,
+        "macro_f1": 0.2809533925606119,
+        "mcc": 0.22979196551540196,
+        "roc_auc": 0.7332733220548258,
+        "auprc": 0.3619992739092416,
+        "log_loss": 1.2154205401696658
+      },
+      "vision::vision_retinamnist::metaclip_b16": {
+        "accuracy": 0.49537037037037035,
+        "balanced_accuracy": 0.3093925540197317,
+        "macro_f1": 0.29380669698156964,
+        "mcc": 0.26136387061476907,
+        "roc_auc": 0.7219020241977863,
+        "auprc": 0.37039636229371753,
+        "log_loss": 1.1810593544155326
+      },
+      "vision::vision_retinamnist::vit_base_patch16_224": {
+        "accuracy": 0.4722222222222222,
+        "balanced_accuracy": 0.2996887850825133,
+        "macro_f1": 0.28822009973977375,
+        "mcc": 0.2523507869460172,
+        "roc_auc": 0.7172198796334335,
+        "auprc": 0.3760435671171555,
+        "log_loss": 1.209003433677326
+      }
+    }
+  },
+  "unseen_tasks": {
+    "n_evaluated": 53,
+    "mean_accuracy": 0.7600064793881616,
+    "mean_balanced_accuracy": 0.7198701699771066,
+    "mean_roc_auc": 0.8559286671086072,
+    "mean_auprc": 0.7908111286001046,
+    "mean_macro_f1": 0.719816552575524,
+    "mean_mcc": 0.5526970094037509,
+    "results": {
+      "audio::audio_voxforge_lang::wavlm_base_plus": {
+        "accuracy": 0.55,
+        "balanced_accuracy": 0.5339285714285714,
+        "macro_f1": 0.5041855203619909,
+        "mcc": 0.46121339340259715,
+        "roc_auc": 0.8320735320643409,
+        "auprc": 0.6183668181994074,
+        "log_loss": 1.269731632875697
+      },
+      "audio::audio_voxforge_lang::whisper_large_v3_turbo": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.0023875537012576016
+      },
+      "audio::audio_voxforge_lang::clap_general": {
+        "accuracy": 0.45,
+        "balanced_accuracy": 0.4462301587301587,
+        "macro_f1": 0.39837813115676896,
+        "mcc": 0.3453869839393181,
+        "roc_auc": 0.7748221447669977,
+        "auprc": 0.49499638171489585,
+        "log_loss": 1.5803659472371367
+      },
+      "graphs::graph_aids::pyg_gin": {
+        "accuracy": 0.9975,
+        "balanced_accuracy": 0.99375,
+        "macro_f1": 0.9960753147107017,
+        "mcc": 0.9921812717505109,
+        "roc_auc": 1.0,
+        "auprc": 0.9999999999999999,
+        "log_loss": 0.004048122647548065
+      },
+      "graphs::graph_aids::pyg_gcn": {
+        "accuracy": 0.94,
+        "balanced_accuracy": 0.859375,
+        "macro_f1": 0.8961038961038961,
+        "mcc": 0.8051610483161056,
+        "roc_auc": 0.9747265624999999,
+        "auprc": 0.9932077809228881,
+        "log_loss": 0.16456567511392042
+      },
+      "graphs::graph_aids::pyg_gat": {
+        "accuracy": 0.92,
+        "balanced_accuracy": 0.8515625,
+        "macro_f1": 0.8687179487179487,
+        "mcc": 0.7401956568297401,
+        "roc_auc": 0.952109375,
+        "auprc": 0.9872320178738168,
+        "log_loss": 0.20921485035920312
+      },
+      "graphs::graph_dhfr::pyg_gin": {
+        "accuracy": 0.6973684210526315,
+        "balanced_accuracy": 0.693821760524877,
+        "macro_f1": 0.68824683431425,
+        "mcc": 0.38049867221351374,
+        "roc_auc": 0.7855841078913797,
+        "auprc": 0.866549589021574,
+        "log_loss": 0.5703986371512983
+      },
+      "graphs::graph_dhfr::pyg_gcn": {
+        "accuracy": 0.7236842105263158,
+        "balanced_accuracy": 0.718425369054128,
+        "macro_f1": 0.7139784946236559,
+        "mcc": 0.43031278473312023,
+        "roc_auc": 0.759340258793512,
+        "auprc": 0.8453269483892356,
+        "log_loss": 0.6214225381368992
+      },
+      "graphs::graph_dhfr::pyg_gat": {
+        "accuracy": 0.6776315789473685,
+        "balanced_accuracy": 0.6652997995261527,
+        "macro_f1": 0.6636408797362598,
+        "mcc": 0.3278330265729584,
+        "roc_auc": 0.7034809549845089,
+        "auprc": 0.7918621820374154,
+        "log_loss": 0.6400231827220851
+      },
+      "molecules::tdc_b3db_classification::chemberta_77m_mtr": {
+        "accuracy": 0.869,
+        "balanced_accuracy": 0.8496402877697842,
+        "macro_f1": 0.8467547690266821,
+        "mcc": 0.6936923493605873,
+        "roc_auc": 0.9424885010024766,
+        "auprc": 0.9704413813287407,
+        "log_loss": 0.28775679286695377
+      },
+      "molecules::tdc_b3db_classification::smiles_bert": {
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.8576365137398279,
+        "macro_f1": 0.8540331800097856,
+        "mcc": 0.7083413228196513,
+        "roc_auc": 0.9224767071588631,
+        "auprc": 0.9565655045925667,
+        "log_loss": 0.3239297137533782
+      },
+      "molecules::tdc_b3db_classification::chemberta_zinc_base": {
+        "accuracy": 0.837,
+        "balanced_accuracy": 0.8256987852341078,
+        "macro_f1": 0.8140965033034937,
+        "mcc": 0.6313312915898822,
+        "roc_auc": 0.9035617407713173,
+        "auprc": 0.9433905465227334,
+        "log_loss": 0.37053938727841307
+      },
+      "molecules::tdc_b3db_classification::pubchem10m_bpe": {
+        "accuracy": 0.867,
+        "balanced_accuracy": 0.8638400754805992,
+        "macro_f1": 0.8490309032605919,
+        "mcc": 0.7024123684290042,
+        "roc_auc": 0.9322655973581792,
+        "auprc": 0.9635574138743435,
+        "log_loss": 0.32370336103706776
+      },
+      "molecules::tdc_cyp2d6_substrate_carbonmangels::chemberta_77m_mtr": {
+        "accuracy": 0.762962962962963,
+        "balanced_accuracy": 0.6712588473205258,
+        "macro_f1": 0.685497961560862,
+        "mcc": 0.4108135946403407,
+        "roc_auc": 0.7971435793731042,
+        "auprc": 0.6949859118117321,
+        "log_loss": 0.49796254883915125
+      },
+      "molecules::tdc_cyp2d6_substrate_carbonmangels::smiles_bert": {
+        "accuracy": 0.7407407407407407,
+        "balanced_accuracy": 0.6425682507583417,
+        "macro_f1": 0.6525990735975296,
+        "mcc": 0.3474672266778153,
+        "roc_auc": 0.7671890798786654,
+        "auprc": 0.6247375550060537,
+        "log_loss": 0.5239726004844167
+      },
+      "molecules::tdc_cyp2d6_substrate_carbonmangels::chemberta_zinc_base": {
+        "accuracy": 0.7481481481481481,
+        "balanced_accuracy": 0.6480030333670375,
+        "macro_f1": 0.6590909090909092,
+        "mcc": 0.3668223799628582,
+        "roc_auc": 0.7511375126390293,
+        "auprc": 0.6331266513333745,
+        "log_loss": 0.5288900948429637
+      },
+      "molecules::tdc_cyp2d6_substrate_carbonmangels::pubchem10m_bpe": {
+        "accuracy": 0.7777777777777778,
+        "balanced_accuracy": 0.6821284125379171,
+        "macro_f1": 0.6991978609625669,
+        "mcc": 0.45140140864771877,
+        "roc_auc": 0.8292467138523761,
+        "auprc": 0.7109783129578443,
+        "log_loss": 0.4685712406773968
+      },
+      "molecules::tdc_pgp_broccatelli::chemberta_77m_mtr": {
+        "accuracy": 0.8816326530612245,
+        "balanced_accuracy": 0.8821647560650494,
+        "macro_f1": 0.8815063124364171,
+        "mcc": 0.7665808557752634,
+        "roc_auc": 0.9500133297787257,
+        "auprc": 0.9544467240411948,
+        "log_loss": 0.29790327992327315
+      },
+      "molecules::tdc_pgp_broccatelli::smiles_bert": {
+        "accuracy": 0.8081632653061225,
+        "balanced_accuracy": 0.8090842442015462,
+        "macro_f1": 0.8073415984875103,
+        "mcc": 0.6245277252353698,
+        "roc_auc": 0.8874633431085044,
+        "auprc": 0.9053816241024216,
+        "log_loss": 0.41705034856504636
+      },
+      "molecules::tdc_pgp_broccatelli::chemberta_zinc_base": {
+        "accuracy": 0.7836734693877551,
+        "balanced_accuracy": 0.7850906424953346,
+        "macro_f1": 0.7812094559301757,
+        "mcc": 0.5850716491192939,
+        "roc_auc": 0.8902959210877099,
+        "auprc": 0.8955687259919534,
+        "log_loss": 0.44417764951507344
+      },
+      "molecules::tdc_pgp_broccatelli::pubchem10m_bpe": {
+        "accuracy": 0.8571428571428571,
+        "balanced_accuracy": 0.8580711810183951,
+        "macro_f1": 0.8565309775970821,
+        "mcc": 0.7235094779141831,
+        "roc_auc": 0.9258197813916289,
+        "auprc": 0.9362887389145077,
+        "log_loss": 0.34366621049276835
+      },
+      "proteins::prot_material_production::esm2_650m": {
+        "accuracy": 0.763125,
+        "balanced_accuracy": 0.6689477222655733,
+        "macro_f1": 0.6828410413316074,
+        "mcc": 0.38871101412102693,
+        "roc_auc": 0.8151963185271129,
+        "auprc": 0.9124233657819882,
+        "log_loss": 0.4691845385351822
+      },
+      "proteins::prot_material_production::prot_bert": {
+        "accuracy": 0.75625,
+        "balanced_accuracy": 0.6622479556167231,
+        "macro_f1": 0.675,
+        "mcc": 0.3711008964600129,
+        "roc_auc": 0.8129196083872325,
+        "auprc": 0.9132021529598033,
+        "log_loss": 0.4663576567538602
+      },
+      "proteins::prot_material_production::ankh_base": {
+        "accuracy": 0.77,
+        "balanced_accuracy": 0.6917883860778942,
+        "macro_f1": 0.7038920493405966,
+        "mcc": 0.4186421500477588,
+        "roc_auc": 0.8128460459737149,
+        "auprc": 0.9106967087950842,
+        "log_loss": 0.4696263524041657
+      },
+      "proteins::prot_material_production::esm2_150m": {
+        "accuracy": 0.763125,
+        "balanced_accuracy": 0.6880776744593162,
+        "macro_f1": 0.6984463322490861,
+        "mcc": 0.40482385035439544,
+        "roc_auc": 0.826319141684933,
+        "auprc": 0.9186337567710333,
+        "log_loss": 0.45602505054344084
+      },
+      "proteins::prot_sabdab_chen::esm2_650m": {
+        "accuracy": 0.8559556786703602,
+        "balanced_accuracy": 0.6910322952710496,
+        "macro_f1": 0.7252341920374707,
+        "mcc": 0.4863729879386737,
+        "roc_auc": 0.8697135717031911,
+        "auprc": 0.6729263997368029,
+        "log_loss": 0.3354789387038136
+      },
+      "proteins::prot_sabdab_chen::prot_bert": {
+        "accuracy": 0.8559556786703602,
+        "balanced_accuracy": 0.6806036139946174,
+        "macro_f1": 0.7169139823862951,
+        "mcc": 0.48170224565313435,
+        "roc_auc": 0.8840590157631679,
+        "auprc": 0.698751770545489,
+        "log_loss": 0.3216446459931968
+      },
+      "proteins::prot_sabdab_chen::ankh_base": {
+        "accuracy": 0.8670360110803325,
+        "balanced_accuracy": 0.7188100730488274,
+        "macro_f1": 0.7534994878798225,
+        "mcc": 0.5345108274493066,
+        "roc_auc": 0.886461937716263,
+        "auprc": 0.7030773802512539,
+        "log_loss": 0.31608353890371804
+      },
+      "proteins::prot_sabdab_chen::esm2_150m": {
+        "accuracy": 0.8725761772853186,
+        "balanced_accuracy": 0.7274846212995002,
+        "macro_f1": 0.7637703425514966,
+        "mcc": 0.5557010765937387,
+        "roc_auc": 0.8942474048442907,
+        "auprc": 0.7022369862512929,
+        "log_loss": 0.3105891722405953
+      },
+      "proteins::prot_solubility::esm2_650m": {
+        "accuracy": 0.668,
+        "balanced_accuracy": 0.61379697510072,
+        "macro_f1": 0.5985217862394552,
+        "mcc": 0.29683738217496075,
+        "roc_auc": 0.6751535565682584,
+        "auprc": 0.6256872350979719,
+        "log_loss": 0.6204347968267964
+      },
+      "proteins::prot_solubility::prot_bert": {
+        "accuracy": 0.65,
+        "balanced_accuracy": 0.605755894590846,
+        "macro_f1": 0.5985483508366253,
+        "mcc": 0.24737885179740052,
+        "roc_auc": 0.6375652202628623,
+        "auprc": 0.5750796104037986,
+        "log_loss": 0.64660268526493
+      },
+      "proteins::prot_solubility::ankh_base": {
+        "accuracy": 0.68,
+        "balanced_accuracy": 0.6319926028663893,
+        "macro_f1": 0.6246528038435553,
+        "mcc": 0.32243727508702363,
+        "roc_auc": 0.7010600356647512,
+        "auprc": 0.632020464371014,
+        "log_loss": 0.6112725325797214
+      },
+      "proteins::prot_solubility::esm2_150m": {
+        "accuracy": 0.646,
+        "balanced_accuracy": 0.5936364837197015,
+        "macro_f1": 0.5777651610933259,
+        "mcc": 0.2368883422078924,
+        "roc_auc": 0.6447642163661581,
+        "auprc": 0.5778232003133402,
+        "log_loss": 0.6406687240813037
+      },
+      "text::text_rotten_tomatoes::bge_large_en_v1_5": {
+        "accuracy": 0.8466666666666667,
+        "balanced_accuracy": 0.8467316303514483,
+        "macro_f1": 0.8466240622395109,
+        "mcc": 0.693926037513595,
+        "roc_auc": 0.9185102056689518,
+        "auprc": 0.9165793235682905,
+        "log_loss": 0.36663644456846967
+      },
+      "text::text_rotten_tomatoes::arctic_embed_m_v2": {
+        "accuracy": 0.805,
+        "balanced_accuracy": 0.8051478349759442,
+        "macro_f1": 0.8046608695652173,
+        "mcc": 0.6125972588470534,
+        "roc_auc": 0.8955099501105568,
+        "auprc": 0.9006688348521663,
+        "log_loss": 0.41706023555681604
+      },
+      "text::text_rotten_tomatoes::nomic_embed_v1_5": {
+        "accuracy": 0.8166666666666667,
+        "balanced_accuracy": 0.8167424082489805,
+        "macro_f1": 0.816593303988262,
+        "mcc": 0.6340769046245589,
+        "roc_auc": 0.8981766464071822,
+        "auprc": 0.8930706141980227,
+        "log_loss": 0.40952882850240846
+      },
+      "text::text_tweet_sentiment::bge_large_en_v1_5": {
+        "accuracy": 0.6205357142857143,
+        "balanced_accuracy": 0.5759550561797753,
+        "macro_f1": 0.5822768069156642,
+        "mcc": 0.37890862048859475,
+        "roc_auc": 0.8126083955658162,
+        "auprc": 0.6759302953509839,
+        "log_loss": 0.7524029736777013
+      },
+      "text::text_tweet_sentiment::arctic_embed_m_v2": {
+        "accuracy": 0.5357142857142857,
+        "balanced_accuracy": 0.47425361155698237,
+        "macro_f1": 0.47883830692087753,
+        "mcc": 0.23424276666439692,
+        "roc_auc": 0.7037864665821223,
+        "auprc": 0.5174018853078755,
+        "log_loss": 0.9251429680354895
+      },
+      "text::text_tweet_sentiment::nomic_embed_v1_5": {
+        "accuracy": 0.5580357142857143,
+        "balanced_accuracy": 0.5189780631353665,
+        "macro_f1": 0.5234808295153123,
+        "mcc": 0.278719697267642,
+        "roc_auc": 0.752317087776407,
+        "auprc": 0.6006443553991341,
+        "log_loss": 0.8649977474181485
+      },
+      "timeseries::ts_ford_b::minirocket": {
+        "accuracy": 0.8426966292134831,
+        "balanced_accuracy": 0.8422820656593976,
+        "macro_f1": 0.8424667233078449,
+        "mcc": 0.6856247623493569,
+        "roc_auc": 0.9313475886664545,
+        "auprc": 0.9297272560810871,
+        "log_loss": 0.3326588629984181
+      },
+      "timeseries::ts_ford_b::rocket": {
+        "accuracy": 0.8719101123595505,
+        "balanced_accuracy": 0.8715858174084794,
+        "macro_f1": 0.8717644084934277,
+        "mcc": 0.743961259131818,
+        "roc_auc": 0.9462065760427558,
+        "auprc": 0.9460744645908726,
+        "log_loss": 0.2943074982667301
+      },
+      "timeseries::ts_ford_b::chronos_t5_small": {
+        "accuracy": 0.8325842696629213,
+        "balanced_accuracy": 0.832307878824617,
+        "macro_f1": 0.8324300486118394,
+        "mcc": 0.6651148793615052,
+        "roc_auc": 0.9178070428013599,
+        "auprc": 0.9203835826371294,
+        "log_loss": 0.35888108912794786
+      },
+      "timeseries::ts_wafer::minirocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.000898747641668911
+      },
+      "timeseries::ts_wafer::rocket": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.0015257542304126777
+      },
+      "timeseries::ts_wafer::chronos_t5_small": {
+        "accuracy": 0.9932885906040269,
+        "balanced_accuracy": 0.9962962962962962,
+        "macro_f1": 0.9808998846301756,
+        "mcc": 0.9625070145647873,
+        "roc_auc": 0.9994708994708994,
+        "auprc": 0.9999455337690633,
+        "log_loss": 0.023116295517877743
+      },
+      "vision::vision_fashion_mnist::dinov2_small": {
+        "accuracy": 0.8571428571428571,
+        "balanced_accuracy": 0.8583333333333334,
+        "macro_f1": 0.8501433069854123,
+        "mcc": 0.844054996380467,
+        "roc_auc": 0.9859156920077972,
+        "auprc": 0.9170212951916673,
+        "log_loss": 0.4300940465094215
+      },
+      "vision::vision_fashion_mnist::siglip_base": {
+        "accuracy": 0.7976190476190477,
+        "balanced_accuracy": 0.798611111111111,
+        "macro_f1": 0.7779507876024904,
+        "mcc": 0.778379667541128,
+        "roc_auc": 0.9814875730994151,
+        "auprc": 0.8984167522125468,
+        "log_loss": 0.47517135617689343
+      },
+      "vision::vision_fashion_mnist::metaclip_b16": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.7527777777777778,
+        "macro_f1": 0.7357081429062854,
+        "mcc": 0.7262301515249918,
+        "roc_auc": 0.9729790448343077,
+        "auprc": 0.8444932830645072,
+        "log_loss": 0.5431532619297242
+      },
+      "vision::vision_fashion_mnist::vit_base_patch16_224": {
+        "accuracy": 0.8214285714285714,
+        "balanced_accuracy": 0.8222222222222222,
+        "macro_f1": 0.8066309927341022,
+        "mcc": 0.8072848925711691,
+        "roc_auc": 0.9738691520467837,
+        "auprc": 0.8748504159122439,
+        "log_loss": 0.5509251366526188
+      },
+      "vision::vision_svhn::dinov2_small": {
+        "accuracy": 0.27906976744186046,
+        "balanced_accuracy": 0.2326262626262626,
+        "macro_f1": 0.21296703296703295,
+        "mcc": 0.16057075239224425,
+        "roc_auc": 0.7040000512353453,
+        "auprc": 0.2743440380748916,
+        "log_loss": 2.008863567331574
+      },
+      "vision::vision_svhn::siglip_base": {
+        "accuracy": 0.5348837209302325,
+        "balanced_accuracy": 0.50510101010101,
+        "macro_f1": 0.5021286641747,
+        "mcc": 0.4740671321364222,
+        "roc_auc": 0.8638491923099766,
+        "auprc": 0.5760281719631613,
+        "log_loss": 1.417299776262628
+      },
+      "vision::vision_svhn::metaclip_b16": {
+        "accuracy": 0.38372093023255816,
+        "balanced_accuracy": 0.3476010101010101,
+        "macro_f1": 0.3424909821934993,
+        "mcc": 0.29243260480624833,
+        "roc_auc": 0.7289173855105228,
+        "auprc": 0.395377249452579,
+        "log_loss": 1.8766966261002958
+      },
+      "vision::vision_svhn::vit_base_patch16_224": {
+        "accuracy": 0.22093023255813954,
+        "balanced_accuracy": 0.1438131313131313,
+        "macro_f1": 0.10692007797270955,
+        "mcc": 0.0803807124176634,
+        "roc_auc": 0.635915589756276,
+        "auprc": 0.20246262426375256,
+        "log_loss": 2.1100913431361397
+      }
+    }
+  },
+  "unseen_encoders": {
+    "n_evaluated": 61,
+    "mean_accuracy": 0.8077606099533358,
+    "mean_balanced_accuracy": 0.7263192142631403,
+    "mean_roc_auc": 0.8561195076340297,
+    "mean_auprc": 0.7762176495638272,
+    "mean_macro_f1": 0.7290611408221839,
+    "mean_mcc": 0.5523452304844146,
+    "results": {
+      "audio::audio_crema_d::ast_audioset": {
+        "accuracy": 0.5225,
+        "balanced_accuracy": 0.5212322408241034,
+        "macro_f1": 0.508867491571053,
+        "mcc": 0.4309678164413519,
+        "roc_auc": 0.8157314939602314,
+        "auprc": 0.5402531233948725,
+        "log_loss": 1.2915680989481644
+      },
+      "audio::audio_emodb::ast_audioset": {
+        "accuracy": 0.6915887850467289,
+        "balanced_accuracy": 0.6693158032443746,
+        "macro_f1": 0.6892358667604972,
+        "mcc": 0.6325592501592018,
+        "roc_auc": 0.9338281118059719,
+        "auprc": 0.78475115220513,
+        "log_loss": 0.7693815304418254
+      },
+      "audio::audio_esc10::ast_audioset": {
+        "accuracy": 0.9833333333333333,
+        "balanced_accuracy": 0.9833333333333334,
+        "macro_f1": 0.9832167832167833,
+        "mcc": 0.9817845481805314,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.03316463268770707
+      },
+      "audio::audio_gtzan::ast_audioset": {
+        "accuracy": 0.815,
+        "balanced_accuracy": 0.8150000000000001,
+        "macro_f1": 0.8169976961440376,
+        "mcc": 0.7952179491983806,
+        "roc_auc": 0.97625,
+        "auprc": 0.8639021848118442,
+        "log_loss": 0.6072411736281709
+      },
+      "audio::audio_ravdess::ast_audioset": {
+        "accuracy": 0.5451388888888888,
+        "balanced_accuracy": 0.5371120107962213,
+        "macro_f1": 0.5344399872051095,
+        "mcc": 0.4784792867738462,
+        "roc_auc": 0.8934661798970083,
+        "auprc": 0.6177882262872505,
+        "log_loss": 1.2054627570328216
+      },
+      "audio::audio_urbansound8k::ast_audioset": {
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.889339909286998,
+        "macro_f1": 0.8842269300593932,
+        "mcc": 0.8604523200148156,
+        "roc_auc": 0.9938681869824098,
+        "auprc": 0.9658932644690031,
+        "log_loss": 0.3098449018667599
+      },
+      "graphs::graph_bzr::pyg_sage": {
+        "accuracy": 0.8813559322033898,
+        "balanced_accuracy": 0.7703900709219859,
+        "macro_f1": 0.7972508591065293,
+        "mcc": 0.6054161897450039,
+        "roc_auc": 0.9414893617021276,
+        "auprc": 0.8351190476190476,
+        "log_loss": 0.24726001295922936
+      },
+      "graphs::graph_cox2::pyg_sage": {
+        "accuracy": 0.8405797101449275,
+        "balanced_accuracy": 0.6574074074074074,
+        "macro_f1": 0.6910866910866911,
+        "mcc": 0.4608417011145851,
+        "roc_auc": 0.8635802469135803,
+        "auprc": 0.7231728723085773,
+        "log_loss": 0.3593830097692988
+      },
+      "graphs::graph_dd::pyg_sage": {
+        "accuracy": 0.7415254237288136,
+        "balanced_accuracy": 0.7260624490098643,
+        "macro_f1": 0.7288633581316508,
+        "mcc": 0.4600229485589608,
+        "roc_auc": 0.8297485722761996,
+        "auprc": 0.7564761339209352,
+        "log_loss": 0.5003652990047719
+      },
+      "graphs::graph_enzymes::pyg_sage": {
+        "accuracy": 0.39166666666666666,
+        "balanced_accuracy": 0.39166666666666666,
+        "macro_f1": 0.3894569403400354,
+        "mcc": 0.27411991577663747,
+        "roc_auc": 0.7276666666666666,
+        "auprc": 0.4779202819131579,
+        "log_loss": 1.516790069380995
+      },
+      "graphs::graph_mutag::pyg_sage": {
+        "accuracy": 0.7037037037037037,
+        "balanced_accuracy": 0.611111111111111,
+        "macro_f1": 0.6142857142857143,
+        "mcc": 0.26967994498529685,
+        "roc_auc": 0.7098765432098766,
+        "auprc": 0.8208988351610733,
+        "log_loss": 0.5809748441067675
+      },
+      "graphs::graph_nci1::pyg_sage": {
+        "accuracy": 0.7603406326034063,
+        "balanced_accuracy": 0.7603406326034063,
+        "macro_f1": 0.7599992885969502,
+        "mcc": 0.522168705669232,
+        "roc_auc": 0.8387175070003139,
+        "auprc": 0.8289213011853054,
+        "log_loss": 0.49949926486880053
+      },
+      "graphs::graph_proteins::pyg_sage": {
+        "accuracy": 0.7530120481927711,
+        "balanced_accuracy": 0.7278003919794964,
+        "macro_f1": 0.7334221142924289,
+        "mcc": 0.4771265349407738,
+        "roc_auc": 0.8390622644353988,
+        "auprc": 0.7521888631543963,
+        "log_loss": 0.49833444534968535
+      },
+      "graphs::graph_ptc_mr::pyg_sage": {
+        "accuracy": 0.6231884057971014,
+        "balanced_accuracy": 0.6073853989813243,
+        "macro_f1": 0.6044973544973544,
+        "mcc": 0.2266235519433405,
+        "roc_auc": 0.5297113752122241,
+        "auprc": 0.5736448256130888,
+        "log_loss": 0.6945944811114024
+      },
+      "molecules::tdc_ames::chemberta_v2": {
+        "accuracy": 0.727,
+        "balanced_accuracy": 0.7234586380069032,
+        "macro_f1": 0.7222332447125114,
+        "mcc": 0.4448959252405777,
+        "roc_auc": 0.7823894587034401,
+        "auprc": 0.8244851226333585,
+        "log_loss": 0.5640314676636692
+      },
+      "molecules::tdc_bbb_martins::chemberta_v2": {
+        "accuracy": 0.8916256157635468,
+        "balanced_accuracy": 0.7765791119449656,
+        "macro_f1": 0.8056909154194223,
+        "mcc": 0.6227732900288837,
+        "roc_auc": 0.8963610068792996,
+        "auprc": 0.9607541028235022,
+        "log_loss": 0.29409795890693435
+      },
+      "molecules::tdc_bioavailability_ma::chemberta_v2": {
+        "accuracy": 0.7421875,
+        "balanced_accuracy": 0.5335882939807117,
+        "macro_f1": 0.5208167895632445,
+        "mcc": 0.10723675204894248,
+        "roc_auc": 0.6814100432324577,
+        "auprc": 0.8666539810331302,
+        "log_loss": 0.5417561880105458
+      },
+      "molecules::tdc_carcinogens_lagunin::chemberta_v2": {
+        "accuracy": 0.8392857142857143,
+        "balanced_accuracy": 0.6595959595959596,
+        "macro_f1": 0.6879256965944273,
+        "mcc": 0.4100094439250688,
+        "roc_auc": 0.8393939393939395,
+        "auprc": 0.6152832674571805,
+        "log_loss": 0.4155598213479862
+      },
+      "molecules::tdc_cav3_t-type_calcium_channels_butkiewicz::chemberta_v2": {
+        "accuracy": 0.995,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.49874686716791977,
+        "mcc": 0.0,
+        "roc_auc": 0.8368844221105528,
+        "auprc": 0.021161606225544843,
+        "log_loss": 0.029016825038294287
+      },
+      "molecules::tdc_clintox::chemberta_v2": {
+        "accuracy": 0.9225589225589226,
+        "balanced_accuracy": 0.5208333333333334,
+        "macro_f1": 0.5197891036906854,
+        "mcc": 0.19603329832978392,
+        "roc_auc": 0.7368742368742368,
+        "auprc": 0.3017132319624279,
+        "log_loss": 0.2441941019805582
+      },
+      "molecules::tdc_cyp1a2_veith::chemberta_v2": {
+        "accuracy": 0.815,
+        "balanced_accuracy": 0.8152033473205036,
+        "macro_f1": 0.81484428404288,
+        "mcc": 0.6316903765804041,
+        "roc_auc": 0.9036045297630715,
+        "auprc": 0.9042770459346221,
+        "log_loss": 0.3921048049260147
+      },
+      "molecules::tdc_cyp2c19_veith::chemberta_v2": {
+        "accuracy": 0.758,
+        "balanced_accuracy": 0.7576281566338845,
+        "macro_f1": 0.7577199242324126,
+        "mcc": 0.5155370315546647,
+        "roc_auc": 0.8421192726282967,
+        "auprc": 0.8359698385971526,
+        "log_loss": 0.4913811226347874
+      },
+      "molecules::tdc_cyp2c9_substrate_carbonmangels::chemberta_v2": {
+        "accuracy": 0.7111111111111111,
+        "balanced_accuracy": 0.4948453608247423,
+        "macro_f1": 0.4155844155844156,
+        "mcc": -0.054069646719900374,
+        "roc_auc": 0.6469072164948454,
+        "auprc": 0.41379185993441,
+        "log_loss": 0.613768072511348
+      },
+      "molecules::tdc_cyp2c9_veith::chemberta_v2": {
+        "accuracy": 0.775,
+        "balanced_accuracy": 0.7301550623022108,
+        "macro_f1": 0.7395347975722328,
+        "mcc": 0.4876036623047602,
+        "roc_auc": 0.8441212329279617,
+        "auprc": 0.7211991875271999,
+        "log_loss": 0.4632177825815161
+      },
+      "molecules::tdc_cyp2d6_veith::chemberta_v2": {
+        "accuracy": 0.85,
+        "balanced_accuracy": 0.5589033719965001,
+        "macro_f1": 0.5678926991150443,
+        "mcc": 0.24115513057307153,
+        "roc_auc": 0.7943897277125913,
+        "auprc": 0.4712043253798477,
+        "log_loss": 0.3574637002150032
+      },
+      "molecules::tdc_cyp3a4_substrate_carbonmangels::chemberta_v2": {
+        "accuracy": 0.6222222222222222,
+        "balanced_accuracy": 0.609629294755877,
+        "macro_f1": 0.6098929117797043,
+        "mcc": 0.21985575427497575,
+        "roc_auc": 0.617992766726944,
+        "auprc": 0.6629162188547679,
+        "log_loss": 0.6736552461234613
+      },
+      "molecules::tdc_cyp3a4_veith::chemberta_v2": {
+        "accuracy": 0.753,
+        "balanced_accuracy": 0.7484299516908213,
+        "macro_f1": 0.7495718895966891,
+        "mcc": 0.5012468496228216,
+        "roc_auc": 0.8396678743961354,
+        "auprc": 0.8217337761764983,
+        "log_loss": 0.4922760894965196
+      },
+      "molecules::tdc_dili::chemberta_v2": {
+        "accuracy": 0.8125,
+        "balanced_accuracy": 0.8104347826086957,
+        "macro_f1": 0.8111888111888111,
+        "mcc": 0.6252342556163532,
+        "roc_auc": 0.8426086956521739,
+        "auprc": 0.8403632847781075,
+        "log_loss": 0.4872072583271865
+      },
+      "molecules::tdc_herg::chemberta_v2": {
+        "accuracy": 0.8181818181818182,
+        "balanced_accuracy": 0.6845360824742268,
+        "macro_f1": 0.7126269956458635,
+        "mcc": 0.48635994515992514,
+        "roc_auc": 0.8331369661266569,
+        "auprc": 0.9294431273776007,
+        "log_loss": 0.4301252921134511
+      },
+      "molecules::tdc_hia_hou::chemberta_v2": {
+        "accuracy": 0.8974358974358975,
+        "balanced_accuracy": 0.8037037037037037,
+        "macro_f1": 0.8376503237742831,
+        "mcc": 0.6938943996606511,
+        "roc_auc": 0.9606995884773663,
+        "auprc": 0.9869126725657358,
+        "log_loss": 0.2307269097139183
+      },
+      "molecules::tdc_hiv::chemberta_v2": {
+        "accuracy": 0.983,
+        "balanced_accuracy": 0.5526315789473684,
+        "macro_f1": 0.5909429967034818,
+        "mcc": 0.321667682695851,
+        "roc_auc": 0.6044583936906487,
+        "auprc": 0.1343015879078674,
+        "log_loss": 0.08872076862877548
+      },
+      "molecules::tdc_pampa_ncats::chemberta_v2": {
+        "accuracy": 0.8651960784313726,
+        "balanced_accuracy": 0.530697913984033,
+        "macro_f1": 0.5269714791627143,
+        "mcc": 0.15122812542018949,
+        "roc_auc": 0.6575843420036054,
+        "auprc": 0.9122017395398179,
+        "log_loss": 0.3867802515808914
+      },
+      "molecules::tdc_sarscov2_3clpro_diamond::chemberta_v2": {
+        "accuracy": 0.8806818181818182,
+        "balanced_accuracy": 0.5205837173579109,
+        "macro_f1": 0.5115633672525439,
+        "mcc": 0.1259040440578272,
+        "roc_auc": 0.7184331797235022,
+        "auprc": 0.41877282333472576,
+        "log_loss": 0.33316320813257044
+      },
+      "molecules::tdc_skin_reaction::chemberta_v2": {
+        "accuracy": 0.6463414634146342,
+        "balanced_accuracy": 0.607598784194529,
+        "macro_f1": 0.595784463708992,
+        "mcc": 0.25715446613443743,
+        "roc_auc": 0.6796352583586627,
+        "auprc": 0.7109163648965497,
+        "log_loss": 0.6691204723266294
+      },
+      "text::text_agnews::bge_m3": {
+        "accuracy": 0.8609865470852018,
+        "balanced_accuracy": 0.8521903820816864,
+        "macro_f1": 0.8586398996715973,
+        "mcc": 0.8044595385714496,
+        "roc_auc": 0.96284715903198,
+        "auprc": 0.9218875630749727,
+        "log_loss": 0.40243511822718825
+      },
+      "text::text_financial_phrasebank::bge_m3": {
+        "accuracy": 0.8852097130242825,
+        "balanced_accuracy": 0.8468244985222914,
+        "macro_f1": 0.8600182378760103,
+        "mcc": 0.784325770160732,
+        "roc_auc": 0.9529751370566942,
+        "auprc": 0.9121219709602079,
+        "log_loss": 0.31118396174303337
+      },
+      "text::text_imdb::bge_m3": {
+        "accuracy": 0.9116666666666666,
+        "balanced_accuracy": 0.7829999999999999,
+        "macro_f1": 0.8192760813598623,
+        "mcc": 0.653046976343043,
+        "roc_auc": 0.94676,
+        "auprc": 0.8145884040576405,
+        "log_loss": 0.20890001280132936
+      },
+      "text::text_sst2::bge_m3": {
+        "accuracy": 0.8973214285714286,
+        "balanced_accuracy": 0.897649521049666,
+        "macro_f1": 0.8965773361437318,
+        "mcc": 0.793480775861628,
+        "roc_auc": 0.9639378572003541,
+        "auprc": 0.9724581904152796,
+        "log_loss": 0.24238219043949755
+      },
+      "text::text_tweet_emotion::bge_m3": {
+        "accuracy": 0.7130044843049327,
+        "balanced_accuracy": 0.6185943905149509,
+        "macro_f1": 0.6359455183861749,
+        "mcc": 0.5782172043906628,
+        "roc_auc": 0.8774483451940354,
+        "auprc": 0.723419329863136,
+        "log_loss": 0.762447672056846
+      },
+      "text::text_tweet_hate::bge_m3": {
+        "accuracy": 0.7216666666666667,
+        "balanced_accuracy": 0.7064176245210728,
+        "macro_f1": 0.709038112522686,
+        "mcc": 0.4216417015085458,
+        "roc_auc": 0.786221720488962,
+        "auprc": 0.7170297781696304,
+        "log_loss": 0.555102285054312
+      },
+      "text::text_tweet_irony::bge_m3": {
+        "accuracy": 0.6071428571428571,
+        "balanced_accuracy": 0.6088655026708124,
+        "macro_f1": 0.5928282244071719,
+        "mcc": 0.2357928298040489,
+        "roc_auc": 0.670573228095352,
+        "auprc": 0.6946037985256168,
+        "log_loss": 0.6378406794038529
+      },
+      "text::text_tweet_offensive::bge_m3": {
+        "accuracy": 0.74,
+        "balanced_accuracy": 0.6885318614163916,
+        "macro_f1": 0.6961196820944366,
+        "mcc": 0.4002188718407349,
+        "roc_auc": 0.7806231826918338,
+        "auprc": 0.6457039049307416,
+        "log_loss": 0.530996255077009
+      },
+      "text::text_yelp_polarity::bge_m3": {
+        "accuracy": 0.9241071428571429,
+        "balanced_accuracy": 0.9226894787336105,
+        "macro_f1": 0.9236674885240643,
+        "mcc": 0.8482661310839893,
+        "roc_auc": 0.9845698752798209,
+        "auprc": 0.9818346654339951,
+        "log_loss": 0.17181061025944191
+      },
+      "timeseries::ts_chinatown::resnet1d": {
+        "accuracy": 0.958904109589041,
+        "balanced_accuracy": 0.9711538461538461,
+        "macro_f1": 0.9518151815181518,
+        "mcc": 0.908030412909849,
+        "roc_auc": 0.9954212454212454,
+        "auprc": 0.9982565511411666,
+        "log_loss": 0.13306159382259677
+      },
+      "timeseries::ts_ecg200::resnet1d": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.47593582887700536,
+        "mcc": 0.0,
+        "roc_auc": 0.65,
+        "auprc": 0.8719336219336219,
+        "log_loss": 0.8538780210727523
+      },
+      "timeseries::ts_electric_devices::resnet1d": {
+        "accuracy": 0.8241017964071856,
+        "balanced_accuracy": 0.7625092020176086,
+        "macro_f1": 0.7554248823730949,
+        "mcc": 0.7851008819167493,
+        "roc_auc": 0.9691700559707812,
+        "auprc": 0.8215630568550273,
+        "log_loss": 0.5017130649001919
+      },
+      "timeseries::ts_ford_a::resnet1d": {
+        "accuracy": 0.9035250463821892,
+        "balanced_accuracy": 0.9028420675593762,
+        "macro_f1": 0.9032823542402827,
+        "mcc": 0.8077901528812752,
+        "roc_auc": 0.9672948696754284,
+        "auprc": 0.9665430144313973,
+        "log_loss": 0.23603302621997885
+      },
+      "timeseries::ts_gunpoint::resnet1d": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.009475505373711045
+      },
+      "timeseries::ts_italy_power::resnet1d": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.006891910104511886
+      },
+      "timeseries::ts_plane::resnet1d": {
+        "accuracy": 0.9761904761904762,
+        "balanced_accuracy": 0.9761904761904762,
+        "macro_f1": 0.9760239760239761,
+        "mcc": 0.972865864942325,
+        "roc_auc": 0.9993386243386243,
+        "auprc": 0.9965986394557823,
+        "log_loss": 0.08334996365079975
+      },
+      "timeseries::ts_sony_aibo::resnet1d": {
+        "accuracy": 0.984,
+        "balanced_accuracy": 0.9837662337662338,
+        "macro_f1": 0.9837662337662338,
+        "mcc": 0.9675324675324676,
+        "roc_auc": 0.9994805194805195,
+        "auprc": 0.9993620414673047,
+        "log_loss": 0.03760266733489064
+      },
+      "timeseries::ts_strawberry::resnet1d": {
+        "accuracy": 0.9289340101522843,
+        "balanced_accuracy": 0.9384701912260967,
+        "macro_f1": 0.9246448087431693,
+        "mcc": 0.854639626507157,
+        "roc_auc": 0.9827334083239595,
+        "auprc": 0.9916291341575931,
+        "log_loss": 0.1987963639189405
+      },
+      "timeseries::ts_two_lead_ecg::resnet1d": {
+        "accuracy": 0.9957081545064378,
+        "balanced_accuracy": 0.9957264957264957,
+        "macro_f1": 0.9957081545064378,
+        "mcc": 0.9914529914529915,
+        "roc_auc": 1.0,
+        "auprc": 1.0,
+        "log_loss": 0.013380303100965156
+      },
+      "vision::vision_beans::beit_base_patch16_224": {
+        "accuracy": 0.893719806763285,
+        "balanced_accuracy": 0.8944038484959201,
+        "macro_f1": 0.8941057127331637,
+        "mcc": 0.8412038385018912,
+        "roc_auc": 0.9832111418676984,
+        "auprc": 0.9686561298686929,
+        "log_loss": 0.23577165361847424
+      },
+      "vision::vision_bloodmnist::beit_base_patch16_224": {
+        "accuracy": 0.8325,
+        "balanced_accuracy": 0.7937528509896932,
+        "macro_f1": 0.8035440864061728,
+        "mcc": 0.8051974611443934,
+        "roc_auc": 0.9746909927658618,
+        "auprc": 0.8627925831202822,
+        "log_loss": 0.5040901237046165
+      },
+      "vision::vision_breastmnist::beit_base_patch16_224": {
+        "accuracy": 0.8454545454545455,
+        "balanced_accuracy": 0.7583333333333333,
+        "macro_f1": 0.7830374753451677,
+        "mcc": 0.5854791229924092,
+        "roc_auc": 0.7835416666666666,
+        "auprc": 0.8758156542579589,
+        "log_loss": 0.4606227708601693
+      },
+      "vision::vision_cifar10::beit_base_patch16_224": {
+        "accuracy": 0.9523809523809523,
+        "balanced_accuracy": 0.9523809523809523,
+        "macro_f1": 0.9541411529646824,
+        "mcc": 0.9476770145139832,
+        "roc_auc": 0.9995945945945947,
+        "auprc": 0.9976923076923077,
+        "log_loss": 0.13050612152307234
+      },
+      "vision::vision_dermamnist::beit_base_patch16_224": {
+        "accuracy": 0.7075,
+        "balanced_accuracy": 0.2550692841526308,
+        "macro_f1": 0.26153034857353796,
+        "mcc": 0.34407698954082594,
+        "roc_auc": 0.849090007636608,
+        "auprc": 0.3797916039970547,
+        "log_loss": 0.8332371527211367
+      },
+      "vision::vision_mnist::beit_base_patch16_224": {
+        "accuracy": 0.885,
+        "balanced_accuracy": 0.8740456212996259,
+        "macro_f1": 0.8790222941459588,
+        "mcc": 0.8726591543171645,
+        "roc_auc": 0.9920438279659154,
+        "auprc": 0.9479382009894535,
+        "log_loss": 0.3442138561965389
+      },
+      "vision::vision_pneumoniamnist::beit_base_patch16_224": {
+        "accuracy": 0.905,
+        "balanced_accuracy": 0.887113335900398,
+        "macro_f1": 0.8801979885872822,
+        "mcc": 0.7610084361025481,
+        "roc_auc": 0.9499261968938518,
+        "auprc": 0.9805842704368759,
+        "log_loss": 0.26123073680643794
+      },
+      "vision::vision_retinamnist::beit_base_patch16_224": {
+        "accuracy": 0.4861111111111111,
+        "balanced_accuracy": 0.3284171995252134,
+        "macro_f1": 0.32561947856065504,
+        "mcc": 0.2680233947171739,
+        "roc_auc": 0.7501276470966352,
+        "auprc": 0.4114869311739854,
+        "log_loss": 1.1757004741133041
+      }
+    }
+  },
+  "unseen_both": {
+    "n_evaluated": 12,
+    "mean_accuracy": 0.7188675379322643,
+    "mean_balanced_accuracy": 0.6901707430602175,
+    "mean_roc_auc": 0.8521805420311871,
+    "mean_auprc": 0.7833542173603018,
+    "mean_macro_f1": 0.6927277955542569,
+    "mean_mcc": 0.5319122730832956,
+    "results": {
+      "audio::audio_voxforge_lang::ast_audioset": {
+        "accuracy": 0.2,
+        "balanced_accuracy": 0.18948412698412698,
+        "macro_f1": 0.18055555555555558,
+        "mcc": 0.03489886572291849,
+        "roc_auc": 0.5597001461569476,
+        "auprc": 0.3301411207493011,
+        "log_loss": 2.2520903438476316
+      },
+      "graphs::graph_aids::pyg_sage": {
+        "accuracy": 0.95,
+        "balanced_accuracy": 0.8796875,
+        "macro_f1": 0.9143798963996747,
+        "mcc": 0.8393093921635827,
+        "roc_auc": 0.97376953125,
+        "auprc": 0.9927195228950583,
+        "log_loss": 0.1541995129408386
+      },
+      "graphs::graph_dhfr::pyg_sage": {
+        "accuracy": 0.6907894736842105,
+        "balanced_accuracy": 0.6760524876981957,
+        "macro_f1": 0.6754939813763343,
+        "mcc": 0.35105090996711147,
+        "roc_auc": 0.726079825041006,
+        "auprc": 0.8262714081715254,
+        "log_loss": 0.6476622377367762
+      },
+      "molecules::tdc_b3db_classification::chemberta_v2": {
+        "accuracy": 0.835,
+        "balanced_accuracy": 0.8306993749262885,
+        "macro_f1": 0.8141420968150714,
+        "mcc": 0.634401869742017,
+        "roc_auc": 0.914371977827574,
+        "auprc": 0.954340501282828,
+        "log_loss": 0.35907041494806924
+      },
+      "molecules::tdc_cyp2d6_substrate_carbonmangels::chemberta_v2": {
+        "accuracy": 0.7481481481481481,
+        "balanced_accuracy": 0.6603892821031345,
+        "macro_f1": 0.6721428571428572,
+        "mcc": 0.3736282629399748,
+        "roc_auc": 0.7833670374115268,
+        "auprc": 0.6552050656643936,
+        "log_loss": 0.5045202352001926
+      },
+      "molecules::tdc_pgp_broccatelli::chemberta_v2": {
+        "accuracy": 0.8081632653061225,
+        "balanced_accuracy": 0.8089842708611037,
+        "macro_f1": 0.8075348075348076,
+        "mcc": 0.6229288760279804,
+        "roc_auc": 0.9053918954945348,
+        "auprc": 0.9129766872366486,
+        "log_loss": 0.40109840618906534
+      },
+      "text::text_rotten_tomatoes::bge_m3": {
+        "accuracy": 0.8416666666666667,
+        "balanced_accuracy": 0.841692685474283,
+        "macro_f1": 0.8416627082343726,
+        "mcc": 0.6834423274819944,
+        "roc_auc": 0.9128656985077612,
+        "auprc": 0.9012935765741484,
+        "log_loss": 0.37694534995235224
+      },
+      "text::text_tweet_sentiment::bge_m3": {
+        "accuracy": 0.5758928571428571,
+        "balanced_accuracy": 0.5702782236490102,
+        "macro_f1": 0.574966328578104,
+        "mcc": 0.31070829287220314,
+        "roc_auc": 0.7690464208114886,
+        "auprc": 0.6435016552559008,
+        "log_loss": 0.814397303607007
+      },
+      "timeseries::ts_ford_b::resnet1d": {
+        "accuracy": 0.8505617977528089,
+        "balanced_accuracy": 0.8507357509812539,
+        "macro_f1": 0.8505570810844932,
+        "mcc": 0.701374076471651,
+        "roc_auc": 0.9365657882108092,
+        "auprc": 0.9352162325833588,
+        "log_loss": 0.31676323375483656
+      },
+      "timeseries::ts_wafer::resnet1d": {
+        "accuracy": 0.9664429530201343,
+        "balanced_accuracy": 0.8534391534391534,
+        "macro_f1": 0.8908424908424908,
+        "mcc": 0.7887505412551645,
+        "roc_auc": 0.9925925925925926,
+        "auprc": 0.9992404424622389,
+        "log_loss": 0.07301658606772332
+      },
+      "vision::vision_fashion_mnist::beit_base_patch16_224": {
+        "accuracy": 0.8690476190476191,
+        "balanced_accuracy": 0.8708333333333332,
+        "macro_f1": 0.8625480367585631,
+        "mcc": 0.8571692915320167,
+        "roc_auc": 0.9848611111111112,
+        "auprc": 0.9094245154355448,
+        "log_loss": 0.4156229878348506
+      },
+      "vision::vision_svhn::beit_base_patch16_224": {
+        "accuracy": 0.29069767441860467,
+        "balanced_accuracy": 0.24977272727272726,
+        "macro_f1": 0.22790770632875895,
+        "mcc": 0.18528457082293265,
+        "roc_auc": 0.7675544799588918,
+        "auprc": 0.33991988001267415,
+        "log_loss": 1.9119061972017013
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "vision_eurosat",
+  "domain": "vision",
+  "dataset_name": "eurosat",
+  "num_classes": 10,
+  "class_names": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "num_samples": 60,
+  "input_type": "image_path",
+  "split_type": "official_benchmark_split",
+  "split_sizes": {
+    "train": 42,
+    "val": 9,
+    "test": 9
+  },
+  "source": "Vision Benchmark (eurosat) - Smoke demo",
+  "description": "EuroSAT 10-class Sentinel-2 satellite land cover classification"
+}

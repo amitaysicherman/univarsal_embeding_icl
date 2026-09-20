@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Large/generated artifacts (model checkpoints, the full embedding set) - not in git.
+# The full embeddings ship on Zenodo instead; see README.md for how to fetch and unpack them
+# into data/tasks/. data/demo/ (the small quickstart sample) IS tracked, so it's not listed here.
+checkpoints/
+*.pt
+*.ckpt
+data/tasks/
+*.zip
+dist/
+
+# The paper (LaTeX source + compiled PDF) is kept out of this code repository entirely -
+# it's not needed to run or reproduce the code, and is managed/submitted separately.
+paper/
+
+# Editor/tooling
+.claude/
+.pytest_cache/
+
+# Pre-session stale artifacts, superseded by docs/
+# (kept on disk for personal reference, not part of the repo)
+BUG_REPORT.md
+DATASET_STRUCTURE.md
+DATA_SANITY_CHECK.md
+EXECUTION_STATUS.md
+FIXES_APPLIED.md
+README_HANDOVER.md
+REAL_DATA_SAMPLES.md
+TODO_AND_EXECUTION_GUIDE.md

@@ -1,0 +1,28 @@
+{
+  "task_id": "protein_subloc",
+  "domain": "proteins",
+  "dataset_name": "subcellular_localization",
+  "num_classes": 10,
+  "class_names": [
+    "Nucleus",
+    "Cytoplasm",
+    "Extracellular",
+    "Mitochondrion",
+    "Cell_membrane",
+    "Endoplasmic_reticulum",
+    "Plastid",
+    "Golgi_apparatus",
+    "Lysosome",
+    "Peroxisome"
+  ],
+  "num_samples": 60,
+  "input_type": "sequence",
+  "split_type": "sequence_identity_30",
+  "split_sizes": {
+    "train": 42,
+    "val": 9,
+    "test": 9
+  },
+  "source": "PEER Benchmark / TorchProtein (Smoke demo)",
+  "description": "DeepLoc 10-class subcellular compartment localization"
+}

@@ -1,0 +1,402 @@
+{
+  "graph_aids::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.905,
+      "balanced_accuracy": 0.8234375,
+      "macro_f1": 0.842480517327143,
+      "roc_auc": 0.96048828125,
+      "log_loss": 0.20025735484433888,
+      "elapsed_seconds": 1.25
+    }
+  },
+  "graph_aids::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.86,
+      "balanced_accuracy": 0.7390625,
+      "macro_f1": 0.760263709919089,
+      "roc_auc": 0.8222265625,
+      "log_loss": 0.47456534747057444,
+      "elapsed_seconds": 1.22
+    }
+  },
+  "graph_aids::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "roc_auc": 1.0,
+      "log_loss": 0.0025279571415824944,
+      "elapsed_seconds": 1.23
+    }
+  },
+  "graph_aids::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.545,
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.5306254029658285,
+      "roc_auc": 0.8088671875000001,
+      "log_loss": 0.8882085817693164,
+      "elapsed_seconds": 1.23
+    }
+  },
+  "graph_bzr::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.8305084745762712,
+      "balanced_accuracy": 0.6764184397163121,
+      "macro_f1": 0.6989795918367347,
+      "roc_auc": 0.8670212765957447,
+      "log_loss": 0.35675074460069023,
+      "elapsed_seconds": 0.72
+    }
+  },
+  "graph_bzr::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.8135593220338984,
+      "balanced_accuracy": 0.6347517730496454,
+      "macro_f1": 0.6549707602339181,
+      "roc_auc": 0.6879432624113475,
+      "log_loss": 0.5740637891030912,
+      "elapsed_seconds": 0.73
+    }
+  },
+  "graph_bzr::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.7966101694915254,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.44339622641509435,
+      "roc_auc": 0.7278368794326241,
+      "log_loss": 1.4711233952589635,
+      "elapsed_seconds": 0.73
+    }
+  },
+  "graph_bzr::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.7796610169491526,
+      "balanced_accuracy": 0.48936170212765956,
+      "macro_f1": 0.4380952380952381,
+      "roc_auc": 0.6391843971631206,
+      "log_loss": 1.8022616661525972,
+      "elapsed_seconds": 0.73
+    }
+  },
+  "graph_cox2::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.8260869565217391,
+      "balanced_accuracy": 0.6240740740740741,
+      "macro_f1": 0.6491525423728814,
+      "roc_auc": 0.7166666666666667,
+      "log_loss": 0.4614901422433232,
+      "elapsed_seconds": 0.81
+    }
+  },
+  "graph_cox2::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.34782608695652173,
+      "balanced_accuracy": 0.5351851851851852,
+      "macro_f1": 0.3472776960269077,
+      "roc_auc": 0.47962962962962963,
+      "log_loss": 2.6358231706810344,
+      "elapsed_seconds": 0.8
+    }
+  },
+  "graph_cox2::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.782608695652174,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.43902439024390244,
+      "roc_auc": 0.6814814814814815,
+      "log_loss": 1.889615169540671,
+      "elapsed_seconds": 0.93
+    }
+  },
+  "graph_cox2::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6521739130434783,
+      "balanced_accuracy": 0.5851851851851853,
+      "macro_f1": 0.5642105263157895,
+      "roc_auc": 0.654320987654321,
+      "log_loss": 0.8183447471813704,
+      "elapsed_seconds": 0.8
+    }
+  },
+  "graph_dd::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.7542372881355932,
+      "balanced_accuracy": 0.7461989171549358,
+      "macro_f1": 0.7461989171549358,
+      "roc_auc": 0.8098716902766447,
+      "log_loss": 0.5201397891797905,
+      "elapsed_seconds": 0.92
+    }
+  },
+  "graph_dd::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6949152542372882,
+      "balanced_accuracy": 0.692724171178521,
+      "macro_f1": 0.6892010535557507,
+      "roc_auc": 0.7684862419342876,
+      "log_loss": 0.5872991059415961,
+      "elapsed_seconds": 0.96
+    }
+  },
+  "graph_dd::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.673728813559322,
+      "balanced_accuracy": 0.6638359415560335,
+      "macro_f1": 0.6635749328890124,
+      "roc_auc": 0.7194244604316546,
+      "log_loss": 0.7201250197594959,
+      "elapsed_seconds": 0.91
+    }
+  },
+  "graph_dd::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6610169491525424,
+      "balanced_accuracy": 0.6561596083957576,
+      "macro_f1": 0.6538320498716539,
+      "roc_auc": 0.7467551731810428,
+      "log_loss": 0.6116575767656938,
+      "elapsed_seconds": 0.92
+    }
+  },
+  "graph_dhfr::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6776315789473685,
+      "balanced_accuracy": 0.6436121742299982,
+      "macro_f1": 0.646662555149675,
+      "roc_auc": 0.6997448514671042,
+      "log_loss": 0.6069862452258108,
+      "elapsed_seconds": 0.82
+    }
+  },
+  "graph_dhfr::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5855263157894737,
+      "balanced_accuracy": 0.48469108802624383,
+      "macro_f1": 0.3969393538635934,
+      "roc_auc": 0.5161290322580645,
+      "log_loss": 1.7713433800596945,
+      "elapsed_seconds": 0.82
+    }
+  },
+  "graph_dhfr::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5657894736842105,
+      "balanced_accuracy": 0.6079825041006014,
+      "macro_f1": 0.5645833333333333,
+      "roc_auc": 0.6005102970657918,
+      "log_loss": 1.278222852266383,
+      "elapsed_seconds": 0.82
+    }
+  },
+  "graph_dhfr::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5328947368421053,
+      "balanced_accuracy": 0.5067432112265354,
+      "macro_f1": 0.5067416243886832,
+      "roc_auc": 0.5111171860761801,
+      "log_loss": 1.3036631403236805,
+      "elapsed_seconds": 0.83
+    }
+  },
+  "graph_enzymes::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.3,
+      "balanced_accuracy": 0.3,
+      "macro_f1": 0.262388200196082,
+      "roc_auc": 0.6631666666666668,
+      "log_loss": 1.6923766874303845,
+      "elapsed_seconds": 0.79
+    }
+  },
+  "graph_enzymes::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.15,
+      "balanced_accuracy": 0.15,
+      "macro_f1": 0.09059580770107085,
+      "roc_auc": 0.50925,
+      "log_loss": 4.19402974563599,
+      "elapsed_seconds": 0.76
+    }
+  },
+  "graph_enzymes::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.25,
+      "balanced_accuracy": 0.25,
+      "macro_f1": 0.20981271195234422,
+      "roc_auc": 0.5918333333333333,
+      "log_loss": 3.227724127393389,
+      "elapsed_seconds": 0.77
+    }
+  },
+  "graph_enzymes::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.15833333333333333,
+      "balanced_accuracy": 0.15833333333333335,
+      "macro_f1": 0.11791587152392076,
+      "roc_auc": 0.50725,
+      "log_loss": 4.295422228551356,
+      "elapsed_seconds": 0.77
+    }
+  },
+  "graph_mutag::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.7407407407407407,
+      "balanced_accuracy": 0.6388888888888888,
+      "macro_f1": 0.6454033771106942,
+      "roc_auc": 0.6697530864197531,
+      "log_loss": 0.5617161535473993,
+      "elapsed_seconds": 0.71
+    }
+  },
+  "graph_mutag::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5555555555555556,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.5,
+      "roc_auc": 0.5740740740740741,
+      "log_loss": 1.3362245430481339,
+      "elapsed_seconds": 0.71
+    }
+  },
+  "graph_mutag::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.4074074074074074,
+      "balanced_accuracy": 0.5555555555555556,
+      "macro_f1": 0.3647058823529412,
+      "roc_auc": 0.882716049382716,
+      "log_loss": 2.5523990111692463,
+      "elapsed_seconds": 0.7
+    }
+  },
+  "graph_mutag::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.37037037037037035,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.33766233766233766,
+      "roc_auc": 0.5185185185185185,
+      "log_loss": 2.3916674885889653,
+      "elapsed_seconds": 0.7
+    }
+  },
+  "graph_nci1::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6849148418491484,
+      "balanced_accuracy": 0.6849148418491484,
+      "macro_f1": 0.6849143755281693,
+      "roc_auc": 0.7376613920116504,
+      "log_loss": 0.6066681039376104,
+      "elapsed_seconds": 2.12
+    }
+  },
+  "graph_nci1::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5559610705596107,
+      "balanced_accuracy": 0.5559610705596107,
+      "macro_f1": 0.48720096123114154,
+      "roc_auc": 0.5755945086756531,
+      "log_loss": 1.6216601693220665,
+      "elapsed_seconds": 2.1
+    }
+  },
+  "graph_nci1::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.44282238442822386,
+      "balanced_accuracy": 0.44282238442822386,
+      "macro_f1": 0.39368815708101423,
+      "roc_auc": 0.44041889403922546,
+      "log_loss": 1.3552180451369302,
+      "elapsed_seconds": 2.1
+    }
+  },
+  "graph_nci1::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6070559610705596,
+      "balanced_accuracy": 0.6070559610705596,
+      "macro_f1": 0.5879507414391135,
+      "roc_auc": 0.6729447493206884,
+      "log_loss": 1.4295538947168525,
+      "elapsed_seconds": 2.09
+    }
+  },
+  "graph_proteins::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6626506024096386,
+      "balanced_accuracy": 0.6158600934720337,
+      "macro_f1": 0.611955251294039,
+      "roc_auc": 0.7780793004673602,
+      "log_loss": 0.5586289268947345,
+      "elapsed_seconds": 0.98
+    }
+  },
+  "graph_proteins::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.5963855421686747,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.37358490566037733,
+      "roc_auc": 0.6410372380521634,
+      "log_loss": 1.9650713521563803,
+      "elapsed_seconds": 1.0
+    }
+  },
+  "graph_proteins::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.608433734939759,
+      "balanced_accuracy": 0.6114126338006936,
+      "macro_f1": 0.6042835662155719,
+      "roc_auc": 0.6368913010704055,
+      "log_loss": 1.190552974446383,
+      "elapsed_seconds": 0.96
+    }
+  },
+  "graph_proteins::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.42168674698795183,
+      "balanced_accuracy": 0.5103271521181969,
+      "macro_f1": 0.33478043078978126,
+      "roc_auc": 0.3892657922508669,
+      "log_loss": 3.9084345789521198,
+      "elapsed_seconds": 0.97
+    }
+  },
+  "graph_ptc_mr::pyg_gat": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.6231884057971014,
+      "balanced_accuracy": 0.6192699490662139,
+      "macro_f1": 0.6192699490662139,
+      "roc_auc": 0.6595925297113752,
+      "log_loss": 0.6627631352359704,
+      "elapsed_seconds": 0.75
+    }
+  },
+  "graph_ptc_mr::pyg_gcn": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.4782608695652174,
+      "balanced_accuracy": 0.5203735144312394,
+      "macro_f1": 0.3994197292069632,
+      "roc_auc": 0.46477079796264853,
+      "log_loss": 2.5105058257016624,
+      "elapsed_seconds": 0.75
+    }
+  },
+  "graph_ptc_mr::pyg_gin": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.4492753623188406,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.31,
+      "roc_auc": 0.4028013582342954,
+      "log_loss": 2.884696241291158,
+      "elapsed_seconds": 0.74
+    }
+  },
+  "graph_ptc_mr::pyg_sage": {
+    "tabicl_zeroshot": {
+      "accuracy": 0.4782608695652174,
+      "balanced_accuracy": 0.45500848896434637,
+      "macro_f1": 0.4354545454545455,
+      "roc_auc": 0.44100169779286924,
+      "log_loss": 2.047908239006642,
+      "elapsed_seconds": 0.74
+    }
+  }
+}

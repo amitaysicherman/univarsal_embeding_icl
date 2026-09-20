@@ -1,0 +1,10 @@
+torch>=2.0.0
+transformers>=4.38.0
+datasets>=2.14.0
+numpy>=1.22.0
+pandas>=1.4.0
+scikit-learn>=1.0.0
+tqdm>=4.64.0
+Pillow>=9.0.0
+PyTDC>=0.4.1
+rdkit>=2022.9.1
